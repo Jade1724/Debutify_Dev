@@ -1,5 +1,362 @@
 {
   "current": {
-
+    "sections": {
+      "dbtfy-upsell-popup": {
+        "type": "dbtfy-upsell-popup",
+        "settings": {
+          "dbtfy_upsell_popup_width": "",
+          "dbtfy_upsell_popup_description": "See product details",
+          "dbtfy_upsell_popup_cart": "No thanks",
+          "dbtfy_upsell_popup_checkout": "Go to checkout →",
+          "text_alignment": "text-center",
+          "dbtfy_upsell_popup_range": 75
+        }
+      },
+      "dbtfy-quantity-breaks": {
+        "type": "dbtfy-quantity-breaks",
+        "settings": {
+          "dbtfy_quantity_breaks_text": "",
+          "dbtfy_quantity_breaks_single_text": "Buy _COUNT_: _PRICE_ _SAVED_AMOUNT_",
+          "dbtfy_quantity_breaks_more_discount_text_before": "Add",
+          "dbtfy_quantity_breaks_more_discount_text_after": "more item to unlock",
+          "dbtfy_quantity_breaks_more_discount_text_after_percentage": "off",
+          "dbtfy_quantity_breaks_highest_discount_text": "Highest discount applied!"
+        }
+      },
+      "dbtfy-cart-upsell": {
+        "type": "dbtfy-cart-upsell",
+        "settings": {
+          "dbtfy_cart_upsell_button_style": "btn--primary"
+        }
+      },
+      "dbtfy-color-swatches": {
+        "type": "dbtfy-color-swatches",
+        "settings": {
+        }
+      },
+      "dbtfy-bullet-points": {
+        "type": "dbtfy-bullet-points",
+        "settings": {
+          "dbtfy_bullet_points_position": "under-product-price"
+        }
+      },
+      "dbtfy-sales-countdown": {
+        "type": "dbtfy-sales-countdown",
+        "settings": {
+          "dbtfy_sales_countdown_icons": "local_fire_department",
+          "dbtfy_sales_countdown_prefix": "Sale ends in",
+          "dbtfy_sales_countdown_suffix": "",
+          "dbtfy_sales_countdown_d": "d",
+          "dbtfy_sales_countdown_h": "h",
+          "dbtfy_sales_countdown_m": "m",
+          "dbtfy_sales_countdown_s": "s"
+        }
+      },
+      "drawer-menu": {
+        "type": "drawer-menu",
+        "settings": {
+          "drawer_link_toggle": true,
+          "email": true,
+          "phone": true,
+          "show_social_medias": true,
+          "title": "Menu",
+          "drawer_top_link_list": "main-menu",
+          "drawer_bottom_link_list": "footer"
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "blocks": {
+          "announcement-0": {
+            "type": "message",
+            "settings": {
+              "announcement_text": "<p>Free shipping worldwide | 30-Day free returns<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "announcement-0"
+        ],
+        "settings": {
+          "show_announcement": true,
+          "show_social": true,
+          "email": true,
+          "phone": true,
+          "left_message": "<p>Follow us!<\/p>",
+          "right_message": "<p>Get in touch with us<\/p>",
+          "announcement_autoplayspeed": 5
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "main_menu_link_list": "main-menu",
+          "navigation_type": "center",
+          "header_font_size": 16,
+          "logo_link": true,
+          "default_logo_svg": "",
+          "inverted_logo_svg": "",
+          "mobile_logo_svg": "",
+          "logo_width": 200,
+          "logo_mobile_width": 100
+        }
+      },
+      "dbtfy-instagram-feed": {
+        "type": "dbtfy-instagram-feed",
+        "settings": {
+          "dbtfy_instagram_feed_icon": true,
+          "dbtfy_instagram_feed_access_token": "",
+          "dbtfy_instagram_feed_resolution": "low_resolution",
+          "dbtfy_instagram_feed_full_width": false,
+          "title": "From our Instagram",
+          "subtitle": "",
+          "dbtfy_instagram_feed_section_style": "section-border",
+          "dbtfy_instagram_feed_rows": "1",
+          "dbtfy_instagram_feed_desktop_grid": "6",
+          "dbtfy_instagram_feed_mobile_grid": "3"
+        }
+      },
+      "guarantee": {
+        "type": "guarantee",
+        "blocks": {
+          "guarantee-0": {
+            "type": "text",
+            "settings": {
+              "guarantee_icon": "loyalty",
+              "title": "Our Guarantee",
+              "text": "<p>Share your guarantees with your customers.<\/p>",
+              "button_style": "btn-outline-primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "guarantee-1": {
+            "type": "text",
+            "settings": {
+              "guarantee_icon": "loyalty",
+              "title": "Our Guarantee",
+              "text": "<p>Share your guarantees with your customers.<\/p>",
+              "button_style": "btn-outline-primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "guarantee-2": {
+            "type": "text",
+            "settings": {
+              "guarantee_icon": "loyalty",
+              "title": "Our Guarantee",
+              "text": "<p>Share your guarantees with your customers.<\/p>",
+              "button_style": "btn-outline-primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "guarantee-0",
+          "guarantee-1",
+          "guarantee-2"
+        ],
+        "settings": {
+          "show_guarantee": true,
+          "guarantee_size": "xl",
+          "section_style": "section-border"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "text",
+            "settings": {
+              "column_width": 2,
+              "svg": "",
+              "img_url": "",
+              "logo_width": 150,
+              "title": "About Us",
+              "subtitle": "",
+              "text": "<p>Share store details, promotions, or brand content with your customers.<\/p>",
+              "email": true,
+              "phone": true
+            }
+          },
+          "footer-1": {
+            "type": "link_list",
+            "settings": {
+              "column_width": 1,
+              "title": "Quick Links",
+              "subtitle": "",
+              "footer_link_list": "footer"
+            }
+          },
+          "footer-2": {
+            "type": "newsletter",
+            "settings": {
+              "column_width": 2,
+              "title": "Subscribe to our newsletter",
+              "subtitle": "A short sentence describing what someone will receive by subscribing"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "footer-2"
+        ],
+        "settings": {
+          "show_social_media": true,
+          "social_title": "Follow-us on social media!",
+          "show_payment_icons": true,
+          "show_shopify_footer": true,
+          "show_debutify_footer": true,
+          "custom_credential": ""
+        }
+      },
+      "1630064890ea175e56": {
+        "type": "hero",
+        "blocks": {
+          "8eb06b74-34f5-46db-96aa-a7dc04ebea87": {
+            "type": "slide",
+            "settings": {
+              "overlay": true,
+              "image_position": "center center",
+              "image_position_mobile": "center center",
+              "slide_link": "",
+              "video": "",
+              "title": "Slideshow",
+              "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your story.<\/p>",
+              "text_position": "align-center",
+              "text_position_mobile": "align-center",
+              "text_alignment": "text-center",
+              "text_alignment_mobile": "text-center",
+              "enable_custom_fonts": false,
+              "slideshow_family": "poppins_n4",
+              "button_label": "Shop now",
+              "button_link": "shopify:\/\/collections\/all",
+              "button_style": "btn--primary",
+              "button_label_2": "Learn more",
+              "button_link_2": "shopify:\/\/collections\/all",
+              "button_style_2": ""
+            }
+          },
+          "4a2b7460-fe62-40b0-ab30-09d2d7afef8a": {
+            "type": "slide",
+            "settings": {
+              "overlay": true,
+              "image_position": "center center",
+              "image_position_mobile": "center center",
+              "slide_link": "",
+              "video": "",
+              "title": "Slideshow",
+              "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your story.<\/p>",
+              "text_position": "align-center",
+              "text_position_mobile": "align-center",
+              "text_alignment": "text-center",
+              "text_alignment_mobile": "text-center",
+              "enable_custom_fonts": false,
+              "slideshow_family": "poppins_n4",
+              "button_label": "Shop now",
+              "button_link": "shopify:\/\/collections\/all",
+              "button_style": "btn--primary",
+              "button_label_2": "Learn more",
+              "button_link_2": "shopify:\/\/collections\/all",
+              "button_style_2": ""
+            }
+          },
+          "785800fd-9867-4d93-b402-db98487649f7": {
+            "type": "slide",
+            "settings": {
+              "overlay": true,
+              "image_position": "center center",
+              "image_position_mobile": "center center",
+              "slide_link": "",
+              "video": "",
+              "title": "Slideshow",
+              "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your story.<\/p>",
+              "text_position": "align-center",
+              "text_position_mobile": "align-center",
+              "text_alignment": "text-center",
+              "text_alignment_mobile": "text-center",
+              "enable_custom_fonts": false,
+              "slideshow_family": "poppins_n4",
+              "button_label": "Shop now",
+              "button_link": "shopify:\/\/collections\/all",
+              "button_style": "btn--primary",
+              "button_label_2": "Learn more",
+              "button_link_2": "shopify:\/\/collections\/all",
+              "button_style_2": ""
+            }
+          }
+        },
+        "block_order": [
+          "8eb06b74-34f5-46db-96aa-a7dc04ebea87",
+          "4a2b7460-fe62-40b0-ab30-09d2d7afef8a",
+          "785800fd-9867-4d93-b402-db98487649f7"
+        ],
+        "settings": {
+          "section_height": "medium",
+          "section_height_mobile": "medium",
+          "arrows": true,
+          "dots": true,
+          "autoplay": true,
+          "autoplayspeed": 7
+        }
+      },
+      "16300649140261eede": {
+        "type": "featured-columns",
+        "blocks": {
+          "16300649140261eede-0": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/58d44c6f-4e4c-4679-981b-a1d62d70624a_4.jpg",
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "16300649140261eede-1": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "16300649140261eede-2": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "16300649140261eede-0",
+          "16300649140261eede-1",
+          "16300649140261eede-2"
+        ],
+        "settings": {
+          "title": "Featured columns",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      }
+    },
+    "content_for_index": [
+      "1630064890ea175e56",
+      "16300649140261eede"
+    ]
   }
 }
