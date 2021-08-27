@@ -30,9 +30,17 @@
 
               {%- if block.settings.image != blank -%}
                 <div class="media-wrapper spacer-bottom" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100}}%;">
-                  <img class="media lazyload"
-                  {%- render 'lazysizes', img: block.settings.image, img_type: 'responsive' -%}
-                  alt="{{ block.settings.image.alt }}">
+                  {%- unless block.settings.image_link == blank -%} 
+                    <a href="{{ block.settings.image_link }}"><img class="media lazyload"
+                    {%- render 'lazysizes', img: block.settings.image, img_type: 'responsive' -%}
+                                                                    alt="{{ block.settings.image.alt }}"></a>
+                  {%- endunless -%}
+                  {%- if block.settings.image_link == blank -%}
+                  	<img class="media lazyload"
+                    {%- render 'lazysizes', img: block.settings.image, img_type: 'responsive' -%}
+                                                                    alt="{{ block.settings.image.alt }}">
+                  {%- endif -%}
+                  
                 </div>
               {%- elsif block.settings.icon != blank -%}
                 <span class="{{settings.icon}} icon-xl text-secondary" aria-hidden="true">{{block.settings.icon}}</span>
@@ -43,7 +51,7 @@
               <h3 class="h4">{{ block.settings.title }}</h3>
               <div class="rte">{{ block.settings.text }}</div>
               {%- unless block.settings.button_label == blank -%}
-                <p><a href="{{ block.settings.button_link }}" class="btn btn--small {{ block.settings.button_style }}">
+                <p><a href="{{ block.settings.image_link }}" class="btn btn--small {{ block.settings.button_style }}">
                   {{ block.settings.button_label | escape }}
                 </a></p>
               {%- endunless -%}
@@ -171,8 +179,8 @@
           },
           {
             "type": "url",
-            "id": "button_link",
-            "label": "Button link"
+            "id": "image_link",
+            "label": "Image Link"
           }
         ]
       }
