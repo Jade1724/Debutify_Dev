@@ -4,10 +4,28 @@
       
         <div class="grid">
           <div class="grid__item large--eight-twelfths push--large--two-twelfths {{ section.settings.text_alignment }}">
-          <h1>PRODUCT DESCRIPTION: {{ product.description }} </h1>
             {%- unless section.settings.title == blank -%}
               <h2>{{ section.settings.title | escape }}</h2>
             {%- endunless -%}
+
+            {% comment %} {%- if section.settings.show_product_description -%}
+              {%- if product_description_position == "separate_section" or is_to_split_description -%}
+                <div id="productDescription" class="product-single__description rte spacer-bottom-none">
+                  {%- if is_to_split_description -%} {% endcomment %}
+                    {%- assign second_part = product.description | split: '<p>[split_description]</p>' | last -%}
+
+                    {%- unless second_part contains '[split_description]' -%}
+                      {{ second_part }}
+                    {%- else -%}
+                      {{ product.description | split: '[split_description]' | last }}
+                    {%- endunless -%}
+                  {% comment %} {%- else -%}
+                    {{ product.description | replace: '<p>[split_description]</p>', '' | replace: '[split_description]', '' }}
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+            {%- endif -%} {% endcomment %}
+
             {%- unless section.settings.text == blank -%}
               <div class="rte {% if section.settings.text_size == 'large' %}lead {% endif %}">
                 {{ section.settings.text }}
