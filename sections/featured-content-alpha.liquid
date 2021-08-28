@@ -16,11 +16,6 @@
               <div class="rte">{{ product.description | split: '[split_description]' | last }} </div>
             {%- endunless -%}
 
-            {%- unless section.settings.text == blank -%}
-              <div class="rte {% if section.settings.text_size == 'large' %}lead {% endif %}">
-                {{ section.settings.text }}
-              </div>
-            {%- endunless -%}
             {%- unless section.settings.button_label == blank -%}
               <a href="{{ section.settings.button_link }}" class="btn {{ section.settings.button_style }}">
                 {{ section.settings.button_label | escape }}
@@ -43,12 +38,6 @@
         "id": "title",
         "label": "Heading",
         "default": "Featured content"
-      },
-      {
-        "type": "richtext",
-        "id": "text",
-        "label": "Text",
-		    "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
       },
       {
         "type": "select",
