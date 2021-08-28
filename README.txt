@@ -24,10 +24,16 @@ Contains:
 Product section varient that renders a varient product snippet.
 
 #### featured-content-alpha.liquid (sections/featured-content-alpha.liquid)
-Featured content variant deisgned to display product description.
+Featured content variant deisgned to display product description. 
+Contains:
+
+- Block that displays latter part of split description
+- Schema section name and default title are adjusted to be product description section.
 
 ### Snippets
 
 #### prodcut-template-alpha.liquid (snippets/product-templage.liquid)
 Product snippets varient.
-Changes:
+TODO
+
+- Remove block to displays latter part of split description.
