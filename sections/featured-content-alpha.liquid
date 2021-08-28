@@ -4,6 +4,7 @@
       
         <div class="grid">
           <div class="grid__item large--eight-twelfths push--large--two-twelfths {{ section.settings.text_alignment }}">
+          <h1>PRODUCT DESCRIPTION: {{ product.description }} </h1>
             {%- unless section.settings.title == blank -%}
               <h2>{{ section.settings.title | escape }}</h2>
             {%- endunless -%}
