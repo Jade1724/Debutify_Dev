@@ -644,11 +644,13 @@
               {%- if is_to_split_description -%}
                 {%- assign second_part = product.description | split: '<p>[split_description]</p>' | last -%}
 
-                {%- unless second_part contains '[split_description]' -%}
-                  {{ second_part }}
-                {%- else -%}
-                  {{ product.description | split: '[split_description]' | last }}
-                {%- endunless -%}
+                {%- if false -%}
+                  {%- unless second_part contains '[split_description]' -%}
+                    {{ second_part }}
+                  {%- else -%}
+                    {{ product.description | split: '[split_description]' | last }}
+                  {%- endunless -%}
+                {%- endif -%}
               {%- else -%}
                 {{ product.description | replace: '<p>[split_description]</p>', '' | replace: '[split_description]', '' }}
               {%- endif -%}
