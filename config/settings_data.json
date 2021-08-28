@@ -557,6 +557,26 @@
           "section_style": "section-blank",
           "text_align": "text-center"
         }
+      },
+      "featured-video": {
+        "type": "featured-video",
+        "blocks": {
+          "2589a9de-cce6-430a-ae8f-8fa42497385f": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/youtu.be\/LBHOSscCRY4"
+            }
+          }
+        },
+        "block_order": [
+          "2589a9de-cce6-430a-ae8f-8fa42497385f"
+        ],
+        "settings": {
+          "full_width": false,
+          "title": "Featured video",
+          "subtitle": "",
+          "section_style": "section-blank"
+        }
       }
     },
     "content_for_index": [
