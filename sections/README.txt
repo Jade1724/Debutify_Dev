@@ -23,6 +23,8 @@ Contains:
 #### product-template-alpha.liquid (sections/product-template.liquid)
 Product section varient that renders a varient product snippet.
 
+#### featured-content-alpha.liquid (sections/featured-content-alpha.liquid)
+Featured content variant deisgned to display product description.
 
 ### Snippets
 
