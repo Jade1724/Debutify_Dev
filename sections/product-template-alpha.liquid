@@ -7,7 +7,7 @@
      data-product-first-available-variant="{{ product.selected_or_first_available_variant }}"
      data-image-zoom-type="{{ section.settings.enable_image_zoom }}"
      data-enable-history-state="true"
-     data-stacked-layout="{% if section.settings.media_layout == "stacked" %}true{% else %}false{% endif %}"
+     data-stacked-layout="{% if section.settings.media_layout == 'stacked' %}true{% else %}false{% endif %}"
      data-product-selector="{{ section.settings.product_selector }}"
      {%- if first_3d_model -%}data-has-model="true"{%- endif -%}>
   {%- render 'product-template-alpha' with product as product -%}
