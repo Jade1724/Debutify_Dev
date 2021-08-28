@@ -577,6 +577,30 @@
           "subtitle": "",
           "section_style": "section-blank"
         }
+      },
+      "product-template-alpha": {
+        "type": "product-template-alpha",
+        "settings": {
+          "dbtfy_product_tabs_position": "under_addtocart",
+          "show_product_vendor": false,
+          "show_product_type": true,
+          "show_product_sku": false,
+          "product_title_large": false,
+          "show_product_tags": true,
+          "show_product_collections": true,
+          "enable_image_zoom": true,
+          "enable_video_looping": true,
+          "media_layout": "thumbnails",
+          "quantity_enabled": true,
+          "product_selector": "select",
+          "show_product_description": true,
+          "enable_split_description": true,
+          "description_full": false,
+          "dbtfy_product_description_position": "separate_section",
+          "description_style": "section-border",
+          "text_alignment": "text-center",
+          "text_alignment_mobile": "small--text-center"
+        }
       }
     },
     "content_for_index": [
