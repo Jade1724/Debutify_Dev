@@ -482,6 +482,81 @@
           "dbtfy_size_chart_title": "Size chart",
           "dbtfy_size_chart_width": "large"
         }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "collection_tags_enable": true,
+          "collection_tags_count": true,
+          "collection_multiple_tags_filtering_enable": true,
+          "collection_sort_enable": true,
+          "tag_selector": "button",
+          "rows": "4",
+          "desktop_grid": "4",
+          "mobile_grid": "2"
+        }
+      },
+      "dbtfy-collection-filters": {
+        "type": "dbtfy-collection-filters",
+        "settings": {
+          "clear_label": "Clear",
+          "clear_all_label": "Clear All",
+          "hide_unavailable_options": false,
+          "show_tags_count": true,
+          "visibility_tags_count": "all"
+        }
+      },
+      "featured-columns": {
+        "type": "featured-columns",
+        "blocks": {
+          "91bea39c-293b-45a8-85c6-4ea38969b5b7": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/951564a1-f528-45ec-8b3c-91efb331413d_8.jpg",
+              "icon": "",
+              "title": "Compact buddy",
+              "text": "<p>Lorem ipsum write a proper description<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "34fe9700-6fab-436d-94ac-230f476f2524": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/b6a9d255-a7a9-4401-8cad-fcda1c9ab880_12.jpg",
+              "icon": "",
+              "title": "Yo, feed me something",
+              "text": "<p>Lorem ipsum write a proper description<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "640067c1-c6e0-461d-a451-5bdc72865acf": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/58d44c6f-4e4c-4679-981b-a1d62d70624a_4.jpg",
+              "icon": "",
+              "title": "Strong and Durable",
+              "text": "<p>Lorem ipsum lorem ipsum lorem ipsum write something.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "91bea39c-293b-45a8-85c6-4ea38969b5b7",
+          "34fe9700-6fab-436d-94ac-230f476f2524",
+          "640067c1-c6e0-461d-a451-5bdc72865acf"
+        ],
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
       }
     },
     "content_for_index": [
