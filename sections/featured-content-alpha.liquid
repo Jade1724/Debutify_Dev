@@ -11,9 +11,9 @@
             {%- assign second_part = product.description | split: '<p>[split_description]</p>' | last -%}
 
             {%- unless second_part contains '[split_description]' -%}
-              <div>{{ second_part }} </div>
+              <div class="rte">{{ second_part }} </div>
             {%- else -%}
-              {{ product.description | split: '[split_description]' | last }}
+              <div class="rte">{{ product.description | split: '[split_description]' | last }} </div>
             {%- endunless -%}
 
             {%- unless section.settings.text == blank -%}
