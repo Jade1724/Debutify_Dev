@@ -638,7 +638,7 @@
           {%- render "dbtfy-product-tabs" with product as product, is_split_description: is_to_split_description -%}
         {%- endif -%}
 
-        {%- unless section.settings.show_product_description -%}
+        {%- if section.settings.show_product_description -%}
           {%- if product_description_position == "separate_section" or is_to_split_description -%}
             <div id="productDescription" class="product-single__description rte spacer-bottom-none">
               {%- if is_to_split_description -%}
@@ -654,7 +654,7 @@
               {%- endif -%}
             </div>
           {%- endif -%}
-        {%- endunless -%}
+        {%- endif -%}
 
         {%- if product_tabs_position == "under_description" and product_description_position == "separate_section" -%}
           {%- render "dbtfy-product-tabs" with product as product, is_split_description: is_to_split_description -%}
