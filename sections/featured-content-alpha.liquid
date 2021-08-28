@@ -7,11 +7,11 @@
             {%- unless section.settings.title == blank -%}
               <h2>{{ section.settings.title | escape }}</h2>
             {%- endunless -%}
-            
+
             {%- assign second_part = product.description | split: '<p>[split_description]</p>' | last -%}
 
             {%- unless second_part contains '[split_description]' -%}
-              {{ second_part }}
+              <div>{{ second_part }} </div>
             {%- else -%}
               {{ product.description | split: '[split_description]' | last }}
             {%- endunless -%}
