@@ -597,21 +597,9 @@
           "enable_split_description": true,
           "description_full": false,
           "dbtfy_product_description_position": "separate_section",
-          "description_style": "section-border",
+          "description_style": "section-blank",
           "text_alignment": "text-center",
           "text_alignment_mobile": "small--text-center"
-        }
-      },
-      "featured-content-alpha": {
-        "type": "featured-content-alpha",
-        "settings": {
-          "title": "Product Description",
-          "section_style": "section-blank",
-          "text_size": "large",
-          "text_alignment": "text-center",
-          "button_style": "btn--primary",
-          "button_label": "",
-          "button_link": ""
         }
       },
       "featured-content": {
