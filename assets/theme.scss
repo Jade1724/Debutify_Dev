@@ -8202,6 +8202,10 @@ body:not(.dbtfy-product_image_crop-destroy) {
   color: red;
 }
 
+#section-product-row {
+  color: blue;
+}
+
 @media screen and (max-width: 769px) {
   #section-product-row .grid__item {
     padding-right: 16px;
