@@ -49,7 +49,7 @@
         <div class="wrapper">
 
           <div class="grid grid-spacer align-center">
-            <div class="grid__item large--six-twelfths medium--six-twelfths featured-row-{{ block.settings.image_alignement }}" style="padding-left:{{settings.side_padding}}; padding-right:{{settings.side_padding}};">
+            <div class="grid__item large--six-twelfths medium--six-twelfths featured-row-{{ block.settings.image_alignement }}" style="padding: 0;">
               {%- if block.settings.image != blank -%}
                 <div class="media-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100}}%;">
                   <img class="media lazyload"
@@ -89,22 +89,6 @@
         "id": "show_product_row",
         "label": "Show section",
         "default": true
-      },
-      {
-        "type": "select",
-        "id": "side_padding",
-        "label": "Side Padding",
-        "default": "0",
-        "options": [
-          {
-            "value": "0",
-            "label": "Full Width"
-          },
-          {
-            "value": "",
-            "label": "Side Padding"
-          }
-        ]
       }
     ],
     "blocks" : [
