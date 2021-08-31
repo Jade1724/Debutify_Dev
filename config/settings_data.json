@@ -414,8 +414,8 @@
             "settings": {
               "title": "Image with text",
               "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-              "section_style": "section-border",
-              "image_alignement": "left",
+              "section_style": "section-blank",
+              "image_alignement": "right",
               "text_alignment": "text-center",
               "type_row": "",
               "tag_row": "",
