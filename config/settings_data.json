@@ -394,6 +394,40 @@
       },
       "product-row": {
         "type": "product-row",
+        "blocks": {
+          "5919a9f9-09cd-42d2-bd64-7cadb04a9bd3": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "left",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "c8ac069f-b512-4668-aadc-a6125eb0ee76": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "right",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "5919a9f9-09cd-42d2-bd64-7cadb04a9bd3",
+          "c8ac069f-b512-4668-aadc-a6125eb0ee76"
+        ],
         "settings": {
           "show_product_row": true
         }
