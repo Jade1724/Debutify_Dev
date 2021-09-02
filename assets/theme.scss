@@ -8193,19 +8193,3 @@ body:not(.dbtfy-product_image_crop-destroy) {
   }
 }
 /* end-dbtfy-collection-filters */
-
-/* Start of custom CSS by Haruka Ichinose ========================= */ 
-
-// Responsive padding on product-row-section (Image with Text section)
-#section-product-row {
-  .grid__item {
-    padding-right: 30px;
-    color: red;
-  }
-}
-
-@media screen and (max-width: 769px) {
-  #section-product-row .grid__item {
-    padding-right: 16px;
-  }
-}
