@@ -398,7 +398,8 @@
           "5919a9f9-09cd-42d2-bd64-7cadb04a9bd3": {
             "type": "row",
             "settings": {
-              "title": "Image with text",
+              "image": "shopify:\/\/shop_images\/951564a1-f528-45ec-8b3c-91efb331413d_8.jpg",
+              "title": "Description",
               "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
@@ -412,6 +413,7 @@
           "c8ac069f-b512-4668-aadc-a6125eb0ee76": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/e59917b3-9d4e-47dd-9313-1a9e7c333db8_7.jpg",
               "title": "Image with text",
               "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
               "section_style": "section-blank",
@@ -639,7 +641,7 @@
       "featured-content": {
         "type": "featured-content",
         "settings": {
-          "title": "Specification",
+          "title": "Gallery",
           "text": "<p>write product specification here.<\/p>",
           "section_style": "section-blank",
           "text_size": "large",
@@ -647,6 +649,30 @@
           "button_style": "btn--primary",
           "button_label": "",
           "button_link": ""
+        }
+      },
+      "gallery": {
+        "type": "gallery",
+        "blocks": {
+          "03f1254d-3405-47e4-94f5-8c77460353a5": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/7168363c-5f46-4386-8ac9-c68752e57c4e_5.jpg",
+              "alignment": "center center",
+              "link": "",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "03f1254d-3405-47e4-94f5-8c77460353a5"
+        ],
+        "settings": {
+          "full_width": true,
+          "title": "",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "section_height": "small"
         }
       }
     },
