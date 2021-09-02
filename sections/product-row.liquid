@@ -51,7 +51,7 @@
           <div class="grid grid-spacer align-center">
             <div class="grid__item large--six-twelfths medium--six-twelfths featured-row-{{ block.settings.image_alignement }}">
               {%- if block.settings.image != blank -%}
-                <div class="media-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100}}%;" style="overflow-y: hidden;">
+                <div class="media-wrapper" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100}}%; overflow-y: hidden;">
                   <img class="media lazyload"
                   {%- render 'lazysizes', img: block.settings.image, img_type: 'responsive' -%}
                   alt="{{ block.settings.image.alt }}">
