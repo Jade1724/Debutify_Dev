@@ -219,11 +219,11 @@
           "8eb06b74-34f5-46db-96aa-a7dc04ebea87": {
             "type": "slide",
             "settings": {
-              "overlay": true,
+              "overlay": false,
               "image_position": "center center",
               "image_position_mobile": "center center",
               "slide_link": "",
-              "video": "production ID_5170522.mp4",
+              "video": "hero_background.mp4",
               "title": "Slideshow",
               "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your story.<\/p>",
               "text_position": "align-center",
