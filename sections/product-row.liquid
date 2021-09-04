@@ -55,7 +55,7 @@
                   <img class="media lazyload"
                   {%- render 'lazysizes', img: block.settings.image, img_type: 'responsive' -%}
                   alt="{{ block.settings.image.alt }}"
-                  style="overflow-y: hidden;">
+                  style="overflow-y: hidden; border-radius: 0;">
                 </div>
               {%- else -%}
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
