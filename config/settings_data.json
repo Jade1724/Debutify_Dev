@@ -79,11 +79,11 @@
         ],
         "settings": {
           "show_announcement": true,
-          "show_social": true,
+          "show_social": false,
           "email": true,
           "phone": true,
-          "left_message": "<p>Follow us!<\/p>",
-          "right_message": "<p>Get in touch with us<\/p>",
+          "left_message": "",
+          "right_message": "<p>Contact us<\/p>",
           "announcement_autoplayspeed": 5
         }
       },
