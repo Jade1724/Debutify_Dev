@@ -8195,8 +8195,10 @@ body:not(.dbtfy-product_image_crop-destroy) {
 /* end-dbtfy-collection-filters */
 
 /* START OF CUSTOM STYLINGS ========================= */
+div.product-row-grid {
+  margin-left: 0;
+}
 
-/* Padding on right grid (image or text) on product row section. */
-div.product-row-image.grid__item.large--six-twelfths.medium--six-twelfths.featured-row-right {
-  padding-left: 0%;
+.product-row-grid .grid__item {
+  padding: 0;
 }
