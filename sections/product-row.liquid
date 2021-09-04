@@ -63,12 +63,14 @@
             </div>
 
             <div class="grid__item large--six-twelfths medium--six-twelfths {{ block.settings.text_alignment }}" style="padding: 0;">
-              {%- unless block.settings.title == blank -%}
-                <h2 class="section-header__title">{{ block.settings.title | escape }}</h2>
-              {%- endunless -%}
-              {%- unless block.settings.text == blank -%}
-                <div class="rte text-lead">{{ block.settings.text }}</div>
-              {%- endunless -%}
+              <div style="padding: 0 30px;">
+                {%- unless block.settings.title == blank -%}
+                  <h2 class="section-header__title">{{ block.settings.title | escape }}</h2>
+                {%- endunless -%}
+                {%- unless block.settings.text == blank -%}
+                  <div class="rte text-lead">{{ block.settings.text }}</div>
+                {%- endunless -%}
+              </div>
             </div>
           </div>
 
