@@ -79,11 +79,11 @@
         ],
         "settings": {
           "show_announcement": true,
-          "show_social": true,
+          "show_social": false,
           "email": true,
           "phone": true,
-          "left_message": "<p>Follow us!<\/p>",
-          "right_message": "<p>Get in touch with us<\/p>",
+          "left_message": "",
+          "right_message": "<p>Contact us<\/p>",
           "announcement_autoplayspeed": 5
         }
       },
@@ -223,7 +223,7 @@
               "image_position": "center center",
               "image_position_mobile": "center center",
               "slide_link": "",
-              "video": "",
+              "video": "production ID_5170522.mp4",
               "title": "Slideshow",
               "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your story.<\/p>",
               "text_position": "align-center",
@@ -235,7 +235,7 @@
               "button_label": "Shop now",
               "button_link": "shopify:\/\/collections\/all",
               "button_style": "btn--primary",
-              "button_label_2": "Learn more",
+              "button_label_2": "",
               "button_link_2": "shopify:\/\/collections\/all",
               "button_style_2": ""
             }
