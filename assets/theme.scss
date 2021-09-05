@@ -61,7 +61,7 @@ $gutter-lg: ($gutter * 2);
 
 // Body
 $colorBody: #FFFFFF;
-$colorBodyText: #ffffff;
+$colorBodyText: #444444;
 $baseLineHeight: 1.5;
 $scrollbarWidth: 16.5px;
 
@@ -275,7 +275,7 @@ $bigFontSize: 60px;
 
 // Typography utility
 $headerMarginBottom: floor($spacer * 0.75);
-$colorHeadings: #ffffff;
+$colorHeadings: #444444;
 $textAlignTitle: center;
 $iconLoading: "cached";
 $iconFontSize-sm: 18px;
@@ -1289,7 +1289,7 @@ $class-type: unquote(".");
   text-overflow: "";
   @include prefix("appearance", "none");
   background: {
-    image: url("//cdn.shopify.com/s/files/1/0585/4878/1219/t/6/assets/icon-select.svg?v=917425896047755395");
+    image: url("//cdn.shopify.com/s/files/1/0585/4878/1219/t/6/assets/icon-select.svg?v=3606267446921629109");
     repeat: no-repeat !important;
     position: right $paddingButtonX center;
     size: auto $baseFontSize;
