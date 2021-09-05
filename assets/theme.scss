@@ -239,8 +239,8 @@ $zindexDrawerOverlay: ($zindexDrawer - $zindexIncrement);
 $zindexUnderOverlay: ($zindexDrawerOverlay - $zindexIncrement);
 
 // Header Font Stack
-$headerFontStack: Poppins, sans-serif;
-$headerFontWeight: 700;
+$headerFontStack: Montserrat, sans-serif;
+$headerFontWeight: 400;
 $headerFontStyle: normal;
 $headerFontSize: 34px;
 $headerTextTransform: initial;
@@ -1289,7 +1289,7 @@ $class-type: unquote(".");
   text-overflow: "";
   @include prefix("appearance", "none");
   background: {
-    image: url("//cdn.shopify.com/s/files/1/0585/4878/1219/t/6/assets/icon-select.svg?v=3606267446921629109");
+    image: url("//cdn.shopify.com/s/files/1/0585/4878/1219/t/6/assets/icon-select.svg?v=917425896047755395");
     repeat: no-repeat !important;
     position: right $paddingButtonX center;
     size: auto $baseFontSize;

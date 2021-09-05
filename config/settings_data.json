@@ -13,6 +13,7 @@
     "color_sales_price": "#000000",
     "color_footer_bg": "#537612",
     "color_transparent_nav_text": "#FFFFFF",
+    "header_family": "montserrat_n4",
     "sections": {
       "dbtfy-upsell-popup": {
         "type": "dbtfy-upsell-popup",
@@ -513,7 +514,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/951564a1-f528-45ec-8b3c-91efb331413d_8.jpg",
               "icon": "",
-              "title": "Compact buddy",
+              "title": "<strong>Compact buddy<\/strong>",
               "text": "<p>Lorem ipsum write a proper description<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
