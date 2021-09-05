@@ -6,7 +6,8 @@
     "color_nav_border": "#6ca010",
     "color_nav_text": "#ffffff",
     "color_body_bg": "#FFFFFF",
-    "color_headings": "#444444",
+    "color_headings": "#ffffff",
+    "color_body_text": "#ffffff",
     "color_primary": "#6ca010",
     "color_button_text": "#ffffff",
     "color_sales_price": "#000000",
@@ -232,7 +233,6 @@
             "type": "slide",
             "settings": {
               "overlay": false,
-              "image": "shopify:\/\/shop_images\/alan-carrillo-OJFI4qUmKWU-unsplash_1.jpg",
               "image_position": "center center",
               "image_position_mobile": "center center",
               "slide_link": "",
