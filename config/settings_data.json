@@ -1,5 +1,15 @@
 {
   "current": {
+    "color_announcement_bg": "#80b918",
+    "color_announcement_text": "#ffffff",
+    "color_nav_bg": "#80b918",
+    "color_nav_border": "#6ca010",
+    "color_nav_text": "#ffffff",
+    "color_body_bg": "#FFFFFF",
+    "color_headings": "#444444",
+    "color_primary": "#6ca010",
+    "color_button_text": "#ffffff",
+    "color_sales_price": "#000000",
     "color_transparent_nav_text": "#FFFFFF",
     "sections": {
       "dbtfy-upsell-popup": {

@@ -76,11 +76,11 @@ $borders: ($borderWidth) ($borderStyle) ($colorBorder);
 
 /*================ _All_variables ================*/
 // Colors
-$colorPrimary: #5600E3;
+$colorPrimary: #6ca010;
 $colorSecondary: #2DFFB3;
-$colorButtonText: #FFFFFF;
+$colorButtonText: #ffffff;
 $colorInput: #F2ECFF;
-$colorSalesPrice: #FF0000;
+$colorSalesPrice: #000000;
 
 // Button size
 $paddingButtonY: 16px;
@@ -146,11 +146,11 @@ $heightHeader: 70px;
 $heightHeaderMobile: 60px;
 
 // Navigation
-$colorNav: #FFFFFF;
-$colorNavText: #212529;
+$colorNav: #80b918;
+$colorNavText: #ffffff;
 $colorHeroHeader: #FFFFFF;
 $colorTransparentNavText: $colorHeroHeader;
-$colorNavBorder: #E5E5E5;
+$colorNavBorder: #6ca010;
 
 // Footer
 $colorFooter: #260759;
@@ -164,8 +164,8 @@ $colorFooterInput: #1E0840;
 $colorFooterSalesPrice: #FF0000;
 
 // Announcement
-$colorAnnouncement: #260759;
-$colorAnnouncementText: #FFFFFF;
+$colorAnnouncement: #80b918;
+$colorAnnouncementText: #ffffff;
 
 // Transitions
 $transitionTiming: ease;
@@ -275,7 +275,7 @@ $bigFontSize: 60px;
 
 // Typography utility
 $headerMarginBottom: floor($spacer * 0.75);
-$colorHeadings: #212529;
+$colorHeadings: #444444;
 $textAlignTitle: center;
 $iconLoading: "cached";
 $iconFontSize-sm: 18px;
@@ -8193,5 +8193,3 @@ body:not(.dbtfy-product_image_crop-destroy) {
   }
 }
 /* end-dbtfy-collection-filters */
-
-/* START OF CUSTOM STYLINGS ========================= */
