@@ -1,6 +1,19 @@
 {
   "current": {
+    "color_announcement_bg": "#80b918",
+    "color_announcement_text": "#ffffff",
+    "color_nav_bg": "#80b918",
+    "color_nav_border": "#6ca010",
+    "color_nav_text": "#ffffff",
+    "color_body_bg": "#FFFFFF",
+    "color_headings": "#444444",
+    "color_body_text": "#444444",
+    "color_primary": "#6ca010",
+    "color_button_text": "#ffffff",
+    "color_sales_price": "#000000",
+    "color_footer_bg": "#537612",
     "color_transparent_nav_text": "#FFFFFF",
+    "header_family": "montserrat_n4",
     "sections": {
       "dbtfy-upsell-popup": {
         "type": "dbtfy-upsell-popup",
@@ -501,7 +514,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/951564a1-f528-45ec-8b3c-91efb331413d_8.jpg",
               "icon": "",
-              "title": "Compact buddy",
+              "title": "<strong>Compact buddy<\/strong>",
               "text": "<p>Lorem ipsum write a proper description<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
@@ -623,7 +636,20 @@
           "title": "",
           "subtitle": "",
           "section_style": "section-blank",
-          "section_height": "small"
+          "section_height": "medium"
+        }
+      },
+      "map": {
+        "type": "map",
+        "settings": {
+          "hide_section": false,
+          "heading": "Our store",
+          "address": "<p>123 Fake St.<br>Toronto, Canada<\/p><p>Mon - Fri, 10am - 9pm<br>Saturday, 11am - 9pm<br>Sunday, 11am - 5pm<\/p>",
+          "map_address": "490 Rue De La Gauchetière O, Montréal",
+          "button_text": "Get directions",
+          "map_icon": "location_on",
+          "api_key": "",
+          "image_position": "center center"
         }
       }
     },
