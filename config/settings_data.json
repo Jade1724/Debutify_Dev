@@ -651,6 +651,51 @@
           "api_key": "",
           "image_position": "center center"
         }
+      },
+      "custom-gallery": {
+        "type": "custom-gallery",
+        "blocks": {
+          "2d4c718e-de16-4447-a07a-74136a491a2f": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/orange-poles-create-a-tunnel.jpg"
+            }
+          },
+          "3177117b-0a9d-4065-ba03-c1d956b17753": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/fall-vegetable-box.jpg"
+            }
+          },
+          "ad652b93-4f66-4f4e-b020-87dbd1538fd9": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/multiple-neon-light-reflecting-on-road.jpg"
+            }
+          },
+          "0d4171ea-dc6c-47cb-a4a9-f0fee51ac55a": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/camel_two_tone.png"
+            }
+          },
+          "01274a4e-33c6-4cdb-bf4d-93abff50f1fa": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/alan-carrillo-OJFI4qUmKWU-unsplash_1.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "2d4c718e-de16-4447-a07a-74136a491a2f",
+          "3177117b-0a9d-4065-ba03-c1d956b17753",
+          "ad652b93-4f66-4f4e-b020-87dbd1538fd9",
+          "0d4171ea-dc6c-47cb-a4a9-f0fee51ac55a",
+          "01274a4e-33c6-4cdb-bf4d-93abff50f1fa"
+        ],
+        "settings": {
+          "header": ""
+        }
       }
     },
     "content_for_index": [
