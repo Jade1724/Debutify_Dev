@@ -1,19 +1,19 @@
 <div id="section-{{ section.id }}" class="section-full-width">
   <div class="box">
     <div class="grid">
-      <div class="grid__item four-twelfths">
-        <div>
+      <div class="grid__item four-twelfths custom-gallery-column">
+        <div class="image-top">
           {{ section.blocks[0].settings.image | img_url: '2048x' | img_tag }}
         </div>
-        <div>
+        <div class="image-bottom">
           {{ section.blocks[1].settings.image | img_url: '2048x' | img_tag }}
         </div>
       </div>
-      <div class="grid__item eight-twelfths">
-        <div>
+      <div class="grid__item eight-twelfths custom-gallery-column">
+        <div class="image-top">
           {{ section.blocks[2].settings.image | img_url: '2048x' | img_tag }}
         </div>
-        <div class="grid">
+        <div class="grid image-bottom">
           <div class="grid__item sixth-twelfths">
             <div>
               {{ section.blocks[3].settings.image | img_url: '2048x' | img_tag }}
@@ -28,8 +28,6 @@
       </div>
     </div>
   </div>
-</div>
-
 </div>
 
 
@@ -62,3 +60,21 @@
   ]
 }
 {% endschema %}
+
+{% stylesheet %}
+.custom-gallery-column {
+  height: 100%;
+}
+.custom-gallery-first-column .image-top {
+  height: 83%;
+}
+.custom-gallery-first-column .image-bottom {
+  height: 17%;
+}
+.custom-gallery-second-column .image-top {
+  height: 25%;
+}
+.custom-gallery-second-column .image-bottom {
+  height: 75%;
+}
+{% endstylesheet %}}
