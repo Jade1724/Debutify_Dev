@@ -654,31 +654,6 @@
       },
       "custom-gallery": {
         "type": "custom-gallery",
-        "blocks": {
-          "103a07c9-cc5b-4f14-a911-2cd5a1aeecf2": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/multiple-neon-light-reflecting-on-road.jpg"
-            }
-          },
-          "856feae9-4e5c-4c36-95be-61f8a58974c3": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/fall-vegetable-box.jpg"
-            }
-          },
-          "0881478b-ac02-492d-af78-3b28fa4543e0": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/orange-poles-create-a-tunnel.jpg"
-            }
-          }
-        },
-        "block_order": [
-          "103a07c9-cc5b-4f14-a911-2cd5a1aeecf2",
-          "856feae9-4e5c-4c36-95be-61f8a58974c3",
-          "0881478b-ac02-492d-af78-3b28fa4543e0"
-        ],
         "settings": {
           "header": ""
         }
