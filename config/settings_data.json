@@ -13,6 +13,7 @@
     "color_sales_price": "#000000",
     "color_footer_bg": "#537612",
     "color_transparent_nav_text": "#FFFFFF",
+    "custom_style": "#section-custom-gallery .custom-gellery-column {\n  color: red;\n}",
     "header_family": "montserrat_n4",
     "sections": {
       "dbtfy-upsell-popup": {
