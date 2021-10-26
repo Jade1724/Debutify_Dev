@@ -13,7 +13,7 @@
     "color_sales_price": "#000000",
     "color_footer_bg": "#537612",
     "color_transparent_nav_text": "#FFFFFF",
-    "custom_style": "#shopify-section-featured-content {\n  color: red;\n}",
+    "custom_style": "",
     "header_family": "montserrat_n4",
     "sections": {
       "dbtfy-upsell-popup": {
