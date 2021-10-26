@@ -8637,4 +8637,43 @@ body:not(.dbtfy-wish_list-destroy) {
 {%- if settings.custom_style != blank -%}
 /*================ _custom_styles ================*/
 {{ settings.custom_style }}
+
+#shopify-section-custom-gallery .media-wrapper {
+  margin-bottom: 30px;
+  @include screen($small) {
+    margin-bottom: 16px;
+  }
+}
+#shopify-section-custom-gallery .image-one {
+  padding-top: 225%;
+  @include screen($small) {
+    padding-top: 150%;
+  }
+}
+#shopify-section-custom-gallery .image-two {
+  padding-top: 75%;
+  @include screen($small) {
+    padding-top: 150%;
+  }
+}
+#shopify-section-custom-gallery .image-three {
+  padding-top: 63.5%;
+}
+#shopify-section-custom-gallery .image-four {
+  padding-top: 165%;
+  @include screen($small) {
+    padding-top: 150%;
+  }
+}
+#shopify-section-custom-gallery .image-five {
+  padding-top: 165%;
+  @include screen($small) {
+    padding-top: 150%;
+  }
+}
+#shopify-section-custom-gallery img {
+  height: 100%; 
+  width: auto; 
+  max-width: unset;
+}
 {%- endif -%}

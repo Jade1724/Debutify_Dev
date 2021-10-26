@@ -1,29 +1,29 @@
 <div id="section-{{ section.id }}" class="wrapper">
   <div class="grid">
     <div class="grid__item medium--four-twelfths large--four-twelfths custom-gallery-column first-column">
-      <div class="image-top media-wrapper">
+      <div class="gallery-image-one media-wrapper">
         <img class="media lazyload"
         {%- render 'lazysizes', img: section.blocks[0].settings.image, img_type: 'responsive' -%}>
       </div>
-      <div class="image-bottom media-wrapper">
+      <div class="gallery-image-two media-wrapper">
         <img class="media lazyload"
         {%- render 'lazysizes', img: section.blocks[1].settings.image, img_type: 'responsive' -%}>
       </div>
     </div>
     <div class="grid__item medium--eight-twelfths large--eight-twelfths custom-gallery-column second-column">
-      <div class="image-top media-wrapper">
+      <div class="gallery-image-three media-wrapper">
         <img class="media lazyload"
         {%- render 'lazysizes', img: section.blocks[2].settings.image, img_type: 'responsive' -%}>
       </div>
-      <div class="grid image-bottom">
+      <div class="grid">
         <div class="grid__item sixth-twelfths">
-          <div class="image-left media-wrapper">
+          <div class="gallery-image-four media-wrapper">
             <img class="media lazyload"
             {%- render 'lazysizes', img: section.blocks[3].settings.image, img_type: 'responsive' -%}>
           </div>
         </div>
         <div class="grid__item sixth-twelfths">
-          <div class="image-right media-wrapper">
+          <div class="gellery-image-five media-wrapper">
             <img class="media lazyload"
             {%- render 'lazysizes', img: section.blocks[4].settings.image, img_type: 'responsive' -%}>
           </div>
@@ -32,24 +32,6 @@
     </div>
   </div>
 </div>
-
-{% style %}
-  #shopify-section-custom-gallery .media-wrapper {
-    margin-bottom: 16px;
-  }
-  .first-column div {
-    padding-top: 100%;
-  }
-  .second-column .image-top, .second-column .image-left, .second-column .image-right {
-    padding-top: 100%;
-  }
-  #shopify-section-custom-gallery img {
-    height: 100%; 
-    width: auto; 
-    max-width: unset;
-  }
-
-{% endstyle %}
 
 {% schema %}
 {
