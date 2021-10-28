@@ -1,13 +1,15 @@
 <div id="section-{{ section.id }}" class="wrapper">
   <div class="grid">
     <div class="grid__item medium--four-twelfths large--four-twelfths custom-gallery-column first-column">
-      <div class="gallery-image-one media-wrapper">
-        <img class="media lazyload"
-        {%- render 'lazysizes', img: section.blocks[0].settings.image, img_type: 'responsive' -%}>
-      </div>
-      <div class="gallery-image-two media-wrapper">
-        <img class="media lazyload"
-        {%- render 'lazysizes', img: section.blocks[1].settings.image, img_type: 'responsive' -%}>
+      <div class="grid">
+        <div class="grid__item small--six-twelfths gallery-image-one media-wrapper">
+          <img class="media lazyload"
+          {%- render 'lazysizes', img: section.blocks[0].settings.image, img_type: 'responsive' -%}>
+        </div>
+        <div class="grid__item small--six-twelfths gallery-image-two media-wrapper">
+          <img class="media lazyload"
+          {%- render 'lazysizes', img: section.blocks[1].settings.image, img_type: 'responsive' -%}>
+        </div>
       </div>
     </div>
     <div class="grid__item medium--eight-twelfths large--eight-twelfths custom-gallery-column second-column">
@@ -16,13 +18,13 @@
         {%- render 'lazysizes', img: section.blocks[2].settings.image, img_type: 'responsive' -%}>
       </div>
       <div class="grid">
-        <div class="grid__item small--sixth-twelfths sixth-twelfths">
+        <div class="grid__item small--six-twelfths">
           <div class="gallery-image-four media-wrapper">
             <img class="media lazyload"
             {%- render 'lazysizes', img: section.blocks[3].settings.image, img_type: 'responsive' -%}>
           </div>
         </div>
-        <div class="grid__item small--sixth-twelfths sixth-twelfths">
+        <div class="grid__item small--six-twelfths">
           <div class="gallery-image-five media-wrapper">
             <img class="media lazyload"
             {%- render 'lazysizes', img: section.blocks[4].settings.image, img_type: 'responsive' -%}>
