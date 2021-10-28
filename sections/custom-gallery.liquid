@@ -33,6 +33,51 @@
   </div>
 </div>
 
+{% style %}
+#shopify-section-custom-gallery .media-wrapper {
+  margin-bottom: 30px;
+}
+#shopify-section-custom-gallery .gallery-image-one {
+  padding-top: 225%;
+}
+#shopify-section-custom-gallery .gallery-image-two {
+  padding-top: 75%;
+}
+#shopify-section-custom-gallery .gallery-image-three {
+  padding-top: 63.5%;
+}
+#shopify-section-custom-gallery .gallery-image-four {
+  padding-top: 165%;
+}
+#shopify-section-custom-gallery .gallery-image-five {
+  padding-top: 165%;
+}
+#shopify-section-custom-gallery img {
+  height: 100%; 
+  width: auto; 
+  max-width: unset;
+}
+
+@media only screen and (max-width: 769px) {
+  #shopify-section-custom-gallery .media-wrapper {
+    margin-bottom: 16px;
+  }
+  #shopify-section-custom-gallery .gallery-image-one {
+    padding-top: 150%;
+  }
+  #shopify-section-custom-gallery .gallery-image-two {
+    padding-top: 150%;
+  }
+  #shopify-section-custom-gallery .gallery-image-four {
+    padding-top: 150%;
+  }
+  #shopify-section-custom-gallery .gallery-image-five {
+    padding-top: 150%;
+  }
+}
+
+{% endstyle %}
+
 {% schema %}
 {
   "name": "Custom Gallery",
