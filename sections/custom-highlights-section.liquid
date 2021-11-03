@@ -20,9 +20,9 @@ Three columned image and text section, initially copied from featured-columns.li
         </div>
       {%- endunless -%}
 
-      {%- if product.description != blank -%}}
+      {%- if product.description != blank -%}
         {%- assign description_array = product.description | split: '//' -%}
-        {{ product.description[1] }}
+        {{ description_array[1] }}
       {%- endif -%}
 
       {%- if section.blocks.size > 0 -%}
