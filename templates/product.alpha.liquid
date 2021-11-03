@@ -1,6 +1,7 @@
 <!-- /templates/product.liquid -->
 {%- if product.description != blank -%}}
   {%- assign description_array = product.description | split: '//'}
+  {{ description_array }}
 {%- section 'product-template-alpha'-%}
 
 {%- section 'featured-columns'-%}
@@ -9,7 +10,7 @@
 
 {%- section 'featured-content' -%}
 
-{%- section 'custom-gallery' with description_array as product.description -%}
+{%- section 'custom-gallery' -%}
 
 {%- section 'dbtfy-pricing-table' -%}
 
