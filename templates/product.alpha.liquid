@@ -1,7 +1,5 @@
 <!-- /templates/product.liquid -->
-{%- if product.description != blank -%}}
-  {%- assign description_array = product.description | split: '//' -%}
-{%- endif -%}
+
 {%- section 'product-template-alpha'-%}
 
 {%- section 'custom-highlights-section', description_array: description_array -%}
