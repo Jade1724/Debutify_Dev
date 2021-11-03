@@ -1,6 +1,6 @@
 <!-- /templates/product.liquid -->
 {%- if product.description != blank -%}}
-  {%- assign description_array = product.description | split: '//'}
+  {%- assign description_array = product.description | split: '//' -%}
   {{ description_array }}
   <h1>Array test</h1>
 {%- endif -%}
