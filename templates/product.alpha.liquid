@@ -2,6 +2,7 @@
 {%- if product.description != blank -%}}
   {%- assign description_array = product.description | split: '//'}
   {{ description_array }}
+  <h1>Array test</h1>
 {%- section 'product-template-alpha'-%}
 
 {%- section 'featured-columns'-%}
