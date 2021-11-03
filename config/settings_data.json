@@ -697,6 +697,58 @@
         "settings": {
           "header": ""
         }
+      },
+      "custom-highlights-section": {
+        "type": "custom-highlights-section",
+        "blocks": {
+          "0c3617c9-ff15-4e04-9fe6-79d6e2747123": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/7168363c-5f46-4386-8ac9-c68752e57c4e_5.jpg",
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "d55f23b3-8848-468f-81e4-c6029864704f": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/951564a1-f528-45ec-8b3c-91efb331413d_8.jpg",
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "855a2f9a-0176-46b6-b4d9-519ffa83cd7f": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/e59917b3-9d4e-47dd-9313-1a9e7c333db8_7.jpg",
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "0c3617c9-ff15-4e04-9fe6-79d6e2747123",
+          "d55f23b3-8848-468f-81e4-c6029864704f",
+          "855a2f9a-0176-46b6-b4d9-519ffa83cd7f"
+        ],
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
       }
     },
     "content_for_index": [
