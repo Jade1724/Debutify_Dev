@@ -20,6 +20,8 @@ Three columned image and text section, initially copied from featured-columns.li
         </div>
       {%- endunless -%}
 
+      <h1>{{ description_array[-1] }}</h1>
+
       {%- if section.blocks.size > 0 -%}
         <div class="grid grid-spacer {{ section.settings.text_align }}">
 
