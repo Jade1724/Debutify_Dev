@@ -1,7 +1,12 @@
 {%- comment -%}
 Three columned image and text section, initially copied from featured-columns.liquid
 {%- endcomment -%}
-<div id="section-{{ section.id }}" class="{{ section.settings.section_style }}" data-section-id="{{ section.id }}" data-section-type="featured-columns-section">
+{%- if product.description != blank -%}
+  {%- assign highlights_array = product.description | split: '//' | slice: 1, 6 -%}
+  {{ highlights_array }}
+{%- endif -%}
+
+<div id="section-{{ section.id }}" class="{{ section.settings.section_style }}" data-section-id="{{ section.id }}" data-section-type="highlights-section">
   <div class="box">
     <div class="wrapper">
 
@@ -19,11 +24,6 @@ Three columned image and text section, initially copied from featured-columns.li
            </div>
         </div>
       {%- endunless -%}
-
-      {%- if product.description != blank -%}
-        {%- assign description_array = product.description | split: '//' -%}
-        {{ description_array[1] }}
-      {%- endif -%}
 
       {%- if section.blocks.size > 0 -%}
         <div class="grid grid-spacer {{ section.settings.text_align }}">
@@ -78,7 +78,7 @@ Three columned image and text section, initially copied from featured-columns.li
 {% schema %}
   {
     "name": "Product Highlights",
-    "class": "featured-columns-section",
+    "class": "highlights-section",
     "max_blocks": 4,
     "settings": [
 	    {
