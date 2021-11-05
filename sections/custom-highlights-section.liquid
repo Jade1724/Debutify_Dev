@@ -32,42 +32,8 @@ Three columned image and text section, initially copied from featured-columns.li
           {%- capture column_width -%}
             {%- render 'block-width' -%}
           {%- endcapture -%}
-
-          <!-- Blocks -->
-          <!-- {%- for block in section.blocks -%}
-            <div class="grid__item {{ column_width }}" {{ block.shopify_attributes }}>
-
-              {%- if block.settings.image != blank -%}
-                <div class="media-wrapper spacer-bottom" style="padding-top: 100%">
-                  {%- unless block.settings.image_link == blank -%} 
-                    <a href="{{ block.settings.image_link }}"><img class="media lazyload"
-                    {%- render 'lazysizes', img: block.settings.image, img_type: 'responsive' -%}
-                                                                    alt="{{ block.settings.image.alt }}"></a>
-                  {%- endunless -%}
-                  {%- if block.settings.image_link == blank -%}
-                  	<img class="media lazyload"
-                    {%- render 'lazysizes', img: block.settings.image, img_type: 'responsive' -%}
-                                                                    alt="{{ block.settings.image.alt }}">
-                  {%- endif -%}
-                  
-                </div>
-              {%- elsif block.settings.icon != blank -%}
-                <span class="{{settings.icon}} icon-xl text-secondary" aria-hidden="true">{{block.settings.icon}}</span>
-              {%- else -%}
-                {{ 'image' | placeholder_svg_tag: 'placeholder-svg spacer-bottom' }}
-              {%- endif -%}
-
-              <h3 class="h4">{{ block.settings.title }}</h3>
-              <div class="rte">{{ block.settings.text }}</div>
-              {%- unless block.settings.button_label == blank -%}
-                <p><a href="{{ block.settings.image_link }}" class="btn btn--small {{ block.settings.button_style }}">
-                  {{ block.settings.button_label | escape }}
-                </a></p>
-              {%- endunless -%}
-            </div>
-          {%- endfor -%} -->
           
-          <!-- {%- if section.blocks.size = 3 -%}
+          {%- if section.blocks.size = 3 -%}
             {%- assign column_one = section.blocks[0] -%}
             {%- assign column_two = section.blocks[1] -%}
             {%- assign column_three = section.blocks[2] -%}
@@ -161,7 +127,7 @@ Three columned image and text section, initially copied from featured-columns.li
                 </a></p>
               {%- endunless -%}
             </div>
-          {%- endif -%} -->
+          {%- endif -%}
 
         </div>
       {%- else -%}
