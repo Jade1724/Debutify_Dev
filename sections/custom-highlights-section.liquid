@@ -1,11 +1,13 @@
 {%- comment -%}
 Three columned image and text section, initially copied from featured-columns.liquid
 {%- endcomment -%}
+<div>Good</div>
 {%- if product.description != blank -%}
   {%- assign description_array = product.descrtiption | split: '//' -%}
   {%- assign highlights_title_array = description_array | slice: 1, 3 -%}
   {%- assign highlights_text_array = description_array | slice: 4, 6 -%}
 {%- endif -%}
+<div>Game</div>
 
 <div id="section-{{ section.id }}" class="{{ section.settings.section_style }}" data-section-id="{{ section.id }}" data-section-type="highlights-section">
   <div class="box">
