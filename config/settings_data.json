@@ -681,7 +681,7 @@
           "show_product_vendor": false,
           "show_product_type": true,
           "show_product_sku": false,
-          "product_title_large": false,
+          "product_title_large": true,
           "show_product_tags": true,
           "show_product_collections": true,
           "enable_image_zoom": true,
@@ -728,6 +728,40 @@
       },
       "custom-gallery_backpack": {
         "type": "custom-gallery_backpack",
+        "settings": {
+          "header": ""
+        }
+      },
+      "featured-columns_tent": {
+        "type": "featured-columns_tent",
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_tent": {
+        "type": "product-row_tent",
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_tent": {
+        "type": "featured-content_tent",
+        "settings": {
+          "title": "Featured content",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-gallery_tent": {
+        "type": "custom-gallery_tent",
         "settings": {
           "header": ""
         }
