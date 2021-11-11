@@ -840,6 +840,81 @@
         "settings": {
           "header": ""
         }
+      },
+      "featured-columns_mummy-goose-down-sleeping-bag": {
+        "type": "featured-columns_mummy-goose-down-sleeping-bag",
+        "blocks": {
+          "d6192c52-ad80-4471-85ac-6528c9735d2c": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/model2.jpg",
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "58a292b4-013f-40fb-ab12-dea84bc9c8e0": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "31193b66-b335-42f1-b517-22e5a868ef47": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "d6192c52-ad80-4471-85ac-6528c9735d2c",
+          "58a292b4-013f-40fb-ab12-dea84bc9c8e0",
+          "31193b66-b335-42f1-b517-22e5a868ef47"
+        ],
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_mummy-goose-down-sleeping-bag": {
+        "type": "product-row_mummy-goose-down-sleeping-bag",
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_mummy-goose-down-sleeping-bag": {
+        "type": "featured-content_mummy-goose-down-sleeping-bag",
+        "settings": {
+          "title": "Featured content",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-gallery_mummy-goose-down-sleeping-bag": {
+        "type": "custom-gallery_mummy-goose-down-sleeping-bag",
+        "settings": {
+          "header": ""
+        }
       }
     },
     "content_for_index": [
