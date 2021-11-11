@@ -893,6 +893,40 @@
       },
       "product-row_mummy-goose-down-sleeping-bag": {
         "type": "product-row_mummy-goose-down-sleeping-bag",
+        "blocks": {
+          "adb97402-1644-45f5-a37d-b7ed54dca7cb": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-border",
+              "image_alignement": "left",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "501eb099-029c-4e87-90d8-a698785793f2": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-border",
+              "image_alignement": "right",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "adb97402-1644-45f5-a37d-b7ed54dca7cb",
+          "501eb099-029c-4e87-90d8-a698785793f2"
+        ],
         "settings": {
           "show_product_row": true
         }
