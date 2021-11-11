@@ -579,30 +579,6 @@
           "section_style": "section-blank"
         }
       },
-      "product-template-alpha": {
-        "type": "product-template-alpha",
-        "settings": {
-          "dbtfy_product_tabs_position": "under_addtocart",
-          "show_product_vendor": false,
-          "show_product_type": true,
-          "show_product_sku": false,
-          "product_title_large": false,
-          "show_product_tags": true,
-          "show_product_collections": true,
-          "enable_image_zoom": true,
-          "enable_video_looping": true,
-          "media_layout": "thumbnails",
-          "quantity_enabled": true,
-          "product_selector": "select",
-          "show_product_description": true,
-          "enable_split_description": true,
-          "description_full": false,
-          "dbtfy_product_description_position": "separate_section",
-          "description_style": "section-blank",
-          "text_alignment": "text-center",
-          "text_alignment_mobile": "small--text-center"
-        }
-      },
       "featured-content": {
         "type": "featured-content",
         "settings": {
@@ -698,56 +674,62 @@
           "header": ""
         }
       },
-      "custom-highlights-section": {
-        "type": "custom-highlights-section",
-        "blocks": {
-          "0c3617c9-ff15-4e04-9fe6-79d6e2747123": {
-            "type": "text_block",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/7168363c-5f46-4386-8ac9-c68752e57c4e_5.jpg",
-              "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
-              "button_style": "btn--primary",
-              "button_label": "",
-              "image_link": ""
-            }
-          },
-          "d55f23b3-8848-468f-81e4-c6029864704f": {
-            "type": "text_block",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/951564a1-f528-45ec-8b3c-91efb331413d_8.jpg",
-              "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
-              "button_style": "btn--primary",
-              "button_label": "",
-              "image_link": ""
-            }
-          },
-          "855a2f9a-0176-46b6-b4d9-519ffa83cd7f": {
-            "type": "text_block",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/e59917b3-9d4e-47dd-9313-1a9e7c333db8_7.jpg",
-              "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
-              "button_style": "btn--primary",
-              "button_label": "",
-              "image_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "0c3617c9-ff15-4e04-9fe6-79d6e2747123",
-          "d55f23b3-8848-468f-81e4-c6029864704f",
-          "855a2f9a-0176-46b6-b4d9-519ffa83cd7f"
-        ],
+      "product-template_bivvy-fun": {
+        "type": "product-template_bivvy-fun",
         "settings": {
-          "title": "Highlights",
+          "dbtfy_product_tabs_position": "under_addtocart",
+          "show_product_vendor": false,
+          "show_product_type": true,
+          "show_product_sku": false,
+          "product_title_large": false,
+          "show_product_tags": true,
+          "show_product_collections": true,
+          "enable_image_zoom": true,
+          "enable_video_looping": true,
+          "media_layout": "thumbnails",
+          "quantity_enabled": true,
+          "product_selector": "select",
+          "show_product_description": true,
+          "enable_split_description": true,
+          "description_full": false,
+          "dbtfy_product_description_position": "separate_section",
+          "description_style": "section-border",
+          "text_alignment": "text-center",
+          "text_alignment_mobile": "small--text-center"
+        }
+      },
+      "featured-columns_backpack": {
+        "type": "featured-columns_backpack",
+        "settings": {
+          "title": "Featured columns",
           "subtitle": "",
           "section_style": "section-blank",
           "text_align": "text-center"
+        }
+      },
+      "product-row_backpack": {
+        "type": "product-row_backpack",
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_backpack": {
+        "type": "featured-content_backpack",
+        "settings": {
+          "title": "Featured content",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-gallery_backpack": {
+        "type": "custom-gallery_backpack",
+        "settings": {
+          "header": ""
         }
       }
     },

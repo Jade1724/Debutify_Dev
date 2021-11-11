@@ -29,7 +29,7 @@
             <div class="grid__item {{ column_width }}" {{ block.shopify_attributes }}>
 
               {%- if block.settings.image != blank -%}
-                <div class="media-wrapper spacer-bottom" style="padding-top:100%;">
+                <div class="media-wrapper spacer-bottom" style="padding-top:100%">
                   {%- unless block.settings.image_link == blank -%} 
                     <a href="{{ block.settings.image_link }}"><img class="media lazyload"
                     {%- render 'lazysizes', img: block.settings.image, img_type: 'responsive' -%}
