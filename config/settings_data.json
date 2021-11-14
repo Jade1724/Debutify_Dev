@@ -897,7 +897,7 @@
           "adb97402-1644-45f5-a37d-b7ed54dca7cb": {
             "type": "row",
             "settings": {
-              "title": "Image with text",
+              "title": "Descriptions",
               "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
               "section_style": "section-border",
               "image_alignement": "left",
@@ -911,7 +911,7 @@
           "501eb099-029c-4e87-90d8-a698785793f2": {
             "type": "row",
             "settings": {
-              "title": "Image with text",
+              "title": "Specifications",
               "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
               "section_style": "section-border",
               "image_alignement": "right",
@@ -946,6 +946,40 @@
       },
       "custom-gallery_mummy-goose-down-sleeping-bag": {
         "type": "custom-gallery_mummy-goose-down-sleeping-bag",
+        "settings": {
+          "header": ""
+        }
+      },
+      "featured-columns_pouch-waist-bag": {
+        "type": "featured-columns_pouch-waist-bag",
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_pouch-waist-bag": {
+        "type": "product-row_pouch-waist-bag",
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_pouch-waist-bag": {
+        "type": "featured-content_pouch-waist-bag",
+        "settings": {
+          "title": "Featured content",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-gallery_pouch-waist-bag": {
+        "type": "custom-gallery_pouch-waist-bag",
         "settings": {
           "header": ""
         }
