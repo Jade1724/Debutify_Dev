@@ -865,6 +865,7 @@
           "cb57c790-6065-439b-94f6-be377c5cb992": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/3_47a024fa-7d8d-4bcd-a0bd-61b02ac1803b.png",
               "title": "8 PCS Picnic BBQ Cooking Set",
               "text": "<p>Package included:<\/p><p>1 x Non-stick Pot<br\/>1 x Non-stick Pan<br\/>1 x Pan Cover<br\/>1 x Serving Ladle<br\/>1 x Soup Spoon<br\/>1 x Bamboo Spoon<br\/>1 x Cleaning Tool<br\/>1 x Nylon Carrying Bag<br\/>2 x Plastic Bowl<\/p>",
               "section_style": "section-border",
@@ -879,6 +880,7 @@
           "e34163f6-feb8-4811-a450-493b9c328e27": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/2_a786b09a-0e54-47e0-9f98-cf922875b4e5.png",
               "title": "Specifications",
               "text": "<p>Colour: Grey+Orange, Grey+Green, Grey+Black<\/p><p>Material: Aluminum Package<\/p><p>dimension: 15.5cm x 9cm (Please allow 1-5mm error due to manual measurement)<\/p><p>Weight: 557g<\/p>",
               "section_style": "section-border",
@@ -902,8 +904,8 @@
       "featured-content_cookware": {
         "type": "featured-content_cookware",
         "settings": {
-          "title": "Featured content",
-          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "title": "Gallery",
+          "text": "",
           "section_style": "section-blank",
           "text_size": "large",
           "text_alignment": "text-center",
@@ -914,6 +916,45 @@
       },
       "custom-gallery_cookware": {
         "type": "custom-gallery_cookware",
+        "blocks": {
+          "1714d059-a4e6-415b-a110-7a4e8ab5c368": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/5_5617448b-b73b-4a13-b370-0b6e2c854f65.png"
+            }
+          },
+          "c1c6f46f-4b87-42af-9377-4830518201d2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/10_c75dc2a6-05c0-4303-9e39-fcce977ea2f0.png"
+            }
+          },
+          "b88fc264-9028-4e57-b834-54ef9535d99f": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1_ccc41a09-2b13-46ce-9cb1-cb309e7fe280.png"
+            }
+          },
+          "b2ef6beb-1736-469c-a6ef-1b952156a703": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/7_ca05da56-0122-4452-8edf-224b68297224.png"
+            }
+          },
+          "93c5137d-e3c2-4f6a-ab9b-f08981a865b6": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/9_cb5d918f-42b4-406c-b2f7-f90aac2b004f.png"
+            }
+          }
+        },
+        "block_order": [
+          "1714d059-a4e6-415b-a110-7a4e8ab5c368",
+          "c1c6f46f-4b87-42af-9377-4830518201d2",
+          "b88fc264-9028-4e57-b834-54ef9535d99f",
+          "b2ef6beb-1736-469c-a6ef-1b952156a703",
+          "93c5137d-e3c2-4f6a-ab9b-f08981a865b6"
+        ],
         "settings": {
           "header": ""
         }
