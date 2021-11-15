@@ -886,7 +886,7 @@
         "settings": {
           "title": "Highlights",
           "subtitle": "",
-          "section_style": "section-blank",
+          "section_style": "section-default",
           "text_align": "text-center"
         }
       },
