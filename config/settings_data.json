@@ -1178,6 +1178,117 @@
         "settings": {
           "header": ""
         }
+      },
+      "featured-columns_camping-stove": {
+        "type": "featured-columns_camping-stove",
+        "blocks": {
+          "c3b6dedc-35ef-453e-8454-8c4137553eef": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Palm-size and featherweight",
+              "text": "<p>Nothing could be easier than this pocket size solid box to pack<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "e59cfd39-e05e-42a7-8ede-f7305305974c": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/6_35972380065957.png",
+              "icon": "",
+              "title": "Comes with the ignition",
+              "text": "<p>All you need is one press.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "e085858b-2ade-47de-836a-d3b39f73c236": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3_10504275539741.png",
+              "icon": "",
+              "title": "Everything is under control",
+              "text": "<p>Ultimate adjustable valve and heats up 1 liter water in 3 minutes<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "c3b6dedc-35ef-453e-8454-8c4137553eef",
+          "e59cfd39-e05e-42a7-8ede-f7305305974c",
+          "e085858b-2ade-47de-836a-d3b39f73c236"
+        ],
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_camping-stove": {
+        "type": "product-row_camping-stove",
+        "blocks": {
+          "de7ceb88-193f-4ffa-9dba-a65d67ce7d81": {
+            "type": "row",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1_116935780119.png",
+              "title": "",
+              "text": "<p>Every adventure is different, but a cup of coffee or tea is just about the perfect start to any day in the wilderness, a warm meal is pretty tough to beat to end a long day on the trail. <\/p><p>To enhance your wilderness adventures, a mini-size camping stove is one of the essential tools.<\/p>",
+              "section_style": "section-border",
+              "image_alignement": "left",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "ed61ebf3-0792-4c07-9543-56783b83679e": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-border",
+              "image_alignement": "left",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "de7ceb88-193f-4ffa-9dba-a65d67ce7d81",
+          "ed61ebf3-0792-4c07-9543-56783b83679e"
+        ],
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_camping-stove": {
+        "type": "featured-content_camping-stove",
+        "settings": {
+          "title": "Featured content",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-gallery_camping-stove": {
+        "type": "custom-gallery_camping-stove",
+        "settings": {
+          "header": ""
+        }
       }
     },
     "content_for_index": [
