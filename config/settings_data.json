@@ -583,7 +583,7 @@
         "type": "featured-content",
         "settings": {
           "title": "Gallery",
-          "text": "<p>write product specification here.<\/p>",
+          "text": "",
           "section_style": "section-blank",
           "text_size": "large",
           "text_alignment": "text-center",
@@ -734,6 +734,47 @@
       },
       "featured-columns_tent": {
         "type": "featured-columns_tent",
+        "blocks": {
+          "c6f19751-3a95-454a-b4f3-c486eb40a4d5": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/camel_two_tone.png",
+              "icon": "",
+              "title": "My assignment",
+              "text": "<p>A+<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "6c3bb861-ccff-4961-9334-4f4c69f2b0e2": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "1b5bc29b-9147-48e1-a6d5-2b1efce0da3f": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "c6f19751-3a95-454a-b4f3-c486eb40a4d5",
+          "6c3bb861-ccff-4961-9334-4f4c69f2b0e2",
+          "1b5bc29b-9147-48e1-a6d5-2b1efce0da3f"
+        ],
         "settings": {
           "title": "Highlights",
           "subtitle": "",
@@ -762,6 +803,260 @@
       },
       "custom-gallery_tent": {
         "type": "custom-gallery_tent",
+        "settings": {
+          "header": ""
+        }
+      },
+      "featured-columns_cookware": {
+        "type": "featured-columns_cookware",
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_cookware": {
+        "type": "product-row_cookware",
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_cookware": {
+        "type": "featured-content_cookware",
+        "settings": {
+          "title": "Featured content",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-gallery_cookware": {
+        "type": "custom-gallery_cookware",
+        "settings": {
+          "header": ""
+        }
+      },
+      "featured-columns_mummy-goose-down-sleeping-bag": {
+        "type": "featured-columns_mummy-goose-down-sleeping-bag",
+        "blocks": {
+          "d6192c52-ad80-4471-85ac-6528c9735d2c": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Goose Down Insulation",
+              "text": "<p>Never waking up freezing in the morning. Protects your shoulder and neck from piercing weather.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "58a292b4-013f-40fb-ab12-dea84bc9c8e0": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Compact",
+              "text": "<p>Two level compression make it fit beautifully in your bag without taking up space for other gears.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "31193b66-b335-42f1-b517-22e5a868ef47": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "d6192c52-ad80-4471-85ac-6528c9735d2c",
+          "58a292b4-013f-40fb-ab12-dea84bc9c8e0",
+          "31193b66-b335-42f1-b517-22e5a868ef47"
+        ],
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_mummy-goose-down-sleeping-bag": {
+        "type": "product-row_mummy-goose-down-sleeping-bag",
+        "blocks": {
+          "adb97402-1644-45f5-a37d-b7ed54dca7cb": {
+            "type": "row",
+            "settings": {
+              "title": "Descriptions",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-border",
+              "image_alignement": "left",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "501eb099-029c-4e87-90d8-a698785793f2": {
+            "type": "row",
+            "settings": {
+              "title": "Specifications",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-border",
+              "image_alignement": "right",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "adb97402-1644-45f5-a37d-b7ed54dca7cb",
+          "501eb099-029c-4e87-90d8-a698785793f2"
+        ],
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_mummy-goose-down-sleeping-bag": {
+        "type": "featured-content_mummy-goose-down-sleeping-bag",
+        "settings": {
+          "title": "Featured content",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-gallery_mummy-goose-down-sleeping-bag": {
+        "type": "custom-gallery_mummy-goose-down-sleeping-bag",
+        "blocks": {
+          "0ddd8b71-97d1-4712-b774-8f2bd92f57e5": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/model1.jpg"
+            }
+          },
+          "aaaf9c16-4191-4791-9ad1-a340210814ef": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/7168363c-5f46-4386-8ac9-c68752e57c4e_5.jpg"
+            }
+          },
+          "af9f9123-87db-4a14-9a26-13744c42d027": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/alan-carrillo-OJFI4qUmKWU-unsplash_1.jpg"
+            }
+          },
+          "cf09c6ae-272e-4e15-826b-215a5ec457c5": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/58d44c6f-4e4c-4679-981b-a1d62d70624a_4.jpg"
+            }
+          },
+          "c35362f9-dc10-4031-938d-25e10244d00d": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/b6a9d255-a7a9-4401-8cad-fcda1c9ab880_12.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "0ddd8b71-97d1-4712-b774-8f2bd92f57e5",
+          "aaaf9c16-4191-4791-9ad1-a340210814ef",
+          "af9f9123-87db-4a14-9a26-13744c42d027",
+          "cf09c6ae-272e-4e15-826b-215a5ec457c5",
+          "c35362f9-dc10-4031-938d-25e10244d00d"
+        ],
+        "settings": {
+          "header": ""
+        }
+      },
+      "featured-columns_pouch-waist-bag": {
+        "type": "featured-columns_pouch-waist-bag",
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_pouch-waist-bag": {
+        "type": "product-row_pouch-waist-bag",
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_pouch-waist-bag": {
+        "type": "featured-content_pouch-waist-bag",
+        "settings": {
+          "title": "Featured content",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-gallery_pouch-waist-bag": {
+        "type": "custom-gallery_pouch-waist-bag",
+        "blocks": {
+          "4a9081a0-327c-45e1-92c7-3e4e9168ec4b": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/orange-poles-create-a-tunnel.jpg"
+            }
+          },
+          "877a84d6-ae21-4da7-b4e6-dee96689be9e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/fall-vegetable-box.jpg"
+            }
+          },
+          "410a5a41-9d7d-40a8-b147-cfde0be40cc5": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/alan-carrillo-OJFI4qUmKWU-unsplash_1.jpg"
+            }
+          },
+          "cee904cd-d653-4881-86db-0bca757bf5f5": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/e59917b3-9d4e-47dd-9313-1a9e7c333db8_7.jpg"
+            }
+          },
+          "c4d96449-23f8-438e-8523-6d1d0518ffa6": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/b6a9d255-a7a9-4401-8cad-fcda1c9ab880_12.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "4a9081a0-327c-45e1-92c7-3e4e9168ec4b",
+          "877a84d6-ae21-4da7-b4e6-dee96689be9e",
+          "410a5a41-9d7d-40a8-b147-cfde0be40cc5",
+          "cee904cd-d653-4881-86db-0bca757bf5f5",
+          "c4d96449-23f8-438e-8523-6d1d0518ffa6"
+        ],
         "settings": {
           "header": ""
         }
