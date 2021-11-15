@@ -861,6 +861,40 @@
       },
       "product-row_cookware": {
         "type": "product-row_cookware",
+        "blocks": {
+          "cb57c790-6065-439b-94f6-be377c5cb992": {
+            "type": "row",
+            "settings": {
+              "title": "8 PCS Picnic BBQ Cooking Set",
+              "text": "<p>Package included:<\/p><p>1 x Non-stick Pot<br\/>1 x Non-stick Pan<br\/>1 x Pan Cover<br\/>1 x Serving Ladle<br\/>1 x Soup Spoon<br\/>1 x Bamboo Spoon<br\/>1 x Cleaning Tool<br\/>1 x Nylon Carrying Bag<br\/>2 x Plastic Bowl<\/p>",
+              "section_style": "section-border",
+              "image_alignement": "left",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "e34163f6-feb8-4811-a450-493b9c328e27": {
+            "type": "row",
+            "settings": {
+              "title": "Specifications",
+              "text": "<p>Colour: Grey+Orange, Grey+Green, Grey+Black<\/p><p>Material: Aluminum Package dimension: 15.5cm x 9cm (Please allow 1-5mm error due to manual measurement)<\/p><p>Weight: 557g<\/p>",
+              "section_style": "section-border",
+              "image_alignement": "right",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "cb57c790-6065-439b-94f6-be377c5cb992",
+          "e34163f6-feb8-4811-a450-493b9c328e27"
+        ],
         "settings": {
           "show_product_row": true
         }
