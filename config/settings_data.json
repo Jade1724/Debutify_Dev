@@ -809,6 +809,49 @@
       },
       "featured-columns_cookware": {
         "type": "featured-columns_cookware",
+        "blocks": {
+          "b223abe7-913d-455c-8d8d-312ad74b55e5": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/5_5617448b-b73b-4a13-b370-0b6e2c854f65.png",
+              "icon": "",
+              "title": "Nonstick Pots & Pans",
+              "text": "<p>Made of safe and non-toxic anodized aluminum with non-stick coatingDeliver a quality cooking experience in the backcountry.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "af23906c-a69a-446e-981a-bd515caa8cb2": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3_47a024fa-7d8d-4bcd-a0bd-61b02ac1803b.png",
+              "icon": "",
+              "title": "Lightweight & Foldable",
+              "text": "<p>Easy and portable to carryAll parts can be stuffed into the nylon bag.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "6354558b-1bfc-419b-9738-13196ad521fa": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1_ccc41a09-2b13-46ce-9cb1-cb309e7fe280.png",
+              "icon": "",
+              "title": "Suitable for 1-2 people",
+              "text": "<p>Suitable for 1-2 people, with complete accessories, essential for outdoor camping.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "b223abe7-913d-455c-8d8d-312ad74b55e5",
+          "af23906c-a69a-446e-981a-bd515caa8cb2",
+          "6354558b-1bfc-419b-9738-13196ad521fa"
+        ],
         "settings": {
           "title": "Highlights",
           "subtitle": "",
