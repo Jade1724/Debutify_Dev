@@ -849,7 +849,7 @@
             "settings": {
               "icon": "",
               "title": "Goose Down Insulation",
-              "text": "<p>Never waking up freezing in the morning. Protects your shoulder and neck from piercing weather.<\/p>",
+              "text": "<p>Never feel freezing overnight. Protects your shoulder and neck from piercing winter night.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -859,8 +859,8 @@
             "type": "text_block",
             "settings": {
               "icon": "",
-              "title": "Compact",
-              "text": "<p>Two level compression make it fit beautifully in your bag without taking up space for other gears.<\/p>",
+              "title": "Two-Level Compression",
+              "text": "<p>Ultra-compact and fits beautifully in your backpack without taking up space for other gears.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -870,8 +870,8 @@
             "type": "text_block",
             "settings": {
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Waterproof & Water-Repellent",
+              "text": "<p>Nylon outer and Polyester inner linings keep you away from sogginess over dewy weather.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -896,11 +896,11 @@
           "adb97402-1644-45f5-a37d-b7ed54dca7cb": {
             "type": "row",
             "settings": {
-              "title": "Descriptions",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-              "section_style": "section-border",
+              "title": "",
+              "text": "<p>Having a comfortable sleep is essential for your energetic camping experience.<\/p><p>This goose-down-filled mummy sleeping bag embraces your whole body to make you feel nice and toasty. <\/p><p>Smooth and breathable polyester lining is the best if you want a cozy and dry feel.<\/p>",
+              "section_style": "section-blank",
               "image_alignement": "left",
-              "text_alignment": "text-center",
+              "text_alignment": "",
               "type_row": "",
               "tag_row": "",
               "product_row": "",
@@ -911,10 +911,10 @@
             "type": "row",
             "settings": {
               "title": "Specifications",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-              "section_style": "section-border",
+              "text": "<p>- Fillings: 95% white goose down filling<\/p><p>- Materials: Nylon fabric outer and polyester inner lining<\/p><p>- Weight: 3.3lb\/1.5kg<\/p><p>- Zipper position: Orange and Read on right hand side. Black, Green, and Blue on left hand side.<\/p>",
+              "section_style": "section-blank",
               "image_alignement": "right",
-              "text_alignment": "text-center",
+              "text_alignment": "",
               "type_row": "",
               "tag_row": "",
               "product_row": "",
@@ -933,8 +933,8 @@
       "featured-content_mummy-goose-down-sleeping-bag": {
         "type": "featured-content_mummy-goose-down-sleeping-bag",
         "settings": {
-          "title": "Featured content",
-          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "title": "Winter Night's Dream",
+          "text": "",
           "section_style": "section-blank",
           "text_size": "large",
           "text_alignment": "text-center",
