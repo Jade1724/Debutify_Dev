@@ -564,6 +564,7 @@
               {%- render "dbtfy-product-tabs" with product as product, class: 'spacer-top', is_split_description: is_to_split_description -%}
             {%- endif -%}
 
+            {% comment %}
             {%- if section.settings.show_product_description -%}
               {%- if product_description_position == "under_addtocart" -%}
                 {%- unless is_to_split_description -%}
@@ -573,6 +574,7 @@
                 {%- endunless -%}
               {%- endif -%}
             {%- endif -%}
+            {% endcomment %}
 
             {%- if product_tabs_position == "under_description" and product_description_position == "under_addtocart" -%}
               {%- unless has_description -%}
