@@ -891,11 +891,26 @@
               "product_row": "",
               "collection_row": ""
             }
+          },
+          "18165e39-6ed4-4ab1-8d4b-f25e6d6a6ba6": {
+            "type": "row",
+            "settings": {
+              "title": "Content",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-border",
+              "image_alignement": "left",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
           }
         },
         "block_order": [
           "cb57c790-6065-439b-94f6-be377c5cb992",
-          "e34163f6-feb8-4811-a450-493b9c328e27"
+          "e34163f6-feb8-4811-a450-493b9c328e27",
+          "18165e39-6ed4-4ab1-8d4b-f25e6d6a6ba6"
         ],
         "settings": {
           "show_product_row": true
