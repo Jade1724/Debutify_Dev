@@ -867,7 +867,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/3_47a024fa-7d8d-4bcd-a0bd-61b02ac1803b.png",
               "title": "8 PCS Picnic BBQ Cooking Set",
-              "text": "<p>Package included:<\/p><p>1 x Non-stick Pot<br\/>1 x Non-stick Pan<br\/>1 x Pan Cover<br\/>1 x Serving Ladle<br\/>1 x Soup Spoon<br\/>1 x Bamboo Spoon<br\/>1 x Cleaning Tool<br\/>1 x Nylon Carrying Bag<br\/>2 x Plastic Bowl<\/p>",
+              "text": "<p>Story telling descriptions here....<\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
               "text_alignment": "",
@@ -896,10 +896,10 @@
             "type": "row",
             "settings": {
               "title": "Content",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-              "section_style": "section-border",
+              "text": "<p>Package included:<\/p><p>1 x Non-stick Pot<br\/>1 x Non-stick Pan<br\/>1 x Pan Cover<br\/>1 x Serving Ladle<br\/>1 x Soup Spoon<br\/>1 x Bamboo Spoon<br\/>1 x Cleaning Tool<br\/>1 x Nylon Carrying Bag<br\/>2 x Plastic Bowl<\/p>",
+              "section_style": "section-blank",
               "image_alignement": "left",
-              "text_alignment": "text-center",
+              "text_alignment": "",
               "type_row": "",
               "tag_row": "",
               "product_row": "",
