@@ -808,7 +808,7 @@
               "image": "shopify:\/\/shop_images\/9f1a2754-945a-4276-b57f-5a3151592d4c.jpg",
               "title": "Image with text",
               "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-              "section_style": "section-border",
+              "section_style": "section-blank",
               "image_alignement": "right",
               "text_alignment": "text-center",
               "type_row": "",
@@ -823,7 +823,7 @@
               "image": "shopify:\/\/shop_images\/add783c9-b86d-4527-b651-a96601b57387.jpg",
               "title": "Image with text",
               "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-              "section_style": "section-border",
+              "section_style": "section-blank",
               "image_alignement": "left",
               "text_alignment": "text-center",
               "type_row": "",
@@ -845,7 +845,7 @@
       "featured-content_tent": {
         "type": "featured-content_tent",
         "settings": {
-          "title": "Gallery",
+          "title": "TODO good copy",
           "text": "",
           "section_style": "section-blank",
           "text_size": "large",
