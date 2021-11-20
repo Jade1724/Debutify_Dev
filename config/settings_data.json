@@ -738,7 +738,7 @@
           "c6f19751-3a95-454a-b4f3-c486eb40a4d5": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/camel_two_tone.png",
+              "image": "shopify:\/\/shop_images\/19843238-9329-4e18-be28-6d2ddcfeab8b.jpg",
               "icon": "",
               "title": "My assignment",
               "text": "<p>A+<\/p>",
@@ -750,6 +750,7 @@
           "6c3bb861-ccff-4961-9334-4f4c69f2b0e2": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/6_618140ce-5b5f-4b01-8905-0782d9f2662d.png",
               "icon": "",
               "title": "Add a title or tagline",
               "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
@@ -761,6 +762,7 @@
           "1b5bc29b-9147-48e1-a6d5-2b1efce0da3f": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/5_e5c7bbd8-fde4-4e29-80c0-2d33dfda9040.png",
               "icon": "",
               "title": "Add a title or tagline",
               "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
@@ -784,6 +786,58 @@
       },
       "product-row_tent": {
         "type": "product-row_tent",
+        "blocks": {
+          "ff767ac6-5bd4-4360-bb18-6c95f17581eb": {
+            "type": "row",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/9_57168407-2136-41ba-8d7f-5734d1367e04.png",
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-border",
+              "image_alignement": "left",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "d1b95439-0f1e-444b-afc6-de190bc2c6b6": {
+            "type": "row",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/9f1a2754-945a-4276-b57f-5a3151592d4c.jpg",
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "right",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "d623c570-6e5a-4dcc-9ed5-ee56a015f8c0": {
+            "type": "row",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/add783c9-b86d-4527-b651-a96601b57387.jpg",
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "left",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "ff767ac6-5bd4-4360-bb18-6c95f17581eb",
+          "d1b95439-0f1e-444b-afc6-de190bc2c6b6",
+          "d623c570-6e5a-4dcc-9ed5-ee56a015f8c0"
+        ],
         "settings": {
           "show_product_row": true
         }
@@ -791,8 +845,8 @@
       "featured-content_tent": {
         "type": "featured-content_tent",
         "settings": {
-          "title": "Featured content",
-          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "title": "TODO good copy",
+          "text": "",
           "section_style": "section-blank",
           "text_size": "large",
           "text_alignment": "text-center",
@@ -803,12 +857,94 @@
       },
       "custom-gallery_tent": {
         "type": "custom-gallery_tent",
+        "blocks": {
+          "844fbeab-3711-4fff-85b8-b5cbd0d390da": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/8_2b5a72f9-ad0f-4a66-82f0-c6adaed51f47.png"
+            }
+          },
+          "063d5a47-f972-46d4-8878-77b93dd2fd14": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/70f5ea56-c1a5-43da-807a-455909285a9a.jpg"
+            }
+          },
+          "eba0daf1-8683-4c16-81a4-5cddecb79b0e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/a04001b6-72a1-4829-8402-15db69512b7b.jpg"
+            }
+          },
+          "23c152d8-790b-4c86-8cd4-79328129161f": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/a04001b6-72a1-4829-8402-15db69512b7b.jpg"
+            }
+          },
+          "33899ae6-f75f-47c9-a6e8-fe62a95cfa43": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/7_60586f3e-1a77-472d-9e7f-a5f482c13dee.png"
+            }
+          }
+        },
+        "block_order": [
+          "844fbeab-3711-4fff-85b8-b5cbd0d390da",
+          "063d5a47-f972-46d4-8878-77b93dd2fd14",
+          "eba0daf1-8683-4c16-81a4-5cddecb79b0e",
+          "23c152d8-790b-4c86-8cd4-79328129161f",
+          "33899ae6-f75f-47c9-a6e8-fe62a95cfa43"
+        ],
         "settings": {
           "header": ""
         }
       },
       "featured-columns_cookware": {
         "type": "featured-columns_cookware",
+        "blocks": {
+          "b223abe7-913d-455c-8d8d-312ad74b55e5": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/5_5617448b-b73b-4a13-b370-0b6e2c854f65.png",
+              "icon": "",
+              "title": "Nonstick Pots & Pans",
+              "text": "<p>Made of safe and non-toxic anodized aluminum with non-stick coatingDeliver a quality cooking experience in the backcountry.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "af23906c-a69a-446e-981a-bd515caa8cb2": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3_47a024fa-7d8d-4bcd-a0bd-61b02ac1803b.png",
+              "icon": "",
+              "title": "Lightweight & Foldable",
+              "text": "<p>Easy and portable to carryAll parts can be stuffed into the nylon bag.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "6354558b-1bfc-419b-9738-13196ad521fa": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1_ccc41a09-2b13-46ce-9cb1-cb309e7fe280.png",
+              "icon": "",
+              "title": "Suitable for 1-2 people",
+              "text": "<p>Suitable for 1-2 people, with complete accessories, essential for outdoor camping.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "b223abe7-913d-455c-8d8d-312ad74b55e5",
+          "af23906c-a69a-446e-981a-bd515caa8cb2",
+          "6354558b-1bfc-419b-9738-13196ad521fa"
+        ],
         "settings": {
           "title": "Highlights",
           "subtitle": "",
@@ -818,6 +954,57 @@
       },
       "product-row_cookware": {
         "type": "product-row_cookware",
+        "blocks": {
+          "cb57c790-6065-439b-94f6-be377c5cb992": {
+            "type": "row",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3_47a024fa-7d8d-4bcd-a0bd-61b02ac1803b.png",
+              "title": "8 PCS Picnic BBQ Cooking Set",
+              "text": "<p>Story telling descriptions here....<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "left",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "e34163f6-feb8-4811-a450-493b9c328e27": {
+            "type": "row",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2_a786b09a-0e54-47e0-9f98-cf922875b4e5.png",
+              "title": "Specifications",
+              "text": "<p>Colour: Grey+Orange, Grey+Green, Grey+Black<\/p><p>Material: Aluminum Package<\/p><p>dimension: 15.5cm x 9cm (Please allow 1-5mm error due to manual measurement)<\/p><p>Weight: 557g<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "right",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "18165e39-6ed4-4ab1-8d4b-f25e6d6a6ba6": {
+            "type": "row",
+            "settings": {
+              "title": "Content",
+              "text": "<p>Package included:<\/p><p>1 x Non-stick Pot<br\/>1 x Non-stick Pan<br\/>1 x Pan Cover<br\/>1 x Serving Ladle<br\/>1 x Soup Spoon<br\/>1 x Bamboo Spoon<br\/>1 x Cleaning Tool<br\/>1 x Nylon Carrying Bag<br\/>2 x Plastic Bowl<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "left",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "cb57c790-6065-439b-94f6-be377c5cb992",
+          "e34163f6-feb8-4811-a450-493b9c328e27",
+          "18165e39-6ed4-4ab1-8d4b-f25e6d6a6ba6"
+        ],
         "settings": {
           "show_product_row": true
         }
@@ -825,8 +1012,8 @@
       "featured-content_cookware": {
         "type": "featured-content_cookware",
         "settings": {
-          "title": "Featured content",
-          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "title": "Gallery",
+          "text": "",
           "section_style": "section-blank",
           "text_size": "large",
           "text_alignment": "text-center",
@@ -837,6 +1024,45 @@
       },
       "custom-gallery_cookware": {
         "type": "custom-gallery_cookware",
+        "blocks": {
+          "1714d059-a4e6-415b-a110-7a4e8ab5c368": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/5_5617448b-b73b-4a13-b370-0b6e2c854f65.png"
+            }
+          },
+          "c1c6f46f-4b87-42af-9377-4830518201d2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/10_c75dc2a6-05c0-4303-9e39-fcce977ea2f0.png"
+            }
+          },
+          "b88fc264-9028-4e57-b834-54ef9535d99f": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1_ccc41a09-2b13-46ce-9cb1-cb309e7fe280.png"
+            }
+          },
+          "b2ef6beb-1736-469c-a6ef-1b952156a703": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/7_ca05da56-0122-4452-8edf-224b68297224.png"
+            }
+          },
+          "93c5137d-e3c2-4f6a-ab9b-f08981a865b6": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/9_cb5d918f-42b4-406c-b2f7-f90aac2b004f.png"
+            }
+          }
+        },
+        "block_order": [
+          "1714d059-a4e6-415b-a110-7a4e8ab5c368",
+          "c1c6f46f-4b87-42af-9377-4830518201d2",
+          "b88fc264-9028-4e57-b834-54ef9535d99f",
+          "b2ef6beb-1736-469c-a6ef-1b952156a703",
+          "93c5137d-e3c2-4f6a-ab9b-f08981a865b6"
+        ],
         "settings": {
           "header": ""
         }
@@ -847,6 +1073,7 @@
           "d6192c52-ad80-4471-85ac-6528c9735d2c": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/TB2U8_rbypnpuFjSZFIXXXh2VXa__2766852809_441e1ed7-3337-40b8-b09c-b9e9d5793902.jpg",
               "icon": "",
               "title": "Goose Down Insulation",
               "text": "<p>Never feel freezing overnight. Protects your shoulder and neck from piercing winter night.<\/p>",
@@ -858,6 +1085,7 @@
           "58a292b4-013f-40fb-ab12-dea84bc9c8e0": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/two-stage-compression-sleeping-bag.png",
               "icon": "",
               "title": "Two-Level Compression",
               "text": "<p>Ultra-compact and fits beautifully in your backpack without taking up space for other gears.<\/p>",
@@ -869,6 +1097,7 @@
           "31193b66-b335-42f1-b517-22e5a868ef47": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/TB2Y4PlbC4mpuFjSZFOXXaUqpXa__2766852809_copy_4af3e39f-cbdf-4d38-a64c-78f8dc88984a.jpg",
               "icon": "",
               "title": "Waterproof & Water-Repellent",
               "text": "<p>Nylon outer and Polyester inner linings keep you away from sogginess over dewy weather.<\/p>",
@@ -896,6 +1125,7 @@
           "adb97402-1644-45f5-a37d-b7ed54dca7cb": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/sleeping-bag-half-opened.png",
               "title": "",
               "text": "<p>Having a comfortable sleep is essential for your energetic camping experience.<\/p><p>This goose-down-filled mummy sleeping bag embraces your whole body to make you feel nice and toasty. <\/p><p>Smooth and breathable polyester lining is the best if you want a cozy and dry feel.<\/p>",
               "section_style": "section-blank",
@@ -910,6 +1140,7 @@
           "501eb099-029c-4e87-90d8-a698785793f2": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/1.png",
               "title": "Specifications",
               "text": "<p>- Fillings: 95% white goose down filling<\/p><p>- Materials: Nylon fabric outer and polyester inner lining<\/p><p>- Weight: 3.3lb\/1.5kg<\/p><p>- Zipper position: Orange and Read on right hand side. Black, Green, and Blue on left hand side.<\/p>",
               "section_style": "section-blank",
@@ -933,7 +1164,7 @@
       "featured-content_mummy-goose-down-sleeping-bag": {
         "type": "featured-content_mummy-goose-down-sleeping-bag",
         "settings": {
-          "title": "Winter Night's Dream",
+          "title": "",
           "text": "",
           "section_style": "section-blank",
           "text_size": "large",
@@ -949,31 +1180,31 @@
           "0ddd8b71-97d1-4712-b774-8f2bd92f57e5": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/model1.jpg"
+              "image": "shopify:\/\/shop_images\/500x750_2.png"
             }
           },
           "aaaf9c16-4191-4791-9ad1-a340210814ef": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/7168363c-5f46-4386-8ac9-c68752e57c4e_5.jpg"
+              "image": "shopify:\/\/shop_images\/500x375.png"
             }
           },
           "af9f9123-87db-4a14-9a26-13744c42d027": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/alan-carrillo-OJFI4qUmKWU-unsplash_1.jpg"
+              "image": "shopify:\/\/shop_images\/1000x640.png"
             }
           },
           "cf09c6ae-272e-4e15-826b-215a5ec457c5": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/58d44c6f-4e4c-4679-981b-a1d62d70624a_4.jpg"
+              "image": "shopify:\/\/shop_images\/500x750_3.png"
             }
           },
           "c35362f9-dc10-4031-938d-25e10244d00d": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/b6a9d255-a7a9-4401-8cad-fcda1c9ab880_12.jpg"
+              "image": "shopify:\/\/shop_images\/500x750_4.png"
             }
           }
         },
@@ -1057,6 +1288,118 @@
           "cee904cd-d653-4881-86db-0bca757bf5f5",
           "c4d96449-23f8-438e-8523-6d1d0518ffa6"
         ],
+        "settings": {
+          "header": ""
+        }
+      },
+      "featured-columns_camping-stove": {
+        "type": "featured-columns_camping-stove",
+        "blocks": {
+          "c3b6dedc-35ef-453e-8454-8c4137553eef": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Palm-size and featherweight",
+              "text": "<p>Nothing could be easier than this pocket size solid box to pack<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "e59cfd39-e05e-42a7-8ede-f7305305974c": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/6_35972380065957.png",
+              "icon": "",
+              "title": "Comes with the ignition",
+              "text": "<p>All you need is one press.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "e085858b-2ade-47de-836a-d3b39f73c236": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3_10504275539741.png",
+              "icon": "",
+              "title": "Everything is under control",
+              "text": "<p>Ultimate adjustable valve and heats up 1 liter water in 3 minutes<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "c3b6dedc-35ef-453e-8454-8c4137553eef",
+          "e59cfd39-e05e-42a7-8ede-f7305305974c",
+          "e085858b-2ade-47de-836a-d3b39f73c236"
+        ],
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_camping-stove": {
+        "type": "product-row_camping-stove",
+        "blocks": {
+          "de7ceb88-193f-4ffa-9dba-a65d67ce7d81": {
+            "type": "row",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1_116935780119.png",
+              "title": "",
+              "text": "<p>Every adventure is different, but a cup of coffee or tea is just about the perfect start to any day in the wilderness, a warm meal is pretty tough to beat to end a long day on the trail. <\/p><p>To enhance your wilderness adventures, a mini-size camping stove is one of the essential tools.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "left",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "ed61ebf3-0792-4c07-9543-56783b83679e": {
+            "type": "row",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ezgif-7-d1df6f77b768.jpg",
+              "title": "",
+              "text": "<p>Expand: 8X7.5cm<br\/>Collapse: 8X6cm<br\/>Product weight: 120 g<br\/>Burning power: 3000W<br\/>Interface size: 1.2mm<br\/>Product material: stainless steel, copper aluminum alloy<br\/>Honeycomb plate size: 3cm<br\/>Product packaging: plastic box<br\/>Storage box size: 8.2 X 5.5 X 4cm<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "right",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "de7ceb88-193f-4ffa-9dba-a65d67ce7d81",
+          "ed61ebf3-0792-4c07-9543-56783b83679e"
+        ],
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_camping-stove": {
+        "type": "featured-content_camping-stove",
+        "settings": {
+          "title": "",
+          "text": "",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-gallery_camping-stove": {
+        "type": "custom-gallery_camping-stove",
         "settings": {
           "header": ""
         }
