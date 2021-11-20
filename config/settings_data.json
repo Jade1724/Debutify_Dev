@@ -845,7 +845,7 @@
       "featured-content_tent": {
         "type": "featured-content_tent",
         "settings": {
-          "title": "TODO good copy",
+          "title": "",
           "text": "",
           "section_style": "section-blank",
           "text_size": "large",
@@ -861,31 +861,31 @@
           "844fbeab-3711-4fff-85b8-b5cbd0d390da": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/8_2b5a72f9-ad0f-4a66-82f0-c6adaed51f47.png"
+              "image": "shopify:\/\/shop_images\/image1.png"
             }
           },
           "063d5a47-f972-46d4-8878-77b93dd2fd14": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/70f5ea56-c1a5-43da-807a-455909285a9a.jpg"
+              "image": "shopify:\/\/shop_images\/image2.png"
             }
           },
           "eba0daf1-8683-4c16-81a4-5cddecb79b0e": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/a04001b6-72a1-4829-8402-15db69512b7b.jpg"
+              "image": "shopify:\/\/shop_images\/image3.jpg"
             }
           },
           "23c152d8-790b-4c86-8cd4-79328129161f": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/a04001b6-72a1-4829-8402-15db69512b7b.jpg"
+              "image": "shopify:\/\/shop_images\/image4.jpg"
             }
           },
           "33899ae6-f75f-47c9-a6e8-fe62a95cfa43": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/7_60586f3e-1a77-472d-9e7f-a5f482c13dee.png"
+              "image": "shopify:\/\/shop_images\/image5.png"
             }
           }
         },
@@ -1400,6 +1400,148 @@
       },
       "custom-gallery_camping-stove": {
         "type": "custom-gallery_camping-stove",
+        "settings": {
+          "header": ""
+        }
+      },
+      "featured-columns_kodenor-hiking-pole": {
+        "type": "featured-columns_kodenor-hiking-pole",
+        "blocks": {
+          "70391a46-9a18-4ac1-9bc4-277b8cdece6c": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "8813ff8c-ad99-4b58-9f7d-2dbb09f1ace5": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "edd8f484-2061-4ca6-ae18-6981f10ac6d4": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "70391a46-9a18-4ac1-9bc4-277b8cdece6c",
+          "8813ff8c-ad99-4b58-9f7d-2dbb09f1ace5",
+          "edd8f484-2061-4ca6-ae18-6981f10ac6d4"
+        ],
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_kodenor-hiking-pole": {
+        "type": "product-row_kodenor-hiking-pole",
+        "blocks": {
+          "0bfc7c81-d2d8-4c08-8df5-f09a31d0739c": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "left",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "41787a4b-dc09-4d36-b9c9-6906217eae25": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "right",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "0bfc7c81-d2d8-4c08-8df5-f09a31d0739c",
+          "41787a4b-dc09-4d36-b9c9-6906217eae25"
+        ],
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_kodenor-hiking-pole": {
+        "type": "featured-content_kodenor-hiking-pole",
+        "settings": {
+          "title": "",
+          "text": "",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-gallery_kodenor-hiking-pole": {
+        "type": "custom-gallery_kodenor-hiking-pole",
+        "blocks": {
+          "8ed2f3d3-5a3d-4007-add9-f0755d8a524c": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "57ac35cb-8d92-4af9-854e-2076262d135b": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "6becc518-6e27-4a18-ad17-c9aaa3c5338b": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "79ffca8c-9a3b-425c-8f04-ce24973ecf91": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "ddc3b079-4b87-4788-a9eb-9f4cc3ef209f": {
+            "type": "image",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "8ed2f3d3-5a3d-4007-add9-f0755d8a524c",
+          "57ac35cb-8d92-4af9-854e-2076262d135b",
+          "6becc518-6e27-4a18-ad17-c9aaa3c5338b",
+          "79ffca8c-9a3b-425c-8f04-ce24973ecf91",
+          "ddc3b079-4b87-4788-a9eb-9f4cc3ef209f"
+        ],
         "settings": {
           "header": ""
         }
