@@ -1115,7 +1115,7 @@
         "settings": {
           "title": "Highlights",
           "subtitle": "",
-          "section_style": "section-default",
+          "section_style": "section-blank",
           "text_align": "text-center"
         }
       },
@@ -1186,13 +1186,13 @@
           "aaaf9c16-4191-4791-9ad1-a340210814ef": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/7168363c-5f46-4386-8ac9-c68752e57c4e_5.jpg"
+              "image": "shopify:\/\/shop_images\/500x375.png"
             }
           },
           "af9f9123-87db-4a14-9a26-13744c42d027": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/alan-carrillo-OJFI4qUmKWU-unsplash_1.jpg"
+              "image": "shopify:\/\/shop_images\/1000x640.png"
             }
           },
           "cf09c6ae-272e-4e15-826b-215a5ec457c5": {
