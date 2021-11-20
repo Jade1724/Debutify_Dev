@@ -1097,7 +1097,7 @@
           "31193b66-b335-42f1-b517-22e5a868ef47": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/TB2Y4PlbC4mpuFjSZFOXXaUqpXa__2766852809_copy.jpg",
+              "image": "shopify:\/\/shop_images\/TB2Y4PlbC4mpuFjSZFOXXaUqpXa__2766852809_copy_4af3e39f-cbdf-4d38-a64c-78f8dc88984a.jpg",
               "icon": "",
               "title": "Waterproof & Water-Repellent",
               "text": "<p>Nylon outer and Polyester inner linings keep you away from sogginess over dewy weather.<\/p>",
@@ -1125,6 +1125,7 @@
           "adb97402-1644-45f5-a37d-b7ed54dca7cb": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/sleeping-bag-half-opened.png",
               "title": "",
               "text": "<p>Having a comfortable sleep is essential for your energetic camping experience.<\/p><p>This goose-down-filled mummy sleeping bag embraces your whole body to make you feel nice and toasty. <\/p><p>Smooth and breathable polyester lining is the best if you want a cozy and dry feel.<\/p>",
               "section_style": "section-blank",
@@ -1139,6 +1140,7 @@
           "501eb099-029c-4e87-90d8-a698785793f2": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/1.png",
               "title": "Specifications",
               "text": "<p>- Fillings: 95% white goose down filling<\/p><p>- Materials: Nylon fabric outer and polyester inner lining<\/p><p>- Weight: 3.3lb\/1.5kg<\/p><p>- Zipper position: Orange and Read on right hand side. Black, Green, and Blue on left hand side.<\/p>",
               "section_style": "section-blank",
