@@ -1,17 +1,36 @@
 {
   "current": {
-    "color_announcement_bg": "#80b918",
+    "color_announcement_bg": "#a7ad80",
     "color_announcement_text": "#ffffff",
-    "color_nav_bg": "#80b918",
-    "color_nav_border": "#6ca010",
+    "color_nav_bg": "#2d4a39",
+    "color_nav_border": "#2d4a39",
     "color_nav_text": "#ffffff",
     "color_body_bg": "#FFFFFF",
+    "color_border": "#E5E5E5",
     "color_headings": "#444444",
     "color_body_text": "#444444",
-    "color_primary": "#6ca010",
+    "color_primary": "#cb5a20",
     "color_button_text": "#ffffff",
+    "color_secondary": "#cb5a20",
     "color_sales_price": "#000000",
-    "color_footer_bg": "#537612",
+    "color_drawer_bg": "#2d4a39",
+    "color_drawer_default": "#a7ad80",
+    "color_drawer_border": "#e5e5e5",
+    "color_drawer_primary": "#dccea0",
+    "color_drawer_button_text": "#dccea0",
+    "color_drawer_secondary": "#cb5a20",
+    "color_drawer_input": "#dccea0",
+    "color_drawer_error_text": "#dccea0",
+    "color_drawer_sales_price": "#cb5a20",
+    "color_footer_bg": "#2d4a39",
+    "color_footer_default": "#dccea0",
+    "color_footer_border": "#e5e5e5",
+    "color_footer_primary": "#cb5a20",
+    "color_footer_button_text": "#ffffff",
+    "color_footer_secondary": "#cb5a20",
+    "color_footer_input": "#a7ad80",
+    "color_footer_sales_price": "#cb5a20",
+    "color_overlay": "#2d4a39",
     "color_transparent_nav_text": "#FFFFFF",
     "custom_style": "",
     "header_family": "montserrat_n4",
@@ -1584,6 +1603,40 @@
           "79ffca8c-9a3b-425c-8f04-ce24973ecf91",
           "ddc3b079-4b87-4788-a9eb-9f4cc3ef209f"
         ],
+        "settings": {
+          "header": ""
+        }
+      },
+      "featured-columns_quick-drying-pants": {
+        "type": "featured-columns_quick-drying-pants",
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_quick-drying-pants": {
+        "type": "product-row_quick-drying-pants",
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_quick-drying-pants": {
+        "type": "featured-content_quick-drying-pants",
+        "settings": {
+          "title": "Featured content",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-gallery_quick-drying-pants": {
+        "type": "custom-gallery_quick-drying-pants",
         "settings": {
           "header": ""
         }
