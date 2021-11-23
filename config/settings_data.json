@@ -556,8 +556,8 @@
           "collection_sort_enable": true,
           "tag_selector": "button",
           "rows": "4",
-          "desktop_grid": "4",
-          "mobile_grid": "2"
+          "desktop_grid": "3",
+          "mobile_grid": "1"
         }
       },
       "dbtfy-collection-filters": {
