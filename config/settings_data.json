@@ -1,5 +1,12 @@
 {
   "current": {
+    "icon": "material-icons",
+    "grid_product_truncate": false,
+    "show_breadcrumbs": false,
+    "icon_cart": "shopping_cart",
+    "cart_bubble": true,
+    "cart_bubble_animation": false,
+    "cart_count": true,
     "color_announcement_bg": "#a7ad80",
     "color_announcement_text": "#ffffff",
     "color_nav_bg": "#2d4a39",
@@ -35,6 +42,9 @@
     "color_overlay": "#2d4a39",
     "color_transparent_nav_text": "#FFFFFF",
     "custom_style": "",
+    "review_app": "product_reviews",
+    "share_whatsapp": false,
+    "share_linkedin": true,
     "header_family": "montserrat_n4",
     "dbtfy_addtocart_animation": false,
     "dbtfy_back_in_stock": false,
@@ -62,7 +72,7 @@
     "dbtfy_page_speed_booster": false,
     "dbtfy_pricing_table": false,
     "dbtfy_product_bullet_points": false,
-    "dbtfy_product_image_crop": false,
+    "dbtfy_product_image_crop": true,
     "dbtfy_product_tabs": false,
     "dbtfy_quantity_breaks": false,
     "dbtfy_quick_view": false,
@@ -78,6 +88,10 @@
     "dbtfy_trust_badge": false,
     "dbtfy_upsell_bundles": false,
     "dbtfy_wish_list": false,
+    "dbtfy_newsletter_popup_time_trigger": true,
+    "dbtfy_newsletter_popup_timeout": 30,
+    "dbtfy_newsletter_popup_scroll_depth": true,
+    "dbtfy_newsletter_popup_scroll_percentage": 51,
     "sections": {
       "dbtfy-upsell-popup": {
         "type": "dbtfy-upsell-popup",
@@ -135,7 +149,7 @@
         "settings": {
           "drawer_link_toggle": true,
           "email": true,
-          "phone": true,
+          "phone": false,
           "show_social_medias": true,
           "title": "Menu",
           "drawer_top_link_list": "main-menu",
@@ -159,7 +173,7 @@
           "show_announcement": true,
           "show_social": false,
           "email": true,
-          "phone": true,
+          "phone": false,
           "left_message": "",
           "right_message": "<p>Contact us<\/p>",
           "announcement_autoplayspeed": 5
@@ -237,7 +251,7 @@
           "guarantee-2"
         ],
         "settings": {
-          "show_guarantee": true,
+          "show_guarantee": false,
           "guarantee_size": "xl",
           "section_style": "section-border"
         }
@@ -259,35 +273,25 @@
               "phone": true
             }
           },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "column_width": 1,
-              "title": "Quick Links",
-              "subtitle": "",
-              "footer_link_list": "footer"
-            }
-          },
           "footer-2": {
             "type": "newsletter",
             "settings": {
               "column_width": 2,
               "title": "Subscribe to our newsletter",
-              "subtitle": "A short sentence describing what someone will receive by subscribing"
+              "subtitle": "Keep in touch with us to get great deals!"
             }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1",
           "footer-2"
         ],
         "settings": {
           "show_social_media": true,
           "social_title": "Follow-us on social media!",
           "show_payment_icons": true,
-          "show_shopify_footer": true,
-          "show_debutify_footer": true,
+          "show_shopify_footer": false,
+          "show_debutify_footer": false,
           "custom_credential": ""
         }
       },
@@ -302,16 +306,16 @@
               "image_position_mobile": "center center",
               "slide_link": "",
               "video": "hero_background.mp4",
-              "title": "Slideshow",
+              "title": "Black Friday Sale",
               "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your story.<\/p>",
               "text_position": "align-center",
               "text_position_mobile": "align-center",
               "text_alignment": "text-center",
               "text_alignment_mobile": "text-center",
               "enable_custom_fonts": true,
-              "slideshow_family": "ubuntu_n4",
-              "button_label": "Shop now",
-              "button_link": "shopify:\/\/collections\/all",
+              "slideshow_family": "poppins_n6",
+              "button_label": "Check the Deals",
+              "button_link": "shopify:\/\/collections\/black-friday-sale",
               "button_style": "btn--primary",
               "button_label_2": "",
               "button_link_2": "shopify:\/\/collections\/all",
@@ -329,56 +333,6 @@
           "dots": true,
           "autoplay": true,
           "autoplayspeed": 7
-        }
-      },
-      "16300649140261eede": {
-        "type": "featured-columns",
-        "blocks": {
-          "16300649140261eede-0": {
-            "type": "text_block",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/58d44c6f-4e4c-4679-981b-a1d62d70624a_4.jpg",
-              "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
-              "button_style": "btn--primary",
-              "button_label": "",
-              "image_link": "shopify:\/\/products\/antarctica-1050d-tactical-molle-edc-pouch-waist-bag-cell-phone-holster-holder-outdoor-hip-waist-belt-bag-wallet-purse"
-            }
-          },
-          "16300649140261eede-1": {
-            "type": "text_block",
-            "settings": {
-              "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
-              "button_style": "btn--primary",
-              "button_label": "",
-              "image_link": ""
-            }
-          },
-          "16300649140261eede-2": {
-            "type": "text_block",
-            "settings": {
-              "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
-              "button_style": "btn--primary",
-              "button_label": "",
-              "image_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "16300649140261eede-0",
-          "16300649140261eede-1",
-          "16300649140261eede-2"
-        ],
-        "settings": {
-          "title": "Featured columns",
-          "subtitle": "",
-          "section_style": "section-blank",
-          "text_align": "text-center"
         }
       },
       "product-template": {
@@ -527,6 +481,20 @@
       },
       "quotes": {
         "type": "quotes",
+        "blocks": {
+          "05d16c99-241a-4257-a8ef-ed11ba3c66cf": {
+            "type": "quote",
+            "disabled": true,
+            "settings": {
+              "icon": "format_quote",
+              "quote": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "author": "Author's name"
+            }
+          }
+        },
+        "block_order": [
+          "05d16c99-241a-4257-a8ef-ed11ba3c66cf"
+        ],
         "settings": {
           "show_testimonials": false,
           "title": "Testimonials",
@@ -742,9 +710,9 @@
         "settings": {
           "dbtfy_product_tabs_position": "under_addtocart",
           "show_product_vendor": false,
-          "show_product_type": true,
+          "show_product_type": false,
           "show_product_sku": false,
-          "product_title_large": true,
+          "product_title_large": false,
           "show_product_tags": true,
           "show_product_collections": true,
           "enable_image_zoom": true,
@@ -756,7 +724,7 @@
           "enable_split_description": true,
           "description_full": false,
           "dbtfy_product_description_position": "separate_section",
-          "description_style": "section-border",
+          "description_style": "section-blank",
           "text_alignment": "text-center",
           "text_alignment_mobile": "small--text-center"
         }
@@ -930,7 +898,7 @@
           "063d5a47-f972-46d4-8878-77b93dd2fd14": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/image2.png"
+              "image": "shopify:\/\/shop_images\/500x375_7147045a-38ad-433b-bc53-213c92c8aafa.png"
             }
           },
           "eba0daf1-8683-4c16-81a4-5cddecb79b0e": {
@@ -1362,8 +1330,8 @@
             "type": "text_block",
             "settings": {
               "icon": "",
-              "title": "Palm-size and featherweight",
-              "text": "<p>Nothing could be easier than this pocket size solid box to pack<\/p>",
+              "title": "Palm-size and Lightweight",
+              "text": "<p>Handy to pack, easy to use.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1374,8 +1342,8 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/6_35972380065957.png",
               "icon": "",
-              "title": "Comes with the ignition",
-              "text": "<p>All you need is one press.<\/p>",
+              "title": "All in One Fernace",
+              "text": "<p>One-click ignition and adjustable valve.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1386,8 +1354,8 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/3_10504275539741.png",
               "icon": "",
-              "title": "Everything is under control",
-              "text": "<p>Ultimate adjustable valve and heats up 1 liter water in 3 minutes<\/p>",
+              "title": "Solid Construction",
+              "text": "<p>Holds cookwares firmly up to 3kg.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1414,7 +1382,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/1_116935780119.png",
               "title": "",
-              "text": "<p>Every adventure is different, but a cup of coffee or tea is just about the perfect start to any day in the wilderness, a warm meal is pretty tough to beat to end a long day on the trail. <\/p><p>To enhance your wilderness adventures, a mini-size camping stove is one of the essential tools.<\/p>",
+              "text": "<p>This mini stove is a lightweight, compact stove ideal for backpacking and other outdoor adventures. <\/p><p>It boils a liter in 3 minutes, has pot supports that provide a stable surface for a variety of cookware, and comes in a carry case for easy packing.<\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
               "text_alignment": "",
@@ -1428,8 +1396,8 @@
             "type": "row",
             "settings": {
               "image": "shopify:\/\/shop_images\/ezgif-7-d1df6f77b768.jpg",
-              "title": "",
-              "text": "<p>Expand: 8X7.5cm<br\/>Collapse: 8X6cm<br\/>Product weight: 120 g<br\/>Burning power: 3000W<br\/>Interface size: 1.2mm<br\/>Product material: stainless steel, copper aluminum alloy<br\/>Honeycomb plate size: 3cm<br\/>Product packaging: plastic box<br\/>Storage box size: 8.2 X 5.5 X 4cm<\/p>",
+              "title": "Specifications",
+              "text": "<p><strong>Dimensions<br\/><\/strong>Expand:  8 x 7.5cm<br\/>Collapse: 8 x 6cm<br\/>Storage box: 8.2 X 5.5 X 4cm<\/p><p><strong>Burning Power<br\/><\/strong>3000W<\/p><p><strong>Materials<br\/><\/strong>Stove: Stainless steel, Copper, Aluminium alloy<br\/>Storage Box: Plastic<\/p><p><strong>Weight<\/strong><br\/>120g\/4.2oz<\/p>",
               "section_style": "section-blank",
               "image_alignement": "right",
               "text_alignment": "",
@@ -1642,11 +1610,118 @@
         "settings": {
           "header": ""
         }
+      },
+      "featured-columns_sports-hooded-mountaineering": {
+        "type": "featured-columns_sports-hooded-mountaineering",
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_sports-hooded-mountaineering": {
+        "type": "product-row_sports-hooded-mountaineering",
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_sports-hooded-mountaineering": {
+        "type": "featured-content_sports-hooded-mountaineering",
+        "settings": {
+          "title": "Featured content",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-gallery_sports-hooded-mountaineering": {
+        "type": "custom-gallery_sports-hooded-mountaineering",
+        "settings": {
+          "header": ""
+        }
+      },
+      "16377232317d6cbc6b": {
+        "type": "featured-collections",
+        "blocks": {
+          "16377232317d6cbc6b-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "clothing"
+            }
+          },
+          "16377232317d6cbc6b-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "gear"
+            }
+          },
+          "16377232317d6cbc6b-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "black-friday-sale"
+            }
+          }
+        },
+        "block_order": [
+          "16377232317d6cbc6b-0",
+          "16377232317d6cbc6b-1",
+          "16377232317d6cbc6b-2"
+        ],
+        "settings": {
+          "full_width": false,
+          "title": "",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "section_height": "small",
+          "show_view_all": false,
+          "button_label": "View all",
+          "button_link": "shopify:\/\/collections",
+          "button_style": "btn-outline-primary",
+          "slider_featured_collections": true,
+          "arrows": true,
+          "dots": true
+        }
+      },
+      "163772359491a8179c": {
+        "type": "featured-products",
+        "settings": {
+          "title": "This Month's Features",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "home_featured_products": "black-friday-sale",
+          "rows": "2",
+          "desktop_grid": "3",
+          "mobile_grid": "2",
+          "show_view_all": false,
+          "button_label": "View all",
+          "button_link": "",
+          "button_style": "btn-outline-primary",
+          "slider_related_products": true,
+          "arrows": true,
+          "dots": true,
+          "autoplay": false,
+          "autoplayspeed": 5
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "section_height": "medium",
+          "collection_per_page": 12
+        }
       }
     },
     "content_for_index": [
       "1630064890ea175e56",
-      "16300649140261eede"
+      "163772359491a8179c",
+      "16377232317d6cbc6b"
     ]
   }
 }
