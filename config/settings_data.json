@@ -331,56 +331,6 @@
           "autoplayspeed": 7
         }
       },
-      "16300649140261eede": {
-        "type": "featured-columns",
-        "blocks": {
-          "16300649140261eede-0": {
-            "type": "text_block",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/58d44c6f-4e4c-4679-981b-a1d62d70624a_4.jpg",
-              "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
-              "button_style": "btn--primary",
-              "button_label": "",
-              "image_link": "shopify:\/\/products\/antarctica-1050d-tactical-molle-edc-pouch-waist-bag-cell-phone-holster-holder-outdoor-hip-waist-belt-bag-wallet-purse"
-            }
-          },
-          "16300649140261eede-1": {
-            "type": "text_block",
-            "settings": {
-              "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
-              "button_style": "btn--primary",
-              "button_label": "",
-              "image_link": ""
-            }
-          },
-          "16300649140261eede-2": {
-            "type": "text_block",
-            "settings": {
-              "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
-              "button_style": "btn--primary",
-              "button_label": "",
-              "image_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "16300649140261eede-0",
-          "16300649140261eede-1",
-          "16300649140261eede-2"
-        ],
-        "settings": {
-          "title": "Featured columns",
-          "subtitle": "",
-          "section_style": "section-blank",
-          "text_align": "text-center"
-        }
-      },
       "product-template": {
         "type": "product-template",
         "settings": {
@@ -1743,9 +1693,8 @@
     },
     "content_for_index": [
       "1630064890ea175e56",
-      "16300649140261eede",
-      "16377232317d6cbc6b",
-      "163772359491a8179c"
+      "163772359491a8179c",
+      "16377232317d6cbc6b"
     ]
   }
 }
