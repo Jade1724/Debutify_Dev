@@ -1,5 +1,6 @@
 {
   "current": {
+    "icon": "material-icons",
     "grid_product_truncate": false,
     "color_announcement_bg": "#a7ad80",
     "color_announcement_text": "#ffffff",
