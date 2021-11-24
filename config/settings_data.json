@@ -827,8 +827,8 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/5_e5c7bbd8-fde4-4e29-80c0-2d33dfda9040.png",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Two-Door Spacious Design",
+              "text": "<p><strong>TODO<\/strong><\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -854,8 +854,8 @@
             "type": "row",
             "settings": {
               "image": "shopify:\/\/shop_images\/9_57168407-2136-41ba-8d7f-5734d1367e04.png",
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "title": "",
+              "text": "<p>Enjoy the great outdoors with your loved one. <\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
               "text_alignment": "",
@@ -869,8 +869,8 @@
             "type": "row",
             "settings": {
               "image": "shopify:\/\/shop_images\/9f1a2754-945a-4276-b57f-5a3151592d4c.jpg",
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "title": "Specifications",
+              "text": "<p><strong>Dimensions<\/strong><\/p><p><strong>Materials<\/strong><\/p><p><strong>Weight<\/strong><\/p>",
               "section_style": "section-blank",
               "image_alignement": "right",
               "text_alignment": "",
