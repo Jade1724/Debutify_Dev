@@ -2,6 +2,10 @@
   "current": {
     "icon": "material-icons",
     "grid_product_truncate": false,
+    "icon_cart": "shopping_cart",
+    "cart_bubble": true,
+    "cart_bubble_animation": false,
+    "cart_count": true,
     "color_announcement_bg": "#a7ad80",
     "color_announcement_text": "#ffffff",
     "color_nav_bg": "#2d4a39",
