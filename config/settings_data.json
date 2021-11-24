@@ -239,7 +239,7 @@
           "guarantee-2"
         ],
         "settings": {
-          "show_guarantee": true,
+          "show_guarantee": false,
           "guarantee_size": "xl",
           "section_style": "section-border"
         }
@@ -1680,6 +1680,15 @@
           "dots": true,
           "autoplay": false,
           "autoplayspeed": 5
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "section_height": "medium",
+          "collection_per_page": 12
         }
       }
     },
