@@ -42,7 +42,9 @@
     "color_overlay": "#2d4a39",
     "color_transparent_nav_text": "#FFFFFF",
     "custom_style": "",
-    "share_linkedin": false,
+    "review_app": "product_reviews",
+    "share_whatsapp": false,
+    "share_linkedin": true,
     "header_family": "montserrat_n4",
     "dbtfy_addtocart_animation": false,
     "dbtfy_back_in_stock": false,
@@ -147,7 +149,7 @@
         "settings": {
           "drawer_link_toggle": true,
           "email": true,
-          "phone": true,
+          "phone": false,
           "show_social_medias": true,
           "title": "Menu",
           "drawer_top_link_list": "main-menu",
@@ -708,9 +710,9 @@
         "settings": {
           "dbtfy_product_tabs_position": "under_addtocart",
           "show_product_vendor": false,
-          "show_product_type": true,
+          "show_product_type": false,
           "show_product_sku": false,
-          "product_title_large": true,
+          "product_title_large": false,
           "show_product_tags": true,
           "show_product_collections": true,
           "enable_image_zoom": true,
@@ -722,7 +724,7 @@
           "enable_split_description": true,
           "description_full": false,
           "dbtfy_product_description_position": "separate_section",
-          "description_style": "section-border",
+          "description_style": "section-blank",
           "text_alignment": "text-center",
           "text_alignment_mobile": "small--text-center"
         }
