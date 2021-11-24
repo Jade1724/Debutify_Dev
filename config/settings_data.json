@@ -302,16 +302,16 @@
               "image_position_mobile": "center center",
               "slide_link": "",
               "video": "hero_background.mp4",
-              "title": "Slideshow",
+              "title": "Black Friday Sale",
               "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your story.<\/p>",
               "text_position": "align-center",
               "text_position_mobile": "align-center",
               "text_alignment": "text-center",
               "text_alignment_mobile": "text-center",
               "enable_custom_fonts": true,
-              "slideshow_family": "ubuntu_n4",
-              "button_label": "Shop now",
-              "button_link": "shopify:\/\/collections\/all",
+              "slideshow_family": "poppins_n6",
+              "button_label": "Check the Deals",
+              "button_link": "shopify:\/\/collections\/black-friday-sale",
               "button_style": "btn--primary",
               "button_label_2": "",
               "button_link_2": "shopify:\/\/collections\/all",
@@ -1639,6 +1639,40 @@
       },
       "custom-gallery_quick-drying-pants": {
         "type": "custom-gallery_quick-drying-pants",
+        "settings": {
+          "header": ""
+        }
+      },
+      "featured-columns_sports-hooded-mountaineering": {
+        "type": "featured-columns_sports-hooded-mountaineering",
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_sports-hooded-mountaineering": {
+        "type": "product-row_sports-hooded-mountaineering",
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_sports-hooded-mountaineering": {
+        "type": "featured-content_sports-hooded-mountaineering",
+        "settings": {
+          "title": "Featured content",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-gallery_sports-hooded-mountaineering": {
+        "type": "custom-gallery_sports-hooded-mountaineering",
         "settings": {
           "header": ""
         }
