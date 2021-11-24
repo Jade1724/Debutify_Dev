@@ -261,15 +261,6 @@
             </div>
             {%- endif -%}
 
-            {% comment %}
-              Testing review stars click takes to bottom sections scrolling
-            {% endcomment %}
-            <div style="color: red;">
-              <a href="#gallery-grid">
-                HERE!!!!
-              </a>
-            </div>
-
             <div class="grid grid-xsmall flex-nowrap product-title-container">
               <div class="grid__item flex-fill">
                 <h1 class="product-single__title{% if section.settings.product_title_large %} page-title{% endif %}" itemprop="name">{{ title }}</h1>
@@ -279,8 +270,12 @@
             </div>
 
             {%- unless emptyState -%}
-              {%- render "review-badge" with product as product, position: "product_page", class: "spacer-bottom" -%}
-                     <div class="dbtfy-product-sales-countdown-box main-product-block" {% if product.selected_variant.available == false %}{% endif %}></div>
+              <div>
+                <a href="#shopify-product-reviews">
+                  {%- render "review-badge" with product as product, position: "product_page", class: "spacer-bottom" -%}
+                </a>
+              </div>
+              <div class="dbtfy-product-sales-countdown-box main-product-block" {% if product.selected_variant.available == false %}{% endif %}></div>
             {%- endunless -%}
 
             <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
