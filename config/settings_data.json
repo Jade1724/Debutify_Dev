@@ -1,5 +1,6 @@
 {
   "current": {
+    "grid_product_truncate": false,
     "color_announcement_bg": "#a7ad80",
     "color_announcement_text": "#ffffff",
     "color_nav_bg": "#2d4a39",
@@ -62,7 +63,7 @@
     "dbtfy_page_speed_booster": false,
     "dbtfy_pricing_table": false,
     "dbtfy_product_bullet_points": false,
-    "dbtfy_product_image_crop": false,
+    "dbtfy_product_image_crop": true,
     "dbtfy_product_tabs": false,
     "dbtfy_quantity_breaks": false,
     "dbtfy_quick_view": false,
