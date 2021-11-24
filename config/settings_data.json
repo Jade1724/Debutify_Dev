@@ -810,18 +810,6 @@
               "image_link": ""
             }
           },
-          "6c3bb861-ccff-4961-9334-4f4c69f2b0e2": {
-            "type": "text_block",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/6_618140ce-5b5f-4b01-8905-0782d9f2662d.png",
-              "icon": "",
-              "title": "Instant Pop Up & Easy Folding",
-              "text": "<p>Sturdy folding poles lock into place making assembly and disassembly simple and fast.<\/p>",
-              "button_style": "btn--primary",
-              "button_label": "",
-              "image_link": ""
-            }
-          },
           "1b5bc29b-9147-48e1-a6d5-2b1efce0da3f": {
             "type": "text_block",
             "settings": {
@@ -833,12 +821,24 @@
               "button_label": "",
               "image_link": ""
             }
+          },
+          "6c3bb861-ccff-4961-9334-4f4c69f2b0e2": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/6_618140ce-5b5f-4b01-8905-0782d9f2662d.png",
+              "icon": "",
+              "title": "Instant Pop Up & Easy Folding",
+              "text": "<p>Sturdy folding poles lock into place making assembly and disassembly simple and fast.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
           }
         },
         "block_order": [
           "c6f19751-3a95-454a-b4f3-c486eb40a4d5",
-          "6c3bb861-ccff-4961-9334-4f4c69f2b0e2",
-          "1b5bc29b-9147-48e1-a6d5-2b1efce0da3f"
+          "1b5bc29b-9147-48e1-a6d5-2b1efce0da3f",
+          "6c3bb861-ccff-4961-9334-4f4c69f2b0e2"
         ],
         "settings": {
           "title": "Highlights",
