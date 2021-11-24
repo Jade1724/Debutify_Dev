@@ -37,6 +37,7 @@
     "color_overlay": "#2d4a39",
     "color_transparent_nav_text": "#FFFFFF",
     "custom_style": "",
+    "share_linkedin": false,
     "header_family": "montserrat_n4",
     "dbtfy_addtocart_animation": false,
     "dbtfy_back_in_stock": false,
@@ -80,6 +81,10 @@
     "dbtfy_trust_badge": false,
     "dbtfy_upsell_bundles": false,
     "dbtfy_wish_list": false,
+    "dbtfy_newsletter_popup_time_trigger": true,
+    "dbtfy_newsletter_popup_timeout": 30,
+    "dbtfy_newsletter_popup_scroll_depth": true,
+    "dbtfy_newsletter_popup_scroll_percentage": 51,
     "sections": {
       "dbtfy-upsell-popup": {
         "type": "dbtfy-upsell-popup",
