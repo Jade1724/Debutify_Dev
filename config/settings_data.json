@@ -804,7 +804,7 @@
               "image": "shopify:\/\/shop_images\/19843238-9329-4e18-be28-6d2ddcfeab8b.jpg",
               "icon": "",
               "title": "Protection from the Elements",
-              "text": "<p>Durable lightweight polyester fabric with SPF50+ UV protection and waterproof up to 1000mm<\/p>",
+              "text": "<p>Durable lightweight polyester fabric with SPF50+ UV protection and waterproof up to 1000mm.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -815,8 +815,8 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/6_618140ce-5b5f-4b01-8905-0782d9f2662d.png",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Instant Pop Up & Easy Folding",
+              "text": "<p>Sturdy folding poles lock into place making assembly and disassembly simple and fast.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
