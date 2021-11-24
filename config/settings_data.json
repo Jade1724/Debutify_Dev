@@ -261,15 +261,6 @@
               "phone": true
             }
           },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "column_width": 1,
-              "title": "Quick Links",
-              "subtitle": "",
-              "footer_link_list": "footer"
-            }
-          },
           "footer-2": {
             "type": "newsletter",
             "settings": {
@@ -281,15 +272,14 @@
         },
         "block_order": [
           "footer-0",
-          "footer-1",
           "footer-2"
         ],
         "settings": {
           "show_social_media": true,
           "social_title": "Follow-us on social media!",
           "show_payment_icons": true,
-          "show_shopify_footer": true,
-          "show_debutify_footer": true,
+          "show_shopify_footer": false,
+          "show_debutify_footer": false,
           "custom_credential": ""
         }
       },
