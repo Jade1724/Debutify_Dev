@@ -170,7 +170,7 @@
           "show_announcement": true,
           "show_social": false,
           "email": true,
-          "phone": true,
+          "phone": false,
           "left_message": "",
           "right_message": "<p>Contact us<\/p>",
           "announcement_autoplayspeed": 5
