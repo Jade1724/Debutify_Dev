@@ -5,6 +5,8 @@
     "show_top_button": false,
     "show_breadcrumbs": false,
     "show_back_to_collection": false,
+    "section_padding_size": "medium",
+    "browsing_link": "",
     "cart_notes_enable": false,
     "icon_cart": "shopping_cart",
     "cart_bubble": true,
