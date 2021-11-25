@@ -276,7 +276,7 @@
           "footer-2": {
             "type": "newsletter",
             "settings": {
-              "column_width": 5,
+              "column_width": 2,
               "title": "Subscribe to our newsletter",
               "subtitle": "Keep in touch with us to get great deals!"
             }
@@ -284,7 +284,7 @@
           "da747f41-0205-47b2-b48a-e16bfaec38e0": {
             "type": "link_list",
             "settings": {
-              "column_width": 5,
+              "column_width": 4,
               "title": "Quick Links",
               "subtitle": "",
               "footer_link_list": "footer"
