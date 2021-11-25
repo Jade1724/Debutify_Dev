@@ -731,8 +731,48 @@
       },
       "featured-columns_backpack": {
         "type": "featured-columns_backpack",
+        "blocks": {
+          "79b529c3-cdb5-4846-b222-eca2a8f711be": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "d9de2acd-8e21-472f-ac05-a6b3c124d275": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "0181057e-500b-467d-8c5c-3327f7531171": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "79b529c3-cdb5-4846-b222-eca2a8f711be",
+          "d9de2acd-8e21-472f-ac05-a6b3c124d275",
+          "0181057e-500b-467d-8c5c-3327f7531171"
+        ],
         "settings": {
-          "title": "Featured columns",
+          "title": "Highlights",
           "subtitle": "",
           "section_style": "section-blank",
           "text_align": "text-center"
@@ -740,6 +780,40 @@
       },
       "product-row_backpack": {
         "type": "product-row_backpack",
+        "blocks": {
+          "8e778b96-93d0-4158-a01d-f8b38db872fc": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "left",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "33d82bea-33b7-490f-804b-72a7ec3d967c": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "right",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "8e778b96-93d0-4158-a01d-f8b38db872fc",
+          "33d82bea-33b7-490f-804b-72a7ec3d967c"
+        ],
         "settings": {
           "show_product_row": true
         }
@@ -748,7 +822,7 @@
         "type": "featured-content_backpack",
         "settings": {
           "title": "Featured content",
-          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "text": "",
           "section_style": "section-blank",
           "text_size": "large",
           "text_alignment": "text-center",
@@ -759,6 +833,40 @@
       },
       "custom-gallery_backpack": {
         "type": "custom-gallery_backpack",
+        "blocks": {
+          "466bd6bf-c4e8-4240-af21-c1ad7e140be0": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "ed7b77a1-b456-48f8-9d79-b6e5dc1301ba": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "961f4fbe-3564-4543-b9cf-53dec4270aa8": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "cd6b23ca-3064-4f5f-b62e-a4116042459c": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "048fb766-707b-4e69-8a32-04dc0948f58a": {
+            "type": "image",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "466bd6bf-c4e8-4240-af21-c1ad7e140be0",
+          "ed7b77a1-b456-48f8-9d79-b6e5dc1301ba",
+          "961f4fbe-3564-4543-b9cf-53dec4270aa8",
+          "cd6b23ca-3064-4f5f-b62e-a4116042459c",
+          "048fb766-707b-4e69-8a32-04dc0948f58a"
+        ],
         "settings": {
           "header": ""
         }
