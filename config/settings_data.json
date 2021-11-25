@@ -1057,7 +1057,7 @@
           "c6f19751-3a95-454a-b4f3-c486eb40a4d5": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/19843238-9329-4e18-be28-6d2ddcfeab8b.jpg",
+              "image": "shopify:\/\/shop_images\/column1_c9bec3cb-ca07-4a06-b3ac-45d47ec2fde6.jpg",
               "icon": "",
               "title": "Protection from the Elements",
               "text": "<p>Durable lightweight polyester fabric with SPF50+ UV protection and waterproof up to 1000mm.<\/p>",
@@ -1069,7 +1069,7 @@
           "1b5bc29b-9147-48e1-a6d5-2b1efce0da3f": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/column3.png",
+              "image": "shopify:\/\/shop_images\/column2_5269739c-1c97-4d45-b7f5-1f66215f37e4.png",
               "icon": "",
               "title": "Compact and Lightweight",
               "text": "<p>Travel light with our durable and slim packing storage bag.<\/p>",
@@ -1081,7 +1081,7 @@
           "6c3bb861-ccff-4961-9334-4f4c69f2b0e2": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/6_618140ce-5b5f-4b01-8905-0782d9f2662d.png",
+              "image": "shopify:\/\/shop_images\/750x750.png",
               "icon": "",
               "title": "Easy Set Up and Folding",
               "text": "<p>Sturdy folding poles lock into place making assembly and disassembly simple and fast.<\/p>",
@@ -1109,7 +1109,6 @@
           "ff767ac6-5bd4-4360-bb18-6c95f17581eb": {
             "type": "row",
             "settings": {
-              "image": "shopify:\/\/shop_images\/9_57168407-2136-41ba-8d7f-5734d1367e04.png",
               "title": "",
               "text": "<p>Enjoy the great outdoors with your loved one. <\/p><p>Feel sheltered with our solid-structured tent that protects you against harmful sun rays, rains, and winds.<\/p><p>Internal storage pocket, a lantern hook, and anti rust 2-way zipper are all ready to maximise your camping experience. <\/p>",
               "section_style": "section-blank",
@@ -1124,7 +1123,6 @@
           "d1b95439-0f1e-444b-afc6-de190bc2c6b6": {
             "type": "row",
             "settings": {
-              "image": "shopify:\/\/shop_images\/9f1a2754-945a-4276-b57f-5a3151592d4c.jpg",
               "title": "Specifications",
               "text": "<p><strong>Dimensions<br\/><\/strong>Height: 125cm\/49.2″<br\/>Length: 150cm\/59″<br\/>Width: 210cm\/82.6″<br\/>Packed Size: 66 x 13 x 13cm\/26 x 5.2 x 5.2″<\/p><p><strong>Materials<br\/><\/strong>• 190T silver-coated polyester Oxford fabric with UV coating (UPF 50+ UVA &lt; 5%)<br\/>• 201D waterproof fabric<\/p><p><strong>Weight<br\/><\/strong>2.35kg\/5.18lbs<\/p>",
               "section_style": "section-blank",
@@ -1139,7 +1137,6 @@
           "d623c570-6e5a-4dcc-9ed5-ee56a015f8c0": {
             "type": "row",
             "settings": {
-              "image": "shopify:\/\/shop_images\/setup_folding_instructions.png",
               "title": "Effortless Setup and Folding",
               "text": "<p>Looking for a quick-setup tent that  is both easy to set up and take down?<\/p><p>This tent offers safe, intuitive, and simple two-steps packing process to start a smooth journey back home.<\/p>",
               "section_style": "section-blank",
@@ -1180,25 +1177,21 @@
           "844fbeab-3711-4fff-85b8-b5cbd0d390da": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/image1_745b88fd-102d-49b2-8035-ae9a9f6e7940.png"
             }
           },
           "063d5a47-f972-46d4-8878-77b93dd2fd14": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/500x375_7147045a-38ad-433b-bc53-213c92c8aafa.png"
             }
           },
           "eba0daf1-8683-4c16-81a4-5cddecb79b0e": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/image3.jpg"
             }
           },
           "23c152d8-790b-4c86-8cd4-79328129161f": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/image4.jpg"
             }
           },
           "33899ae6-f75f-47c9-a6e8-fe62a95cfa43": {
