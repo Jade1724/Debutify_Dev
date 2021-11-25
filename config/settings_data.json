@@ -93,6 +93,13 @@
     "dbtfy_newsletter_popup_timeout": 30,
     "dbtfy_newsletter_popup_scroll_depth": true,
     "dbtfy_newsletter_popup_scroll_percentage": 51,
+    "checkout_header_image": "shopify:\/\/shop_images\/checkout_banner.png",
+    "checkout_logo_position": "center",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_sidebar_background_color": "#dccea0",
+    "checkout_heading_font": "Roboto",
+    "checkout_accent_color": "#cb5a20",
+    "checkout_button_color": "#cb5a20",
     "sections": {
       "dbtfy-upsell-popup": {
         "type": "dbtfy-upsell-popup",
