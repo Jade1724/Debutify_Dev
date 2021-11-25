@@ -276,14 +276,24 @@
           "footer-2": {
             "type": "newsletter",
             "settings": {
-              "column_width": 2,
+              "column_width": 5,
               "title": "Subscribe to our newsletter",
               "subtitle": "Keep in touch with us to get great deals!"
+            }
+          },
+          "da747f41-0205-47b2-b48a-e16bfaec38e0": {
+            "type": "link_list",
+            "settings": {
+              "column_width": 5,
+              "title": "Quick Links",
+              "subtitle": "",
+              "footer_link_list": "footer"
             }
           }
         },
         "block_order": [
-          "footer-2"
+          "footer-2",
+          "da747f41-0205-47b2-b48a-e16bfaec38e0"
         ],
         "settings": {
           "show_social_media": true,
