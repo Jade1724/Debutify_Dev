@@ -1109,6 +1109,7 @@
           "ff767ac6-5bd4-4360-bb18-6c95f17581eb": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/descriptions_32cff7ac-9cc6-4bbd-b2d5-d73c1b612f36.png",
               "title": "",
               "text": "<p>Enjoy the great outdoors with your loved one. <\/p><p>Feel sheltered with our solid-structured tent that protects you against harmful sun rays, rains, and winds.<\/p><p>Internal storage pocket, a lantern hook, and anti rust 2-way zipper are all ready to maximise your camping experience. <\/p>",
               "section_style": "section-blank",
@@ -1123,6 +1124,7 @@
           "d1b95439-0f1e-444b-afc6-de190bc2c6b6": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/specifications.jpg",
               "title": "Specifications",
               "text": "<p><strong>Dimensions<br\/><\/strong>Height: 125cm\/49.2″<br\/>Length: 150cm\/59″<br\/>Width: 210cm\/82.6″<br\/>Packed Size: 66 x 13 x 13cm\/26 x 5.2 x 5.2″<\/p><p><strong>Materials<br\/><\/strong>• 190T silver-coated polyester Oxford fabric with UV coating (UPF 50+ UVA &lt; 5%)<br\/>• 201D waterproof fabric<\/p><p><strong>Weight<br\/><\/strong>2.35kg\/5.18lbs<\/p>",
               "section_style": "section-blank",
@@ -1137,6 +1139,7 @@
           "d623c570-6e5a-4dcc-9ed5-ee56a015f8c0": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/setup_folding_instructions.png",
               "title": "Effortless Setup and Folding",
               "text": "<p>Looking for a quick-setup tent that  is both easy to set up and take down?<\/p><p>This tent offers safe, intuitive, and simple two-steps packing process to start a smooth journey back home.<\/p>",
               "section_style": "section-blank",
@@ -1177,27 +1180,31 @@
           "844fbeab-3711-4fff-85b8-b5cbd0d390da": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/image1_d14b0e09-1535-4faa-9de2-134d00504680.png"
             }
           },
           "063d5a47-f972-46d4-8878-77b93dd2fd14": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/500x375.png"
             }
           },
           "eba0daf1-8683-4c16-81a4-5cddecb79b0e": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/image3.jpg"
             }
           },
           "23c152d8-790b-4c86-8cd4-79328129161f": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/image4.jpg"
             }
           },
           "33899ae6-f75f-47c9-a6e8-fe62a95cfa43": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/image5.png"
+              "image": "shopify:\/\/shop_images\/image5_b05c527a-a5d5-4848-91cf-28ac95500de9.png"
             }
           }
         },
