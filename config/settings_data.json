@@ -1392,6 +1392,7 @@
           "d6192c52-ad80-4471-85ac-6528c9735d2c": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/column1.jpg",
               "icon": "",
               "title": "Goose Down Insulation",
               "text": "<p>Never feel freezing overnight. Protects your shoulder and neck on cold winter nights.<\/p>",
@@ -1403,6 +1404,7 @@
           "58a292b4-013f-40fb-ab12-dea84bc9c8e0": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/column2.png",
               "icon": "",
               "title": "Compression Straps",
               "text": "<p>This ultra-compact sleeping bag fits comfortably in your backpack without taking up space for other gear.<\/p>",
@@ -1414,6 +1416,7 @@
           "31193b66-b335-42f1-b517-22e5a868ef47": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/column3.jpg",
               "icon": "",
               "title": "Waterproof Shell",
               "text": "<p>Nylon outer and Polyester inner linings keep you dry on damp mornings.<\/p>",
@@ -1441,6 +1444,7 @@
           "adb97402-1644-45f5-a37d-b7ed54dca7cb": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/descriptions.png",
               "title": "",
               "text": "<p>Having a comfortable sleep is essential for your energetic camping experience.<\/p><p>This goose-down-filled mummy sleeping bag embraces your whole body to make you feel nice and toasty. <\/p><p>The smooth and breathable polyester lining is the best for a cozy and dry experience.<\/p>",
               "section_style": "section-blank",
@@ -1455,6 +1459,7 @@
           "501eb099-029c-4e87-90d8-a698785793f2": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/specifications.png",
               "title": "Specifications",
               "text": "<p><strong>Temperature<br\/><\/strong>Comfort: 0~10°C\/32~50°F<br\/>Extreme: -3~3°C\/26°F~37.4°F<\/p><p><strong>Dimensions<br\/><\/strong>Length: 210cm\/6′ 10.7″<br\/>Shoulder Width: 80cm\/2′ 7.5″<br\/>Foot Width: 50cm\/1′ 7.6850″<br\/>Packed Size: 28 x 17cm\/11 x 6.7″<\/p><p><strong>Materials<br\/><\/strong>Shell fabric: Nylon<br\/>Inner lining: Polyester<br\/>Filling: 400g White goose down<\/p><p><strong>Total Weight<br\/><\/strong>0.85kg\/1.87lb<\/p><p><strong>Zipper Position<br\/><\/strong>Right: Orange and Red<br\/>Left: Black, Green, and Blue<\/p>",
               "section_style": "section-blank",
@@ -1494,26 +1499,31 @@
           "0ddd8b71-97d1-4712-b774-8f2bd92f57e5": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/image1.png"
             }
           },
           "aaaf9c16-4191-4791-9ad1-a340210814ef": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/image2.png"
             }
           },
           "af9f9123-87db-4a14-9a26-13744c42d027": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/image3.png"
             }
           },
           "cf09c6ae-272e-4e15-826b-215a5ec457c5": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/image4.png"
             }
           },
           "c35362f9-dc10-4031-938d-25e10244d00d": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/image5.png"
             }
           }
         },
