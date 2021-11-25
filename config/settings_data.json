@@ -55,7 +55,7 @@
     "share_whatsapp": false,
     "share_linkedin": true,
     "header_family": "poppins_n4",
-    "header_font_size": 34,
+    "header_font_size": 36,
     "base_font_size": 18,
     "dbtfy_addtocart_animation": false,
     "dbtfy_back_in_stock": false,
@@ -456,16 +456,26 @@
           "aecee39b-1c42-49f6-bf8c-d58305bd8362": {
             "type": "link_list",
             "settings": {
-              "column_width": 2,
-              "title": "Quick Links",
+              "column_width": 1,
+              "title": "Store",
               "subtitle": "",
               "footer_link_list": "footer"
+            }
+          },
+          "dfe24af2-50ee-4637-ad93-8346774cf7ef": {
+            "type": "link_list",
+            "settings": {
+              "column_width": 1,
+              "title": "Policies",
+              "subtitle": "",
+              "footer_link_list": "policies"
             }
           }
         },
         "block_order": [
           "footer-2",
-          "aecee39b-1c42-49f6-bf8c-d58305bd8362"
+          "aecee39b-1c42-49f6-bf8c-d58305bd8362",
+          "dfe24af2-50ee-4637-ad93-8346774cf7ef"
         ],
         "settings": {
           "show_social_media": true,
