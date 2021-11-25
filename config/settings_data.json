@@ -213,6 +213,55 @@
               "title": "Male Army Green",
               "dbtfy_swatches_color_value": "#688647"
             }
+          },
+          "cffe6b51-a4d3-45aa-90bf-35da5275a92f": {
+            "type": "swatch",
+            "settings": {
+              "title": "Male Royal Blue",
+              "dbtfy_swatches_color_value": "#2887e0"
+            }
+          },
+          "29d7d969-0e77-4960-9fc1-8402e05e0b64": {
+            "type": "swatch",
+            "settings": {
+              "title": "Female Red",
+              "dbtfy_swatches_color_value": "#e93f3a"
+            }
+          },
+          "bbdd0d6e-651a-466f-8ca4-6d3fc66ee787": {
+            "type": "swatch",
+            "settings": {
+              "title": "Male Red",
+              "dbtfy_swatches_color_value": "#e93f3a"
+            }
+          },
+          "7103be20-0f43-4137-aeb0-9aae7e0f0eb6": {
+            "type": "swatch",
+            "settings": {
+              "title": "Female Rose Red",
+              "dbtfy_swatches_color_value": "#e84c94"
+            }
+          },
+          "188eefe3-5c31-437a-a34e-8ef32ee9d7a9": {
+            "type": "swatch",
+            "settings": {
+              "title": "Male Navy Blue",
+              "dbtfy_swatches_color_value": "#2b4865"
+            }
+          },
+          "49b6615f-9f99-4f91-8baf-4d82e3812f50": {
+            "type": "swatch",
+            "settings": {
+              "title": "Female Green",
+              "dbtfy_swatches_color_value": "#abdb50"
+            }
+          },
+          "797d1129-d5cb-42c0-aad7-e63733f04cd7": {
+            "type": "swatch",
+            "settings": {
+              "title": "Female Purple",
+              "dbtfy_swatches_color_value": "#90428c"
+            }
           }
         },
         "block_order": [
@@ -226,7 +275,14 @@
           "dcd713e9-6804-4722-9f43-1c5bc6491333",
           "85851123-5a16-4009-9335-2763b5b260aa",
           "4d8b674c-1816-451a-ae45-fd00e7ef4a5c",
-          "f6bd2ec9-cc12-49da-96dd-325b6960c893"
+          "f6bd2ec9-cc12-49da-96dd-325b6960c893",
+          "cffe6b51-a4d3-45aa-90bf-35da5275a92f",
+          "29d7d969-0e77-4960-9fc1-8402e05e0b64",
+          "bbdd0d6e-651a-466f-8ca4-6d3fc66ee787",
+          "7103be20-0f43-4137-aeb0-9aae7e0f0eb6",
+          "188eefe3-5c31-437a-a34e-8ef32ee9d7a9",
+          "49b6615f-9f99-4f91-8baf-4d82e3812f50",
+          "797d1129-d5cb-42c0-aad7-e63733f04cd7"
         ],
         "settings": {
         }
