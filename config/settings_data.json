@@ -137,6 +137,13 @@
       "dbtfy-color-swatches": {
         "type": "dbtfy-color-swatches",
         "blocks": {
+          "ed68846e-056f-4dcb-8bb6-82ee4583d1c2": {
+            "type": "swatch",
+            "settings": {
+              "title": "Green",
+              "dbtfy_swatches_color_value": "#94a03f"
+            }
+          },
           "e374472e-d23c-4ee5-80c5-d14932be9880": {
             "type": "swatch",
             "settings": {
@@ -174,6 +181,7 @@
           }
         },
         "block_order": [
+          "ed68846e-056f-4dcb-8bb6-82ee4583d1c2",
           "e374472e-d23c-4ee5-80c5-d14932be9880",
           "3658062d-557c-4cf7-a8fc-f23a2a2cc66c",
           "91f993c0-684f-46c6-9b31-deb70f4f9837",
