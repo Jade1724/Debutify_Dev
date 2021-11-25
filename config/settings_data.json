@@ -109,6 +109,25 @@
     "sections": {
       "dbtfy-upsell-popup": {
         "type": "dbtfy-upsell-popup",
+        "blocks": {
+          "9e4a7635-0b76-4f8c-9d78-1aed1d91add8": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Special Offer!",
+              "dbtfy_upsell_popup_text": "<p>Add this product to your cart and get 20% OFF your entire order.<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "camping-mini-stove",
+              "dbtfy_upsell_popup_product_offer": "8-pcs-picnic-bbq-cooking-set-1-2-people-non-stick-pots-pans-bowls-outdoor-camping-cookware-kit",
+              "dbtfy_upsell_popup_icons": "card_giftcard",
+              "button_label": "Claim offer!",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          }
+        },
+        "block_order": [
+          "9e4a7635-0b76-4f8c-9d78-1aed1d91add8"
+        ],
         "settings": {
           "dbtfy_upsell_popup_width": "",
           "dbtfy_upsell_popup_description": "See product details",
