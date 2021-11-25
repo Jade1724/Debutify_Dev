@@ -206,6 +206,13 @@
               "title": "Navy Blue",
               "dbtfy_swatches_color_value": "#2f415d"
             }
+          },
+          "f6bd2ec9-cc12-49da-96dd-325b6960c893": {
+            "type": "swatch",
+            "settings": {
+              "title": "Male Army Green",
+              "dbtfy_swatches_color_value": "#688647"
+            }
           }
         },
         "block_order": [
@@ -218,7 +225,8 @@
           "90bcca65-485a-4b74-ba6f-149f5ff84319",
           "dcd713e9-6804-4722-9f43-1c5bc6491333",
           "85851123-5a16-4009-9335-2763b5b260aa",
-          "4d8b674c-1816-451a-ae45-fd00e7ef4a5c"
+          "4d8b674c-1816-451a-ae45-fd00e7ef4a5c",
+          "f6bd2ec9-cc12-49da-96dd-325b6960c893"
         ],
         "settings": {
         }
