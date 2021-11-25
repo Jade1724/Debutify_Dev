@@ -192,7 +192,7 @@
                     <a class="product--wrapper product-single__thumbnail media-wrapper image-link {% if media == featured_media %} active-thumb{% endif %}"
                       data-product-thumbnail
                       data-media-id="{{ media.id }}"
-                      style="padding-top: {{ 1 | divided_by: media_aspect_ratio | times: 100 }}%;">
+                      style="padding-top: 100%;">
                       <img class="product--image product-single__thumb media lazyload"
                       {%- render 'lazysizes', img: media, img_type: 'responsive' -%}
                       alt="{{ thumbnail_alt }}"
