@@ -91,8 +91,8 @@
     "dbtfy_trust_badge": false,
     "dbtfy_upsell_bundles": false,
     "dbtfy_wish_list": false,
-    "dbtfy_color_swatches_color": "Outer Shell Color",
-    "dbtfy_color_swatches_grid": "Outer Shell Color",
+    "dbtfy_color_swatches_color": "Handles Color",
+    "dbtfy_color_swatches_grid": "Handles Color",
     "dbtfy_color_swatches_count": 3,
     "dbtfy_newsletter_popup_time_trigger": true,
     "dbtfy_newsletter_popup_timeout": 30,
@@ -137,13 +137,6 @@
       "dbtfy-color-swatches": {
         "type": "dbtfy-color-swatches",
         "blocks": {
-          "ed68846e-056f-4dcb-8bb6-82ee4583d1c2": {
-            "type": "swatch",
-            "settings": {
-              "title": "Green",
-              "dbtfy_swatches_color_value": "#94a03f"
-            }
-          },
           "e374472e-d23c-4ee5-80c5-d14932be9880": {
             "type": "swatch",
             "settings": {
@@ -171,14 +164,21 @@
               "title": "Red",
               "dbtfy_swatches_color_value": "#e43d32"
             }
+          },
+          "3e158ea9-c08a-45db-aba1-463ba633e0a6": {
+            "type": "swatch",
+            "settings": {
+              "title": "Green",
+              "dbtfy_swatches_color_value": "#b0e74e"
+            }
           }
         },
         "block_order": [
-          "ed68846e-056f-4dcb-8bb6-82ee4583d1c2",
           "e374472e-d23c-4ee5-80c5-d14932be9880",
           "3658062d-557c-4cf7-a8fc-f23a2a2cc66c",
           "91f993c0-684f-46c6-9b31-deb70f4f9837",
-          "46e24f94-78b9-46fd-8633-fdfb9282d28a"
+          "46e24f94-78b9-46fd-8633-fdfb9282d28a",
+          "3e158ea9-c08a-45db-aba1-463ba633e0a6"
         ],
         "settings": {
         }
