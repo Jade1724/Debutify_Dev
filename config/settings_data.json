@@ -262,6 +262,13 @@
               "title": "Female Purple",
               "dbtfy_swatches_color_value": "#90428c"
             }
+          },
+          "cc3650c0-1dda-4964-bdaa-86e23baf582e": {
+            "type": "swatch",
+            "settings": {
+              "title": "Army Green",
+              "dbtfy_swatches_color_value": "#41453a"
+            }
           }
         },
         "block_order": [
@@ -282,7 +289,8 @@
           "7103be20-0f43-4137-aeb0-9aae7e0f0eb6",
           "188eefe3-5c31-437a-a34e-8ef32ee9d7a9",
           "49b6615f-9f99-4f91-8baf-4d82e3812f50",
-          "797d1129-d5cb-42c0-aad7-e63733f04cd7"
+          "797d1129-d5cb-42c0-aad7-e63733f04cd7",
+          "cc3650c0-1dda-4964-bdaa-86e23baf582e"
         ],
         "settings": {
         }
