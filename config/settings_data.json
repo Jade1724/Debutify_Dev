@@ -273,20 +273,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
-            "type": "text",
-            "settings": {
-              "column_width": 2,
-              "svg": "",
-              "img_url": "",
-              "logo_width": 150,
-              "title": "About Us",
-              "subtitle": "",
-              "text": "<p>Share store details, promotions, or brand content with your customers.<\/p>",
-              "email": true,
-              "phone": true
-            }
-          },
           "footer-2": {
             "type": "newsletter",
             "settings": {
@@ -297,7 +283,6 @@
           }
         },
         "block_order": [
-          "footer-0",
           "footer-2"
         ],
         "settings": {
