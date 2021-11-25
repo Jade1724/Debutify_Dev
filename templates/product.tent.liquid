@@ -12,6 +12,10 @@
 
 {%- section 'product-recommendations' -%}
 
+<div style="position: relative;">
+  <div id="product-reviews-anchor" style="position: absolute; top: -30px;"></div>
+</div>
+
 {%- unless settings.review_widget_tabs -%}
   {%- render 'review-widget' -%}
 {%- endunless -%}
