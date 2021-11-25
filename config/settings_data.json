@@ -154,7 +154,7 @@
           "show_social_medias": true,
           "title": "Menu",
           "drawer_top_link_list": "main-menu",
-          "drawer_bottom_link_list": "footer"
+          "drawer_bottom_link_list": ""
         }
       },
       "announcement": {
