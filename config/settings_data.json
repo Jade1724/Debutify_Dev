@@ -1687,6 +1687,46 @@
       },
       "featured-columns_quick-drying-pants": {
         "type": "featured-columns_quick-drying-pants",
+        "blocks": {
+          "6f78b94b-120a-4986-b501-1296177646fa": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "e629ce62-bdc8-4108-9495-d754a650629d": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "26bbe513-4143-4e22-b493-8d14828bdd3d": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "6f78b94b-120a-4986-b501-1296177646fa",
+          "e629ce62-bdc8-4108-9495-d754a650629d",
+          "26bbe513-4143-4e22-b493-8d14828bdd3d"
+        ],
         "settings": {
           "title": "Highlights",
           "subtitle": "",
@@ -1696,6 +1736,40 @@
       },
       "product-row_quick-drying-pants": {
         "type": "product-row_quick-drying-pants",
+        "blocks": {
+          "3537fc1c-90ba-4d71-8c8e-96799a963694": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "left",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "c4a85add-5c10-47c5-b523-349a2b527efa": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "right",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "3537fc1c-90ba-4d71-8c8e-96799a963694",
+          "c4a85add-5c10-47c5-b523-349a2b527efa"
+        ],
         "settings": {
           "show_product_row": true
         }
@@ -1704,7 +1778,7 @@
         "type": "featured-content_quick-drying-pants",
         "settings": {
           "title": "Featured content",
-          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "text": "",
           "section_style": "section-blank",
           "text_size": "large",
           "text_alignment": "text-center",
@@ -1715,6 +1789,40 @@
       },
       "custom-gallery_quick-drying-pants": {
         "type": "custom-gallery_quick-drying-pants",
+        "blocks": {
+          "23dcd8a8-0e3d-4834-bca8-ea5d3ed9b6cb": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "83e69dd6-77b0-43a9-8d2d-4d56c4bc8032": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "16661979-7280-4253-ada9-b7d6b991da76": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "7062ab2c-1ead-4cf9-97b6-2dd9fa875770": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "e16f1cf2-d710-4926-9b73-76f2695a3d8d": {
+            "type": "image",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "23dcd8a8-0e3d-4834-bca8-ea5d3ed9b6cb",
+          "83e69dd6-77b0-43a9-8d2d-4d56c4bc8032",
+          "16661979-7280-4253-ada9-b7d6b991da76",
+          "7062ab2c-1ead-4cf9-97b6-2dd9fa875770",
+          "e16f1cf2-d710-4926-9b73-76f2695a3d8d"
+        ],
         "settings": {
           "header": ""
         }
