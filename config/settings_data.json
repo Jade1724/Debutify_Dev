@@ -1824,6 +1824,148 @@
           "section_height": "medium",
           "collection_per_page": 12
         }
+      },
+      "featured-columns_foldable-water-bag": {
+        "type": "featured-columns_foldable-water-bag",
+        "blocks": {
+          "d7de8717-6262-4fef-b159-6e8e5fd7bb7a": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "9697c3ff-cac0-4da9-9ad6-00e18c8f30ae": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "87c9d970-d8ab-4df5-a3fa-370b28a8f25f": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "d7de8717-6262-4fef-b159-6e8e5fd7bb7a",
+          "9697c3ff-cac0-4da9-9ad6-00e18c8f30ae",
+          "87c9d970-d8ab-4df5-a3fa-370b28a8f25f"
+        ],
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_foldable-water-bag": {
+        "type": "product-row_foldable-water-bag",
+        "blocks": {
+          "7e220e8e-567c-425c-9818-06e99deb8feb": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "left",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "70bf7837-1ba6-47a8-b9f0-f774c07b33c3": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "right",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "7e220e8e-567c-425c-9818-06e99deb8feb",
+          "70bf7837-1ba6-47a8-b9f0-f774c07b33c3"
+        ],
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_foldable-water-bag": {
+        "type": "featured-content_foldable-water-bag",
+        "settings": {
+          "title": "Featured content",
+          "text": "",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-gallery_foldable-water-bag": {
+        "type": "custom-gallery_foldable-water-bag",
+        "blocks": {
+          "ca79d744-248e-459f-ab23-661f756b564c": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "f834ffca-99ce-4c7b-8f37-3b73f64e3e10": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "7d82de1d-6d0e-482d-b07c-226ce4bac1d2": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "0e4f6dd5-920a-473b-b4ae-dd46363a1508": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "ff24fd8f-7627-4e9a-86f3-830f8d743e11": {
+            "type": "image",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "ca79d744-248e-459f-ab23-661f756b564c",
+          "f834ffca-99ce-4c7b-8f37-3b73f64e3e10",
+          "7d82de1d-6d0e-482d-b07c-226ce4bac1d2",
+          "0e4f6dd5-920a-473b-b4ae-dd46363a1508",
+          "ff24fd8f-7627-4e9a-86f3-830f8d743e11"
+        ],
+        "settings": {
+          "header": ""
+        }
       }
     },
     "content_for_index": [
