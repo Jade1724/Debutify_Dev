@@ -723,7 +723,7 @@
           "show_product_sku": false,
           "product_title_large": false,
           "show_product_tags": true,
-          "show_product_collections": true,
+          "show_product_collections": false,
           "enable_image_zoom": true,
           "enable_video_looping": true,
           "media_layout": "thumbnails",
