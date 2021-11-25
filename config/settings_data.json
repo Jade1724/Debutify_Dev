@@ -2171,18 +2171,11 @@
             "settings": {
               "collection": "gear"
             }
-          },
-          "16377232317d6cbc6b-2": {
-            "type": "collection",
-            "settings": {
-              "collection": "black-friday-sale"
-            }
           }
         },
         "block_order": [
           "16377232317d6cbc6b-0",
-          "16377232317d6cbc6b-1",
-          "16377232317d6cbc6b-2"
+          "16377232317d6cbc6b-1"
         ],
         "settings": {
           "full_width": false,
