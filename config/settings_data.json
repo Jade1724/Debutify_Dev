@@ -3,10 +3,13 @@
     "icon": "material-icons",
     "grid_product_truncate": false,
     "show_breadcrumbs": false,
+    "cart_notes_enable": false,
     "icon_cart": "shopping_cart",
     "cart_bubble": true,
     "cart_bubble_animation": false,
     "cart_count": true,
+    "cart_cost_checkout": false,
+    "checkout_icon": "",
     "color_announcement_bg": "#a7ad80",
     "color_announcement_text": "#ffffff",
     "color_nav_bg": "#2d4a39",
@@ -88,10 +91,18 @@
     "dbtfy_trust_badge": false,
     "dbtfy_upsell_bundles": false,
     "dbtfy_wish_list": false,
+    "dbtfy_color_swatches_count": 3,
     "dbtfy_newsletter_popup_time_trigger": true,
     "dbtfy_newsletter_popup_timeout": 30,
     "dbtfy_newsletter_popup_scroll_depth": true,
     "dbtfy_newsletter_popup_scroll_percentage": 51,
+    "checkout_header_image": "shopify:\/\/shop_images\/checkout_banner.png",
+    "checkout_logo_position": "center",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_sidebar_background_color": "#dccea0",
+    "checkout_heading_font": "Roboto",
+    "checkout_accent_color": "#cb5a20",
+    "checkout_button_color": "#cb5a20",
     "sections": {
       "dbtfy-upsell-popup": {
         "type": "dbtfy-upsell-popup",
@@ -153,7 +164,7 @@
           "show_social_medias": true,
           "title": "Menu",
           "drawer_top_link_list": "main-menu",
-          "drawer_bottom_link_list": "footer"
+          "drawer_bottom_link_list": ""
         }
       },
       "announcement": {
@@ -521,7 +532,7 @@
           "collection_tags_enable": true,
           "collection_tags_count": true,
           "collection_multiple_tags_filtering_enable": true,
-          "collection_sort_enable": true,
+          "collection_sort_enable": false,
           "tag_selector": "button",
           "rows": "4",
           "desktop_grid": "3",
@@ -1687,6 +1698,46 @@
       },
       "featured-columns_quick-drying-pants": {
         "type": "featured-columns_quick-drying-pants",
+        "blocks": {
+          "6f78b94b-120a-4986-b501-1296177646fa": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "e629ce62-bdc8-4108-9495-d754a650629d": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "26bbe513-4143-4e22-b493-8d14828bdd3d": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "6f78b94b-120a-4986-b501-1296177646fa",
+          "e629ce62-bdc8-4108-9495-d754a650629d",
+          "26bbe513-4143-4e22-b493-8d14828bdd3d"
+        ],
         "settings": {
           "title": "Highlights",
           "subtitle": "",
@@ -1696,6 +1747,40 @@
       },
       "product-row_quick-drying-pants": {
         "type": "product-row_quick-drying-pants",
+        "blocks": {
+          "3537fc1c-90ba-4d71-8c8e-96799a963694": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "left",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "c4a85add-5c10-47c5-b523-349a2b527efa": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "right",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "3537fc1c-90ba-4d71-8c8e-96799a963694",
+          "c4a85add-5c10-47c5-b523-349a2b527efa"
+        ],
         "settings": {
           "show_product_row": true
         }
@@ -1704,7 +1789,7 @@
         "type": "featured-content_quick-drying-pants",
         "settings": {
           "title": "Featured content",
-          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "text": "",
           "section_style": "section-blank",
           "text_size": "large",
           "text_alignment": "text-center",
@@ -1715,12 +1800,86 @@
       },
       "custom-gallery_quick-drying-pants": {
         "type": "custom-gallery_quick-drying-pants",
+        "blocks": {
+          "23dcd8a8-0e3d-4834-bca8-ea5d3ed9b6cb": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "83e69dd6-77b0-43a9-8d2d-4d56c4bc8032": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "16661979-7280-4253-ada9-b7d6b991da76": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "7062ab2c-1ead-4cf9-97b6-2dd9fa875770": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "e16f1cf2-d710-4926-9b73-76f2695a3d8d": {
+            "type": "image",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "23dcd8a8-0e3d-4834-bca8-ea5d3ed9b6cb",
+          "83e69dd6-77b0-43a9-8d2d-4d56c4bc8032",
+          "16661979-7280-4253-ada9-b7d6b991da76",
+          "7062ab2c-1ead-4cf9-97b6-2dd9fa875770",
+          "e16f1cf2-d710-4926-9b73-76f2695a3d8d"
+        ],
         "settings": {
           "header": ""
         }
       },
       "featured-columns_sports-hooded-mountaineering": {
         "type": "featured-columns_sports-hooded-mountaineering",
+        "blocks": {
+          "d45f80df-12f1-4808-8a6a-0dd946e57f1d": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "e7d4e2b1-56ad-46c4-8c58-ac106d22e460": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "74589b02-6f30-45ec-94ca-ee489e10ea6c": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "d45f80df-12f1-4808-8a6a-0dd946e57f1d",
+          "e7d4e2b1-56ad-46c4-8c58-ac106d22e460",
+          "74589b02-6f30-45ec-94ca-ee489e10ea6c"
+        ],
         "settings": {
           "title": "Highlights",
           "subtitle": "",
@@ -1730,6 +1889,40 @@
       },
       "product-row_sports-hooded-mountaineering": {
         "type": "product-row_sports-hooded-mountaineering",
+        "blocks": {
+          "ea006ac8-ca73-4c9c-ad98-5d926254df4c": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "left",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "2d76f291-3063-4fd8-b78a-45a9b07115eb": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "right",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "ea006ac8-ca73-4c9c-ad98-5d926254df4c",
+          "2d76f291-3063-4fd8-b78a-45a9b07115eb"
+        ],
         "settings": {
           "show_product_row": true
         }
@@ -1738,7 +1931,7 @@
         "type": "featured-content_sports-hooded-mountaineering",
         "settings": {
           "title": "Featured content",
-          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "text": "",
           "section_style": "section-blank",
           "text_size": "large",
           "text_alignment": "text-center",
@@ -1749,6 +1942,40 @@
       },
       "custom-gallery_sports-hooded-mountaineering": {
         "type": "custom-gallery_sports-hooded-mountaineering",
+        "blocks": {
+          "865eb81d-6415-40cb-81e4-42d6a387950c": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "de8cdc05-01cd-4ac6-9343-2ce39fdb4086": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "88771e68-0e33-40a5-ae1c-4dab9adbe1ba": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "6247ae3d-c753-4680-92ca-1cc0c80a1ef7": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "542c109e-360d-415d-94c5-323e89562f97": {
+            "type": "image",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "865eb81d-6415-40cb-81e4-42d6a387950c",
+          "de8cdc05-01cd-4ac6-9343-2ce39fdb4086",
+          "88771e68-0e33-40a5-ae1c-4dab9adbe1ba",
+          "6247ae3d-c753-4680-92ca-1cc0c80a1ef7",
+          "542c109e-360d-415d-94c5-323e89562f97"
+        ],
         "settings": {
           "header": ""
         }
@@ -1823,6 +2050,148 @@
           "sort": "alphabetical",
           "section_height": "medium",
           "collection_per_page": 12
+        }
+      },
+      "featured-columns_foldable-water-bag": {
+        "type": "featured-columns_foldable-water-bag",
+        "blocks": {
+          "d7de8717-6262-4fef-b159-6e8e5fd7bb7a": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "9697c3ff-cac0-4da9-9ad6-00e18c8f30ae": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "87c9d970-d8ab-4df5-a3fa-370b28a8f25f": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "d7de8717-6262-4fef-b159-6e8e5fd7bb7a",
+          "9697c3ff-cac0-4da9-9ad6-00e18c8f30ae",
+          "87c9d970-d8ab-4df5-a3fa-370b28a8f25f"
+        ],
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_foldable-water-bag": {
+        "type": "product-row_foldable-water-bag",
+        "blocks": {
+          "7e220e8e-567c-425c-9818-06e99deb8feb": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "left",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "70bf7837-1ba6-47a8-b9f0-f774c07b33c3": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "right",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "7e220e8e-567c-425c-9818-06e99deb8feb",
+          "70bf7837-1ba6-47a8-b9f0-f774c07b33c3"
+        ],
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_foldable-water-bag": {
+        "type": "featured-content_foldable-water-bag",
+        "settings": {
+          "title": "Featured content",
+          "text": "",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-gallery_foldable-water-bag": {
+        "type": "custom-gallery_foldable-water-bag",
+        "blocks": {
+          "ca79d744-248e-459f-ab23-661f756b564c": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "f834ffca-99ce-4c7b-8f37-3b73f64e3e10": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "7d82de1d-6d0e-482d-b07c-226ce4bac1d2": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "0e4f6dd5-920a-473b-b4ae-dd46363a1508": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "ff24fd8f-7627-4e9a-86f3-830f8d743e11": {
+            "type": "image",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "ca79d744-248e-459f-ab23-661f756b564c",
+          "f834ffca-99ce-4c7b-8f37-3b73f64e3e10",
+          "7d82de1d-6d0e-482d-b07c-226ce4bac1d2",
+          "0e4f6dd5-920a-473b-b4ae-dd46363a1508",
+          "ff24fd8f-7627-4e9a-86f3-830f8d743e11"
+        ],
+        "settings": {
+          "header": ""
         }
       }
     },
