@@ -431,13 +431,13 @@
           "show_product_recommendations": true,
           "title": "Recommended for you",
           "subtitle": "",
-          "section_style": "section-border",
+          "section_style": "section-blank",
           "rows": "2",
           "desktop_grid": "4",
           "mobile_grid": "2",
           "slider_related_products": true,
           "arrows": true,
-          "dots": true,
+          "dots": false,
           "autoplay": false,
           "autoplayspeed": 5
         }
