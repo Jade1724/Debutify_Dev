@@ -267,7 +267,14 @@
             "type": "swatch",
             "settings": {
               "title": "Army Green",
-              "dbtfy_swatches_color_value": "#41453a"
+              "dbtfy_swatches_color_value": "#65675b"
+            }
+          },
+          "45f410b5-b04f-4b53-a081-1a3141fabd95": {
+            "type": "swatch",
+            "settings": {
+              "title": "Grey",
+              "dbtfy_swatches_color_value": "#504f54"
             }
           }
         },
@@ -290,7 +297,8 @@
           "188eefe3-5c31-437a-a34e-8ef32ee9d7a9",
           "49b6615f-9f99-4f91-8baf-4d82e3812f50",
           "797d1129-d5cb-42c0-aad7-e63733f04cd7",
-          "cc3650c0-1dda-4964-bdaa-86e23baf582e"
+          "cc3650c0-1dda-4964-bdaa-86e23baf582e",
+          "45f410b5-b04f-4b53-a081-1a3141fabd95"
         ],
         "settings": {
         }
