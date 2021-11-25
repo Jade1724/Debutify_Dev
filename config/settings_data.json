@@ -99,7 +99,7 @@
     "dbtfy_newsletter_popup_time_trigger": true,
     "dbtfy_newsletter_popup_timeout": 30,
     "dbtfy_newsletter_popup_scroll_depth": true,
-    "dbtfy_newsletter_popup_scroll_percentage": 51,
+    "dbtfy_newsletter_popup_scroll_percentage": 60,
     "checkout_logo_position": "center",
     "checkout_body_background_color": "#ffffff",
     "checkout_sidebar_background_color": "#dccea0",
