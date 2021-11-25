@@ -1331,7 +1331,7 @@
       "featured-content_cookware": {
         "type": "featured-content_cookware",
         "settings": {
-          "title": "Gallery",
+          "title": "",
           "text": "",
           "section_style": "section-blank",
           "text_size": "large",
