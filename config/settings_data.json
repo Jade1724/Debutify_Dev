@@ -1721,6 +1721,46 @@
       },
       "featured-columns_sports-hooded-mountaineering": {
         "type": "featured-columns_sports-hooded-mountaineering",
+        "blocks": {
+          "d45f80df-12f1-4808-8a6a-0dd946e57f1d": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "e7d4e2b1-56ad-46c4-8c58-ac106d22e460": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "74589b02-6f30-45ec-94ca-ee489e10ea6c": {
+            "type": "text_block",
+            "settings": {
+              "icon": "",
+              "title": "Add a title or tagline",
+              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "d45f80df-12f1-4808-8a6a-0dd946e57f1d",
+          "e7d4e2b1-56ad-46c4-8c58-ac106d22e460",
+          "74589b02-6f30-45ec-94ca-ee489e10ea6c"
+        ],
         "settings": {
           "title": "Highlights",
           "subtitle": "",
@@ -1730,6 +1770,40 @@
       },
       "product-row_sports-hooded-mountaineering": {
         "type": "product-row_sports-hooded-mountaineering",
+        "blocks": {
+          "ea006ac8-ca73-4c9c-ad98-5d926254df4c": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "left",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "2d76f291-3063-4fd8-b78a-45a9b07115eb": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "right",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "ea006ac8-ca73-4c9c-ad98-5d926254df4c",
+          "2d76f291-3063-4fd8-b78a-45a9b07115eb"
+        ],
         "settings": {
           "show_product_row": true
         }
@@ -1738,7 +1812,7 @@
         "type": "featured-content_sports-hooded-mountaineering",
         "settings": {
           "title": "Featured content",
-          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "text": "",
           "section_style": "section-blank",
           "text_size": "large",
           "text_alignment": "text-center",
@@ -1749,6 +1823,40 @@
       },
       "custom-gallery_sports-hooded-mountaineering": {
         "type": "custom-gallery_sports-hooded-mountaineering",
+        "blocks": {
+          "865eb81d-6415-40cb-81e4-42d6a387950c": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "de8cdc05-01cd-4ac6-9343-2ce39fdb4086": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "88771e68-0e33-40a5-ae1c-4dab9adbe1ba": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "6247ae3d-c753-4680-92ca-1cc0c80a1ef7": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "542c109e-360d-415d-94c5-323e89562f97": {
+            "type": "image",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "865eb81d-6415-40cb-81e4-42d6a387950c",
+          "de8cdc05-01cd-4ac6-9343-2ce39fdb4086",
+          "88771e68-0e33-40a5-ae1c-4dab9adbe1ba",
+          "6247ae3d-c753-4680-92ca-1cc0c80a1ef7",
+          "542c109e-360d-415d-94c5-323e89562f97"
+        ],
         "settings": {
           "header": ""
         }
