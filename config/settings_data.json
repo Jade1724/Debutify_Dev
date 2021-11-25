@@ -137,6 +137,50 @@
       },
       "dbtfy-color-swatches": {
         "type": "dbtfy-color-swatches",
+        "blocks": {
+          "297d6543-9c34-4afe-a6af-e0894954030e": {
+            "type": "swatch",
+            "settings": {
+              "title": "Black",
+              "dbtfy_swatches_color_value": "#050505"
+            }
+          },
+          "862dcf7c-d4c4-4d5b-a555-a31bccea8952": {
+            "type": "swatch",
+            "settings": {
+              "title": "Orange",
+              "dbtfy_swatches_color_value": "#eb6733"
+            }
+          },
+          "5e7dc322-b8c9-4705-b19f-dcb888cfaa9d": {
+            "type": "swatch",
+            "settings": {
+              "title": "Blue",
+              "dbtfy_swatches_color_value": "#0c429a"
+            }
+          },
+          "5729fcf4-35b4-4e61-bdde-67c7669dd093": {
+            "type": "swatch",
+            "settings": {
+              "title": "Red",
+              "dbtfy_swatches_color_value": "#e63e32"
+            }
+          },
+          "58df304e-ac77-413f-b7bb-918ae2ee94c0": {
+            "type": "swatch",
+            "settings": {
+              "title": "Green",
+              "dbtfy_swatches_color_value": "#9dac48"
+            }
+          }
+        },
+        "block_order": [
+          "297d6543-9c34-4afe-a6af-e0894954030e",
+          "862dcf7c-d4c4-4d5b-a555-a31bccea8952",
+          "5e7dc322-b8c9-4705-b19f-dcb888cfaa9d",
+          "5729fcf4-35b4-4e61-bdde-67c7669dd093",
+          "58df304e-ac77-413f-b7bb-918ae2ee94c0"
+        ],
         "settings": {
         }
       },
