@@ -91,8 +91,8 @@
     "dbtfy_trust_badge": false,
     "dbtfy_upsell_bundles": false,
     "dbtfy_wish_list": false,
-    "dbtfy_color_swatches_color": "Handles Color",
-    "dbtfy_color_swatches_grid": "Handles Color",
+    "dbtfy_color_swatches_color": "Stove Storage Box Color",
+    "dbtfy_color_swatches_grid": "Stove Storage Box Color",
     "dbtfy_color_swatches_count": 3,
     "dbtfy_newsletter_popup_time_trigger": true,
     "dbtfy_newsletter_popup_timeout": 30,
@@ -1503,7 +1503,6 @@
           "e59cfd39-e05e-42a7-8ede-f7305305974c": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/6_35972380065957.png",
               "icon": "",
               "title": "All in One Fernace",
               "text": "<p>One-click ignition and adjustable valve.<\/p>",
@@ -1515,7 +1514,6 @@
           "e085858b-2ade-47de-836a-d3b39f73c236": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/3_10504275539741.png",
               "icon": "",
               "title": "Solid Construction",
               "text": "<p>Holds cookwares firmly up to 3kg.<\/p>",
@@ -1543,7 +1541,6 @@
           "de7ceb88-193f-4ffa-9dba-a65d67ce7d81": {
             "type": "row",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1_116935780119.png",
               "title": "",
               "text": "<p>This mini stove is a lightweight, compact stove ideal for backpacking and other outdoor adventures. <\/p><p>It boils a liter in 3 minutes, has pot supports that provide a stable surface for a variety of cookware, and comes in a carry case for easy packing.<\/p>",
               "section_style": "section-blank",
@@ -1558,7 +1555,6 @@
           "ed61ebf3-0792-4c07-9543-56783b83679e": {
             "type": "row",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ezgif-7-d1df6f77b768.jpg",
               "title": "Specifications",
               "text": "<p><strong>Dimensions<br\/><\/strong>Expand:  8 x 7.5cm<br\/>Collapse: 8 x 6cm<br\/>Storage box: 8.2 X 5.5 X 4cm<\/p><p><strong>Burning Power<br\/><\/strong>3000W<\/p><p><strong>Materials<br\/><\/strong>Stove: Stainless steel, Copper, Aluminium alloy<br\/>Storage Box: Plastic<\/p><p><strong>Weight<\/strong><br\/>120g\/4.2oz<\/p>",
               "section_style": "section-blank",
