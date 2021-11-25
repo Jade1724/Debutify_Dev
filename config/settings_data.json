@@ -180,20 +180,6 @@
               "dbtfy_swatches_color_value": "#b0e74e"
             }
           },
-          "90bcca65-485a-4b74-ba6f-149f5ff84319": {
-            "type": "swatch",
-            "settings": {
-              "title": "Orange Red",
-              "dbtfy_swatches_color_value": "#e93f33"
-            }
-          },
-          "dcd713e9-6804-4722-9f43-1c5bc6491333": {
-            "type": "swatch",
-            "settings": {
-              "title": "Apricot",
-              "dbtfy_swatches_color_value": "#f08d33"
-            }
-          },
           "85851123-5a16-4009-9335-2763b5b260aa": {
             "type": "swatch",
             "settings": {
@@ -293,8 +279,6 @@
           "91f993c0-684f-46c6-9b31-deb70f4f9837",
           "46e24f94-78b9-46fd-8633-fdfb9282d28a",
           "3e158ea9-c08a-45db-aba1-463ba633e0a6",
-          "90bcca65-485a-4b74-ba6f-149f5ff84319",
-          "dcd713e9-6804-4722-9f43-1c5bc6491333",
           "85851123-5a16-4009-9335-2763b5b260aa",
           "4d8b674c-1816-451a-ae45-fd00e7ef4a5c",
           "f6bd2ec9-cc12-49da-96dd-325b6960c893",
