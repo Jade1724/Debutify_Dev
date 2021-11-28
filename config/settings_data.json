@@ -1140,9 +1140,23 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/specifications.jpg",
               "title": "Specifications",
-              "text": "<p><strong>Dimensions<br\/><\/strong>Height: 125cm\/49.2″<br\/>Length: 150cm\/59″<br\/>Width: 210cm\/82.6″<br\/>Packed Size: 66 x 13 x 13cm\/26 x 5.2 x 5.2″<\/p><p><strong>Materials<br\/><\/strong>• 190T silver-coated polyester Oxford fabric with UV coating (UPF 50+ UVA &lt; 5%)<br\/>• 201D waterproof fabric<\/p><p><strong>Weight<br\/><\/strong>2.35kg\/5.18lbs<\/p>",
+              "text": "<p><strong>Dimensions<br\/><\/strong>Height: 125cm\/49.2″<br\/>Length: 150cm\/59″<br\/>Width: 210cm\/82.6″<br\/>Packed Size: 66 x 13 x 13cm\/26 x 5.2 x 5.2″<\/p><p><strong>Materials<br\/><\/strong>• 190T silver-coated polyester Oxford fabric with UV coating (UPF 50+ UVA &lt; 5%)<br\/>• 201D waterproof fabric<\/p><p><strong>Weight<br\/><\/strong>2.35kg\/5.18lbs<\/p><p><strong>Content<br\/><\/strong>Dome Tent<br\/>Storage Bag<br\/>Iron Pegs x 8<br\/>Windbreak Rope x 4<\/p>",
               "section_style": "section-blank",
               "image_alignement": "right",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "67351b1d-fa1b-42dd-816f-ede4cb2b496a": {
+            "type": "row",
+            "settings": {
+              "title": "Content",
+              "text": "<p>• Dome Tent<\/p><p>• Storage Bag<\/p><p>• Iron Pegs x 8<\/p><p>• Windbreak Rope x 4<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "left",
               "text_alignment": "",
               "type_row": "",
               "tag_row": "",
@@ -1157,7 +1171,7 @@
               "title": "Effortless Setup and Folding",
               "text": "<p>Looking for a quick-setup tent that  is both easy to set up and take down?<\/p><p>This tent offers safe, intuitive, and simple two-steps packing process to start a smooth journey back home.<\/p>",
               "section_style": "section-blank",
-              "image_alignement": "left",
+              "image_alignement": "right",
               "text_alignment": "",
               "type_row": "",
               "tag_row": "",
@@ -1169,6 +1183,7 @@
         "block_order": [
           "ff767ac6-5bd4-4360-bb18-6c95f17581eb",
           "d1b95439-0f1e-444b-afc6-de190bc2c6b6",
+          "67351b1d-fa1b-42dd-816f-ede4cb2b496a",
           "d623c570-6e5a-4dcc-9ed5-ee56a015f8c0"
         ],
         "settings": {
