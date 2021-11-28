@@ -1154,7 +1154,7 @@
             "type": "row",
             "settings": {
               "title": "Content",
-              "text": "<p>• Dome Tent<\/p><p>• Storage Bag<\/p><p>• Instruction Manual<\/p><p>• Iron Pegs x 8<\/p><p>• Windbreak Rope x 4<\/p>",
+              "text": "<p>• Dome Tent<br\/>• Storage Bag<br\/>• Instruction Manual<br\/>• Iron Pegs x 8<br\/>• Windbreak Rope x 4<\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
               "text_alignment": "",
