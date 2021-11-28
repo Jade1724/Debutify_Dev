@@ -1153,6 +1153,7 @@
           "67351b1d-fa1b-42dd-816f-ede4cb2b496a": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/image2_cc65d4d8-36ca-4a2c-88e6-5c22d1f26d47.png",
               "title": "Content",
               "text": "<p>• Dome Tent<br\/>• Storage Bag<br\/>• Instruction Manual<br\/>• Iron Pegs x 8<br\/>• Windbreak Rope x 4<\/p>",
               "section_style": "section-blank",
@@ -1215,7 +1216,7 @@
           "063d5a47-f972-46d4-8878-77b93dd2fd14": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/500x375.png"
+              "image": "shopify:\/\/shop_images\/image2_08a347c3-bd0d-437e-9f4e-67377eb281b7.png"
             }
           },
           "eba0daf1-8683-4c16-81a4-5cddecb79b0e": {
