@@ -346,17 +346,6 @@
       },
       "announcement": {
         "type": "announcement",
-        "blocks": {
-          "announcement-0": {
-            "type": "message",
-            "settings": {
-              "announcement_text": "<p>Free shipping worldwide | 30-Day free returns<\/p>"
-            }
-          }
-        },
-        "block_order": [
-          "announcement-0"
-        ],
         "settings": {
           "show_announcement": true,
           "show_social": false,
