@@ -287,6 +287,14 @@
               "title": "Apricot",
               "dbtfy_swatches_color_value": "#ee7e33"
             }
+          },
+          "b5945b8e-6ba9-4c16-8a4c-43fdae2a2ae8": {
+            "type": "swatch",
+            "settings": {
+              "title": "Grey & Blue",
+              "dbtfy_swatches_color_value": "",
+              "dbtfy_swatches_image": "shopify:\/\/shop_images\/tent-color-swatch.png"
+            }
           }
         },
         "block_order": [
@@ -309,7 +317,8 @@
           "cc3650c0-1dda-4964-bdaa-86e23baf582e",
           "45f410b5-b04f-4b53-a081-1a3141fabd95",
           "ac97d112-f15c-4668-aa86-7694ead6c0c1",
-          "2885a7f2-8cb0-464f-9b79-d7a530dbec2d"
+          "2885a7f2-8cb0-464f-9b79-d7a530dbec2d",
+          "b5945b8e-6ba9-4c16-8a4c-43fdae2a2ae8"
         ],
         "settings": {
         }
