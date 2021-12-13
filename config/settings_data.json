@@ -1241,7 +1241,7 @@
               "image": "shopify:\/\/shop_images\/5_5617448b-b73b-4a13-b370-0b6e2c854f65.png",
               "icon": "",
               "title": "Nonstick Pots & Pans",
-              "text": "<p>Made of safe and non-toxic anodized aluminum with non-stick coatingDeliver a quality cooking experience in the nature<\/p>",
+              "text": "<p>Made of safe and non-toxic anodized aluminum with non-stick coating<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1253,7 +1253,7 @@
               "image": "shopify:\/\/shop_images\/Highlight_3.png",
               "icon": "",
               "title": "Lightweight & Foldable",
-              "text": "<p>Easy and portable to carry. You can store all parts into the nylon bag.<\/p>",
+              "text": "<p>You can store all parts into the nylon bag<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1265,7 +1265,7 @@
               "image": "shopify:\/\/shop_images\/Highlight_2.png",
               "icon": "",
               "title": "Suitable for 1-2 People",
-              "text": "<p>Suitable for 1-2 people, with complete accessories, essential for outdoor cooking experience<\/p>",
+              "text": "<p>It comes with complete accessories, essential for outdoor cooking experience<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1292,7 +1292,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Description.png",
               "title": "",
-              "text": "<p>When it comes to camping or backpacking, a warm and delicious meal can really make your day different. <\/p><p>This is a luxury that you don't need to give up to embrace an outdoor adventure. <\/p><p>Having a nice meal while enjoying nature is everything you are looking for. <\/p><p>Our compact portable cooking set will make meal preparation manageable.<\/p>",
+              "text": "<p>This camping cook set includes every set that you need to make hot and delicious food when you enjoy camping, hiking or any other outdoor adventures.<\/p><p> Weighing in 19.64oz total, all pieces can be packed in an all-in-one small package, does not take up space and is easy to carry.<\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
               "text_alignment": "",
@@ -1307,7 +1307,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Specification.png",
               "title": "Specifications",
-              "text": "<p>Colour: Grey+Orange, Grey+Green, Grey+BlackMaterial: AluminumPackage dimension: 15.5cm x 9cm Weight: 557g<\/p>",
+              "text": "<p><strong>Color<br\/><\/strong>Orange, Green, and Black<\/p><p><strong>Material<br\/><\/strong>Aluminum<\/p><p><strong>Package Dimension<\/strong><br\/>15.5 x 9cm  \/ 6.10 x 3.5 inches<\/p><p><strong>Weight<\/strong><br\/>557g \/ 19.64 oz<\/p>",
               "section_style": "section-blank",
               "image_alignement": "right",
               "text_alignment": "",
@@ -1321,8 +1321,8 @@
             "type": "row",
             "settings": {
               "image": "shopify:\/\/shop_images\/Content.png",
-              "title": "Content",
-              "text": "<p>Package included:<\/p><p>1 x Non-stick Pot<br\/>1 x Non-stick Pan<br\/>1 x Pan Cover<br\/>1 x Serving Ladle<br\/>1 x Soup Spoon<br\/>1 x Bamboo Spoon<br\/>1 x Cleaning Tool<br\/>1 x Nylon Carrying Bag<br\/>2 x Plastic Bowl<\/p>",
+              "title": "Package includes:",
+              "text": "<p>1 x Non-stick Pot<br\/>1 x Non-stick Pan<br\/>1 x Pan Cover<br\/>1 x Serving Ladle<br\/>1 x Soup Spoon<br\/>1 x Bamboo Spoon<br\/>1 x Cleaning Tool<br\/>1 x Nylon Carrying Bag<br\/>2 x Plastic Bowl<\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
               "text_alignment": "",
