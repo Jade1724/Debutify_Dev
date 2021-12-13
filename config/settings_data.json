@@ -1739,9 +1739,10 @@
           "70391a46-9a18-4ac1-9bc4-277b8cdece6c": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlights1.png",
               "icon": "",
               "title": "Durable stick tip",
-              "text": "<p>Made of tungsten steel alloy with a cover sleeve at the bottom for increased slip resistance and wear resistance.<\/p>",
+              "text": "<p>Made of tungsten steel, alloy with a cover sleeve at the bottom, for increased slip and wear resistance.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1750,9 +1751,10 @@
           "8813ff8c-ad99-4b58-9f7d-2dbb09f1ace5": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlights2.png",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Locking system",
+              "text": "<p>Our trekking pole offers a simple yet sturdy locking system.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1761,9 +1763,10 @@
           "edd8f484-2061-4ca6-ae18-6981f10ac6d4": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlights3.png",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Confort Handle",
+              "text": "<p>Made of high-density moisture-absorbing synthetic material, this trekking pole is comfortable to hold, absorbs sweat, and does not slip.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1788,8 +1791,9 @@
           "0bfc7c81-d2d8-4c08-8df5-f09a31d0739c": {
             "type": "row",
             "settings": {
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "image": "shopify:\/\/shop_images\/Description_89f80865-0ce7-44e0-8ace-f279d846a0b2.png",
+              "title": "",
+              "text": "<p>As well as providing stability on difficult terrain, trekking poles reduce the accumulated stress on the feet, legs, knees, and back by sharing the load more evenly across the whole body. <\/p><p>Our telescopic trekking pole is for hikers that want a trustworthy trekking pole at a good price.<\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
               "text_alignment": "",
@@ -1802,8 +1806,8 @@
           "41787a4b-dc09-4d36-b9c9-6906217eae25": {
             "type": "row",
             "settings": {
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "title": "Specifications",
+              "text": "<p><strong>Materials<\/strong><br\/>Pole: Carbon Fiber<br\/>Handle: High-Density Moisture Absorption EVA<br\/>Stick Tip: Diamond Grain Tungsten Steel<\/p><p><strong>Wrist Strap<br\/><\/strong>Adjustable Wicking Wristband<\/p><p><strong>Color<\/strong><br\/>Blue<\/p><p><strong>Locking System<\/strong><br\/>External Lock<\/p><p><strong>Length<\/strong><br\/>Shrinkage: 65cm \/ 25.59\"<br\/>Elongation: 135cm \/ 53.15\"<br\/>Suitable for a person not more than 195cm tall<\/p><p><strong>Weight<\/strong><br\/>234g<\/p>",
               "section_style": "section-blank",
               "image_alignement": "right",
               "text_alignment": "",
