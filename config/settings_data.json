@@ -52,6 +52,7 @@
     "custom_style": "",
     "review_app": "product_reviews",
     "review_badge_product_grid": false,
+    "share_pinterest": true,
     "share_whatsapp": false,
     "share_linkedin": true,
     "header_family": "poppins_n4",
@@ -61,6 +62,7 @@
     "dbtfy_back_in_stock": false,
     "dbtfy_cart_countdown": false,
     "dbtfy_cart_favicon": false,
+    "dbtfy_cart_discount": false,
     "dbtfy_cart_goal": false,
     "dbtfy_cart_savings": false,
     "dbtfy_cart_upsell": false,
@@ -94,8 +96,8 @@
     "dbtfy_shop_protect": false,
     "dbtfy_size_chart": false,
     "dbtfy_smart_search": false,
-    "dbtfy_social_discount": false,
-    "dbtfy_sticky_addtocart": false,
+    "dbtfy_social_discount": true,
+    "dbtfy_sticky_addtocart": true,
     "synced_variant_image": false,
     "dbtfy_trust_badge": false,
     "dbtfy_upsell_bundles": false,
@@ -2366,6 +2368,40 @@
           "0e4f6dd5-920a-473b-b4ae-dd46363a1508",
           "ff24fd8f-7627-4e9a-86f3-830f8d743e11"
         ],
+        "settings": {
+          "header": ""
+        }
+      },
+      "featured-columns_digital-camouflage-jacket": {
+        "type": "featured-columns_digital-camouflage-jacket",
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_digital-camouflage-jacket": {
+        "type": "product-row_digital-camouflage-jacket",
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_digital-camouflage-jacket": {
+        "type": "featured-content_digital-camouflage-jacket",
+        "settings": {
+          "title": "Featured content",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-gallery_digital-camouflage-jacket": {
+        "type": "custom-gallery_digital-camouflage-jacket",
         "settings": {
           "header": ""
         }
