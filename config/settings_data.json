@@ -7,7 +7,7 @@
     "show_back_to_collection": false,
     "enable_payment_button": true,
     "section_padding_size": "medium",
-    "browsing_link": "",
+    "browsing_link": "shopify:\/\/collections\/all",
     "cart_notes_enable": false,
     "icon_cart": "shopping_cart",
     "cart_bubble": true,
