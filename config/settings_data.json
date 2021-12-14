@@ -52,20 +52,23 @@
     "custom_style": "",
     "review_app": "product_reviews",
     "review_badge_product_grid": false,
+    "share_pinterest": true,
     "share_whatsapp": false,
     "share_linkedin": true,
     "header_family": "poppins_n4",
     "header_font_size": 36,
     "base_font_size": 18,
-    "dbtfy_addtocart_animation": false,
+    "dbtfy_addtocart_animation": true,
     "dbtfy_back_in_stock": false,
     "dbtfy_cart_countdown": false,
     "dbtfy_cart_favicon": false,
+    "dbtfy_cart_discount": false,
     "dbtfy_cart_goal": false,
     "dbtfy_cart_savings": false,
     "dbtfy_cart_upsell": false,
     "dbtfy_collection_addtocart": false,
     "dbtfy_collection_filters": false,
+    "dbtfy_color_swatches": true,
     "dbtfy_cookie_box": false,
     "dbtfy_custom_currencies": false,
     "dbtfy_delivery_time": false,
@@ -93,22 +96,25 @@
     "dbtfy_shop_protect": false,
     "dbtfy_size_chart": false,
     "dbtfy_smart_search": false,
-    "dbtfy_social_discount": false,
-    "dbtfy_sticky_addtocart": false,
+    "dbtfy_social_discount": true,
+    "dbtfy_sticky_addtocart": true,
     "synced_variant_image": false,
     "dbtfy_trust_badge": false,
     "dbtfy_upsell_bundles": false,
     "dbtfy_wish_list": false,
+    "dbtfy_addtocart_animation_type": "shakeX",
+    "dbtfy_addtocart_animation_interval": 7,
     "dbtfy_color_swatches_color": "Color",
     "dbtfy_color_swatches_grid": "Color",
-    "dbtfy_color_swatches_count": 3,
+    "dbtfy_color_swatches_count": 5,
     "dbtfy_floating_bar_text": "Get 20% off!",
     "dbtfy_newsletter_popup_time_trigger": true,
     "dbtfy_newsletter_popup_timeout": 30,
     "dbtfy_newsletter_popup_scroll_depth": true,
     "dbtfy_newsletter_popup_scroll_percentage": 60,
-    "checkout_header_image": "shopify:\/\/shop_images\/checkout_banner.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/bf-logo2-text.png",
     "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
     "checkout_body_background_color": "#ffffff",
     "checkout_sidebar_background_color": "#dccea0",
     "checkout_heading_font": "Roboto",
@@ -285,6 +291,14 @@
               "title": "Apricot",
               "dbtfy_swatches_color_value": "#ee7e33"
             }
+          },
+          "b5945b8e-6ba9-4c16-8a4c-43fdae2a2ae8": {
+            "type": "swatch",
+            "settings": {
+              "title": "Grey & Blue",
+              "dbtfy_swatches_color_value": "",
+              "dbtfy_swatches_image": "shopify:\/\/shop_images\/tent-color-swatch.png"
+            }
           }
         },
         "block_order": [
@@ -307,7 +321,8 @@
           "cc3650c0-1dda-4964-bdaa-86e23baf582e",
           "45f410b5-b04f-4b53-a081-1a3141fabd95",
           "ac97d112-f15c-4668-aa86-7694ead6c0c1",
-          "2885a7f2-8cb0-464f-9b79-d7a530dbec2d"
+          "2885a7f2-8cb0-464f-9b79-d7a530dbec2d",
+          "b5945b8e-6ba9-4c16-8a4c-43fdae2a2ae8"
         ],
         "settings": {
         }
@@ -344,17 +359,6 @@
       },
       "announcement": {
         "type": "announcement",
-        "blocks": {
-          "announcement-0": {
-            "type": "message",
-            "settings": {
-              "announcement_text": "<p>Free shipping worldwide | 30-Day free returns<\/p>"
-            }
-          }
-        },
-        "block_order": [
-          "announcement-0"
-        ],
         "settings": {
           "show_announcement": true,
           "show_social": false,
@@ -372,6 +376,8 @@
           "navigation_type": "center",
           "header_font_size": 16,
           "logo_link": true,
+          "default_logo": "shopify:\/\/shop_images\/bf-logo2.png",
+          "mobile_logo": "shopify:\/\/shop_images\/bf-logo2.png",
           "default_logo_svg": "",
           "inverted_logo_svg": "",
           "mobile_logo_svg": "",
@@ -497,20 +503,20 @@
               "image_position_mobile": "center center",
               "slide_link": "",
               "video": "hero_background.mp4",
-              "title": "Black Friday Sale",
-              "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your story.<\/p>",
+              "title": "Christmas Sale: XX% OFF",
+              "text": "<p>Get XX% off for ... TODO<\/p>",
               "text_position": "align-center",
               "text_position_mobile": "align-center",
               "text_alignment": "text-center",
               "text_alignment_mobile": "text-center",
               "enable_custom_fonts": true,
               "slideshow_family": "poppins_n6",
-              "button_label": "Check the Deals",
-              "button_link": "shopify:\/\/collections\/black-friday-sale",
+              "button_label": "Clothing",
+              "button_link": "shopify:\/\/collections\/clothing",
               "button_style": "btn--primary",
-              "button_label_2": "",
-              "button_link_2": "shopify:\/\/collections\/all",
-              "button_style_2": ""
+              "button_label_2": "Gear",
+              "button_link_2": "shopify:\/\/collections\/gear",
+              "button_style_2": "btn--primary"
             }
           }
         },
@@ -1083,7 +1089,7 @@
               "image": "shopify:\/\/shop_images\/column2_5269739c-1c97-4d45-b7f5-1f66215f37e4.png",
               "icon": "",
               "title": "Compact and Lightweight",
-              "text": "<p>Travel light with our durable and slim packing storage bag.<\/p>",
+              "text": "<p>Travel light with our durable and slim storage bag.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1122,7 +1128,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/descriptions_32cff7ac-9cc6-4bbd-b2d5-d73c1b612f36.png",
               "title": "",
-              "text": "<p>Enjoy the great outdoors with your loved one. <\/p><p>Feel sheltered with our solid-structured tent that protects you against harmful sun rays, rains, and winds.<\/p><p>Internal storage pocket, a lantern hook, and anti rust 2-way zipper are all ready to maximise your camping experience. <\/p>",
+              "text": "<p>Enjoy this spacious tent with that special someone.<\/p><p>Feel sheltered with our solid tent that protects you against the harmful elements.<\/p><p>Internal storage pocket, a lantern hook, and anti rust 2-way zipper make for a better camping experience.<\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
               "text_alignment": "",
@@ -1197,7 +1203,7 @@
           "063d5a47-f972-46d4-8878-77b93dd2fd14": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/500x375.png"
+              "image": "shopify:\/\/shop_images\/image2_08a347c3-bd0d-437e-9f4e-67377eb281b7.png"
             }
           },
           "eba0daf1-8683-4c16-81a4-5cddecb79b0e": {
@@ -1239,7 +1245,7 @@
               "image": "shopify:\/\/shop_images\/5_5617448b-b73b-4a13-b370-0b6e2c854f65.png",
               "icon": "",
               "title": "Nonstick Pots & Pans",
-              "text": "<p>Made of safe and non-toxic anodized aluminum with non-stick coatingDeliver a quality cooking experience in the nature<\/p>",
+              "text": "<p>Made of safe and non-toxic anodized aluminum with non-stick coating<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1251,7 +1257,7 @@
               "image": "shopify:\/\/shop_images\/Highlight_3.png",
               "icon": "",
               "title": "Lightweight & Foldable",
-              "text": "<p>Easy and portable to carry. You can store all parts into the nylon bag.<\/p>",
+              "text": "<p>You can store all parts into the nylon bag<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1263,7 +1269,7 @@
               "image": "shopify:\/\/shop_images\/Highlight_2.png",
               "icon": "",
               "title": "Suitable for 1-2 People",
-              "text": "<p>Suitable for 1-2 people, with complete accessories, essential for outdoor cooking experience<\/p>",
+              "text": "<p>It comes with complete accessories, essential for outdoor cooking experience<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1290,7 +1296,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Description.png",
               "title": "",
-              "text": "<p>When it comes to camping or backpacking, a warm and delicious meal can really make your day different. <\/p><p>This is a luxury that you don't need to give up to embrace an outdoor adventure. <\/p><p>Having a nice meal while enjoying nature is everything you are looking for. <\/p><p>Our compact portable cooking set will make meal preparation manageable.<\/p>",
+              "text": "<p>This camping cook set includes every set that you need to make hot and delicious food when you enjoy camping, hiking or any other outdoor adventures.<\/p><p> Weighing in 19.64oz total, all pieces can be packed in an all-in-one small package, does not take up space and is easy to carry.<\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
               "text_alignment": "",
@@ -1305,7 +1311,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Specification.png",
               "title": "Specifications",
-              "text": "<p>Colour: Grey+Orange, Grey+Green, Grey+BlackMaterial: AluminumPackage dimension: 15.5cm x 9cm Weight: 557g<\/p>",
+              "text": "<p><strong>Color<br\/><\/strong>Orange, Green, and Black<\/p><p><strong>Material<br\/><\/strong>Aluminum<\/p><p><strong>Package Dimension<\/strong><br\/>15.5 x 9cm  \/ 6.10 x 3.5 inches<\/p><p><strong>Weight<\/strong><br\/>557g \/ 19.64 oz<\/p>",
               "section_style": "section-blank",
               "image_alignement": "right",
               "text_alignment": "",
@@ -1319,8 +1325,8 @@
             "type": "row",
             "settings": {
               "image": "shopify:\/\/shop_images\/Content.png",
-              "title": "Content",
-              "text": "<p>Package included:<\/p><p>1 x Non-stick Pot<br\/>1 x Non-stick Pan<br\/>1 x Pan Cover<br\/>1 x Serving Ladle<br\/>1 x Soup Spoon<br\/>1 x Bamboo Spoon<br\/>1 x Cleaning Tool<br\/>1 x Nylon Carrying Bag<br\/>2 x Plastic Bowl<\/p>",
+              "title": "Package includes:",
+              "text": "<p>1 x Non-stick Pot<br\/>1 x Non-stick Pan<br\/>1 x Pan Cover<br\/>1 x Serving Ladle<br\/>1 x Soup Spoon<br\/>1 x Bamboo Spoon<br\/>1 x Cleaning Tool<br\/>1 x Nylon Carrying Bag<br\/>2 x Plastic Bowl<\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
               "text_alignment": "",
@@ -1737,9 +1743,10 @@
           "70391a46-9a18-4ac1-9bc4-277b8cdece6c": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlights1.png",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Durable stick tip",
+              "text": "<p>Made of tungsten steel, alloy with a cover sleeve at the bottom, for increased slip and wear resistance.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1748,9 +1755,10 @@
           "8813ff8c-ad99-4b58-9f7d-2dbb09f1ace5": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlights2.png",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Locking system",
+              "text": "<p>Our trekking pole offers a simple yet sturdy locking system.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1759,9 +1767,10 @@
           "edd8f484-2061-4ca6-ae18-6981f10ac6d4": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlights3.png",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Confort Handle",
+              "text": "<p>Made of high-density moisture-absorbing synthetic material, this trekking pole is comfortable to hold, absorbs sweat, and does not slip.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1786,8 +1795,9 @@
           "0bfc7c81-d2d8-4c08-8df5-f09a31d0739c": {
             "type": "row",
             "settings": {
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "image": "shopify:\/\/shop_images\/Description_89f80865-0ce7-44e0-8ace-f279d846a0b2.png",
+              "title": "",
+              "text": "<p>As well as providing stability on difficult terrain, trekking poles reduce the accumulated stress on the feet, legs, knees, and back by sharing the load more evenly across the whole body. <\/p><p>Our telescopic trekking pole is for hikers that want a trustworthy trekking pole at a good price.<\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
               "text_alignment": "",
@@ -1800,8 +1810,8 @@
           "41787a4b-dc09-4d36-b9c9-6906217eae25": {
             "type": "row",
             "settings": {
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "title": "Specifications",
+              "text": "<p><strong>Materials<\/strong><br\/>Pole: Carbon Fiber<br\/>Handle: High-Density Moisture Absorption EVA<br\/>Stick Tip: Diamond Grain Tungsten Steel<\/p><p><strong>Wrist Strap<br\/><\/strong>Adjustable Wicking Wristband<\/p><p><strong>Color<\/strong><br\/>Blue<\/p><p><strong>Locking System<\/strong><br\/>External Lock<\/p><p><strong>Length<\/strong><br\/>Shrinkage: 65cm \/ 25.59\"<br\/>Elongation: 135cm \/ 53.15\"<br\/>Suitable for a person not more than 195cm tall<\/p><p><strong>Weight<\/strong><br\/>234g<\/p>",
               "section_style": "section-blank",
               "image_alignement": "right",
               "text_alignment": "",
@@ -1880,8 +1890,8 @@
             "type": "text_block",
             "settings": {
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Windproof and Water Resistance",
+              "text": "<p>Water repellent windproof outdoor pants with fleece lining, keep you warm and dry in the cold and windy weather.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1891,8 +1901,8 @@
             "type": "text_block",
             "settings": {
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Durability",
+              "text": "<p>Kneepatches for enhanced durability and Articulated knees for step high movement, perfect for mountain use<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -2171,18 +2181,11 @@
             "settings": {
               "collection": "gear"
             }
-          },
-          "16377232317d6cbc6b-2": {
-            "type": "collection",
-            "settings": {
-              "collection": "black-friday-sale"
-            }
           }
         },
         "block_order": [
           "16377232317d6cbc6b-0",
-          "16377232317d6cbc6b-1",
-          "16377232317d6cbc6b-2"
+          "16377232317d6cbc6b-1"
         ],
         "settings": {
           "full_width": false,
@@ -2205,7 +2208,7 @@
           "title": "This Month's Features",
           "subtitle": "",
           "section_style": "section-blank",
-          "home_featured_products": "black-friday-sale",
+          "home_featured_products": "this-months-features",
           "rows": "2",
           "desktop_grid": "3",
           "mobile_grid": "2",
@@ -2367,6 +2370,40 @@
           "0e4f6dd5-920a-473b-b4ae-dd46363a1508",
           "ff24fd8f-7627-4e9a-86f3-830f8d743e11"
         ],
+        "settings": {
+          "header": ""
+        }
+      },
+      "featured-columns_digital-camouflage-jacket": {
+        "type": "featured-columns_digital-camouflage-jacket",
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_digital-camouflage-jacket": {
+        "type": "product-row_digital-camouflage-jacket",
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_digital-camouflage-jacket": {
+        "type": "featured-content_digital-camouflage-jacket",
+        "settings": {
+          "title": "Featured content",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-gallery_digital-camouflage-jacket": {
+        "type": "custom-gallery_digital-camouflage-jacket",
         "settings": {
           "header": ""
         }
