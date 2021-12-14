@@ -56,6 +56,7 @@
     "share_pinterest": true,
     "share_whatsapp": false,
     "share_linkedin": true,
+    "social_facebook_link": "https:\/\/www.facebook.com\/Bivvy-Fun-106724365164668\/",
     "header_family": "poppins_n4",
     "header_font_size": 36,
     "base_font_size": 18,
@@ -497,7 +498,7 @@
         ],
         "settings": {
           "show_social_media": true,
-          "social_title": "Follow-us on social media!",
+          "social_title": "",
           "show_payment_icons": true,
           "show_shopify_footer": false,
           "show_debutify_footer": false,
