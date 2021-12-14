@@ -2,6 +2,7 @@
   "current": {
     "icon": "material-icons",
     "grid_product_truncate": false,
+    "newsletter_optin": false,
     "show_top_button": false,
     "show_breadcrumbs": false,
     "show_back_to_collection": false,
