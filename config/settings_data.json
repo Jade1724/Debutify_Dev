@@ -476,7 +476,7 @@
             "type": "link_list",
             "settings": {
               "column_width": 1,
-              "title": "Store",
+              "title": "Products",
               "subtitle": "",
               "footer_link_list": "footer"
             }
