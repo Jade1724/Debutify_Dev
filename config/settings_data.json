@@ -476,25 +476,15 @@
             "type": "link_list",
             "settings": {
               "column_width": 1,
-              "title": "Products",
+              "title": "Clothing",
               "subtitle": "",
               "footer_link_list": "footer"
-            }
-          },
-          "dfe24af2-50ee-4637-ad93-8346774cf7ef": {
-            "type": "link_list",
-            "settings": {
-              "column_width": 1,
-              "title": "Policies",
-              "subtitle": "",
-              "footer_link_list": "policies"
             }
           }
         },
         "block_order": [
           "footer-2",
-          "aecee39b-1c42-49f6-bf8c-d58305bd8362",
-          "dfe24af2-50ee-4637-ad93-8346774cf7ef"
+          "aecee39b-1c42-49f6-bf8c-d58305bd8362"
         ],
         "settings": {
           "show_social_media": true,
