@@ -110,6 +110,7 @@
     "dbtfy_color_swatches_grid": "Color",
     "dbtfy_color_swatches_count": 5,
     "dbtfy_floating_bar_text": "Get 20% off!",
+    "dbtfy_newsletter_popup_close": "",
     "dbtfy_newsletter_popup_time_trigger": true,
     "dbtfy_newsletter_popup_timeout": 30,
     "dbtfy_newsletter_popup_scroll_depth": true,
