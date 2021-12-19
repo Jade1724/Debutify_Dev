@@ -2012,26 +2012,31 @@
           "23dcd8a8-0e3d-4834-bca8-ea5d3ed9b6cb": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallary_1_b1514581-15fc-4511-a21b-38a2d8bf142a.png"
             }
           },
           "83e69dd6-77b0-43a9-8d2d-4d56c4bc8032": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallary_2.png"
             }
           },
           "16661979-7280-4253-ada9-b7d6b991da76": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallary_3.jpg"
             }
           },
           "7062ab2c-1ead-4cf9-97b6-2dd9fa875770": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallary_4_0ac2c5d9-0820-4d2e-b6be-f5aa22ecdb38.png"
             }
           },
           "e16f1cf2-d710-4926-9b73-76f2695a3d8d": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallary_5.jpg"
             }
           }
         },
