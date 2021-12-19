@@ -1905,9 +1905,10 @@
           "6f78b94b-120a-4986-b501-1296177646fa": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highight_1.jpg",
               "icon": "",
-              "title": "Windproof and Water Resistance",
-              "text": "<p>Water repellent windproof outdoor pants with fleece lining, keep you warm and dry in the cold and windy weather.<\/p>",
+              "title": "Windproof and Water-Resistance",
+              "text": "<p>Waterproof, windproof and breathable fabric that will keep you comfy and dry.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1916,9 +1917,10 @@
           "e629ce62-bdc8-4108-9495-d754a650629d": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlight2.jpg",
               "icon": "",
               "title": "Durability",
-              "text": "<p>Kneepatches for enhanced durability and Articulated knees for step high movement, perfect for mountain use<\/p>",
+              "text": "<p>Knee patches for enhanced durability and Articulated knees for step high movement, perfect for mountain use.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1927,9 +1929,10 @@
           "26bbe513-4143-4e22-b493-8d14828bdd3d": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlight_3.jpg",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Fleece Layer",
+              "text": "<p>The fleece layer makes them ideal pants to keep you toasty warm when it's cold outside.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
