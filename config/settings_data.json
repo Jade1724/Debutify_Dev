@@ -2262,9 +2262,10 @@
           "d7de8717-6262-4fef-b159-6e8e5fd7bb7a": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlight_1_81c4af78-ff35-4455-9dac-0f57813c8e72.png",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Food Grade",
+              "text": "<p>Made with environment-friendly premium plastics. <\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -2273,20 +2274,10 @@
           "9697c3ff-cac0-4da9-9ad6-00e18c8f30ae": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlight_2_9220c21c-2d7a-45d0-8e3c-dfe9dcb27c40.png",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
-              "button_style": "btn--primary",
-              "button_label": "",
-              "image_link": ""
-            }
-          },
-          "87c9d970-d8ab-4df5-a3fa-370b28a8f25f": {
-            "type": "text_block",
-            "settings": {
-              "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Easy to carry",
+              "text": "<p>Our water containers are lightweight and durable. They can be put into pockets or any small places without using too much of space. <\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -2295,8 +2286,7 @@
         },
         "block_order": [
           "d7de8717-6262-4fef-b159-6e8e5fd7bb7a",
-          "9697c3ff-cac0-4da9-9ad6-00e18c8f30ae",
-          "87c9d970-d8ab-4df5-a3fa-370b28a8f25f"
+          "9697c3ff-cac0-4da9-9ad6-00e18c8f30ae"
         ],
         "settings": {
           "title": "Highlights",
@@ -2311,11 +2301,12 @@
           "7e220e8e-567c-425c-9818-06e99deb8feb": {
             "type": "row",
             "settings": {
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "image": "shopify:\/\/shop_images\/Description_658a8c7d-b003-4858-9f34-3a218124b9d9.png",
+              "title": "",
+              "text": "<p>Portable, lightweight and compact water carrier. Easily folds or stores flat taking up little space. <\/p><p>You can stash several in your backpack when travelling or outdoors. <\/p><p>The water containers can be used indoor and outdoor for travel, picnics, large gatherings and emergency situations. <\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
-              "text_alignment": "text-center",
+              "text_alignment": "",
               "type_row": "",
               "tag_row": "",
               "product_row": "",
@@ -2325,11 +2316,11 @@
           "70bf7837-1ba6-47a8-b9f0-f774c07b33c3": {
             "type": "row",
             "settings": {
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "title": "Specifications",
+              "text": "<p><strong>Material<br\/><\/strong>Premium PET PA PE plastics (free Of PBA, PVC)<\/p><p><strong>Color<br\/><\/strong>Blue, White<\/p><p><strong>Quantity<br\/><\/strong>1pc<\/p><p><strong>Capacity<br\/><\/strong>700ml, 5L, and 10L<\/p><p>Folding size:10.5x30.5cm \/4.1*12.0”, 14x38cm\/5.5*14.9”<strong>Size: <\/strong>5L Bag - 12.9 x 12.0″ ( 32.7cm x 30.5cm) 10L Bag - 16.1*14.7″ ( 41cm x 37.5cm)<\/p>",
               "section_style": "section-blank",
               "image_alignement": "right",
-              "text_alignment": "text-center",
+              "text_alignment": "",
               "type_row": "",
               "tag_row": "",
               "product_row": "",
@@ -2364,26 +2355,31 @@
           "ca79d744-248e-459f-ab23-661f756b564c": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallary_1_d99746ca-8453-441a-815a-8e6d4bd0c771.png"
             }
           },
           "f834ffca-99ce-4c7b-8f37-3b73f64e3e10": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallary_2_d6d42275-6472-47dc-a040-eb9fe78da5f8.png"
             }
           },
           "7d82de1d-6d0e-482d-b07c-226ce4bac1d2": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallary_3.png"
             }
           },
           "0e4f6dd5-920a-473b-b4ae-dd46363a1508": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallary_4_f7ba6dc7-ff70-4530-babe-195ebe37c98e.png"
             }
           },
           "ff24fd8f-7627-4e9a-86f3-830f8d743e11": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_5_47330641-1c9a-4107-b310-a5305241e879.png"
             }
           }
         },
