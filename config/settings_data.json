@@ -2173,10 +2173,25 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Size_Chart_-_Screenshot.png",
               "title": "",
-              "text": "<p>Material: Polyester \/ Feature: waterproof & windproof \/ Weight: 750g \/ 26.45 oz<\/p>",
+              "text": "<p>Material: Polyester<\/p><p>Feature: waterproof & windproof<\/p><p>Weight: 750g \/ 26.45 oz<\/p>",
               "section_style": "section-blank",
               "image_alignement": "right",
               "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "e9536f25-b33e-4ba8-aaec-74fec5d8c1df": {
+            "type": "row",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Specification_example.png",
+              "title": "",
+              "text": "",
+              "section_style": "section-blank",
+              "image_alignement": "left",
+              "text_alignment": "text-center",
               "type_row": "",
               "tag_row": "",
               "product_row": "",
@@ -2186,7 +2201,8 @@
         },
         "block_order": [
           "ea006ac8-ca73-4c9c-ad98-5d926254df4c",
-          "2d76f291-3063-4fd8-b78a-45a9b07115eb"
+          "2d76f291-3063-4fd8-b78a-45a9b07115eb",
+          "e9536f25-b33e-4ba8-aaec-74fec5d8c1df"
         ],
         "settings": {
           "show_product_row": true
@@ -2195,7 +2211,7 @@
       "featured-content_sports-hooded-mountaineering": {
         "type": "featured-content_sports-hooded-mountaineering",
         "settings": {
-          "title": "Featured content",
+          "title": "",
           "text": "",
           "section_style": "section-blank",
           "text_size": "large",
@@ -2211,26 +2227,31 @@
           "865eb81d-6415-40cb-81e4-42d6a387950c": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_1.jpg"
             }
           },
           "de8cdc05-01cd-4ac6-9343-2ce39fdb4086": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_2.jpg"
             }
           },
           "88771e68-0e33-40a5-ae1c-4dab9adbe1ba": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_3.jpg"
             }
           },
           "6247ae3d-c753-4680-92ca-1cc0c80a1ef7": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery4.png"
             }
           },
           "542c109e-360d-415d-94c5-323e89562f97": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery5.png"
             }
           }
         },
