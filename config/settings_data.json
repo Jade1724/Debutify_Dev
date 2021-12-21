@@ -1649,6 +1649,7 @@
           "c3b6dedc-35ef-453e-8454-8c4137553eef": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlight_1_5130ddf6-20bd-4377-80a0-c2ff3b309989.png",
               "icon": "",
               "title": "Palm-size and Lightweight",
               "text": "<p>Handy to pack, easy to use.<\/p>",
@@ -1660,6 +1661,7 @@
           "e59cfd39-e05e-42a7-8ede-f7305305974c": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlights_2.png",
               "icon": "",
               "title": "All in One Fernace",
               "text": "<p>One-click ignition and adjustable valve.<\/p>",
@@ -1671,6 +1673,7 @@
           "e085858b-2ade-47de-836a-d3b39f73c236": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlights_3.png",
               "icon": "",
               "title": "Solid Construction",
               "text": "<p>Holds cookwares firmly up to 3kg.<\/p>",
