@@ -1701,6 +1701,7 @@
           "de7ceb88-193f-4ffa-9dba-a65d67ce7d81": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Description_8e7e8b77-5760-4779-83fa-c04df512af76.png",
               "title": "",
               "text": "<p>This mini stove is a lightweight, compact stove ideal for backpacking and other outdoor adventures. <\/p><p>It boils a liter in 3 minutes, has pot supports that provide a stable surface for a variety of cookware, and comes in a carry case for easy packing.<\/p>",
               "section_style": "section-blank",
@@ -1715,6 +1716,7 @@
           "ed61ebf3-0792-4c07-9543-56783b83679e": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Specification_1262a633-88ee-49bb-9486-d261feaff37d.png",
               "title": "Specifications",
               "text": "<p><strong>Dimensions<br\/><\/strong>Expand:  8 x 7.5cm<br\/>Collapse: 8 x 6cm<br\/>Storage box: 8.2 X 5.5 X 4cm<\/p><p><strong>Burning Power<br\/><\/strong>3000W<\/p><p><strong>Materials<br\/><\/strong>Stove: Stainless steel, Copper, Aluminium alloy<br\/>Storage Box: Plastic<\/p><p><strong>Weight<\/strong><br\/>120g\/4.2oz<\/p>",
               "section_style": "section-blank",
@@ -1750,6 +1752,45 @@
       },
       "custom-gallery_camping-stove": {
         "type": "custom-gallery_camping-stove",
+        "blocks": {
+          "b735e616-9b1b-4c7e-870e-a850a01f77a0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_1_a1e57772-5efc-4a92-9ff5-9add9717f4ff.png"
+            }
+          },
+          "8849bd4c-f190-4fb7-bae0-f3960f87a24e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_2_01e12339-6c36-4d4b-a0f9-3c079229f001.png"
+            }
+          },
+          "0d149324-7a53-4828-8360-4173f3038261": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_3_ed58006f-c633-4239-ba2b-90c90ed22af8.png"
+            }
+          },
+          "41af8acc-fa22-4931-b082-fd2ee0a205f7": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_4_8db3b790-aeab-4490-8791-87503f341930.png"
+            }
+          },
+          "408a7623-a52c-480d-9a02-57cae907f536": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_5_4dcaeb1d-aa20-4132-a947-cad743f9e5e7.png"
+            }
+          }
+        },
+        "block_order": [
+          "b735e616-9b1b-4c7e-870e-a850a01f77a0",
+          "8849bd4c-f190-4fb7-bae0-f3960f87a24e",
+          "0d149324-7a53-4828-8360-4173f3038261",
+          "41af8acc-fa22-4931-b082-fd2ee0a205f7",
+          "408a7623-a52c-480d-9a02-57cae907f536"
+        ],
         "settings": {
           "header": ""
         }
