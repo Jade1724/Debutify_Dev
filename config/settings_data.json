@@ -2104,9 +2104,10 @@
           "d45f80df-12f1-4808-8a6a-0dd946e57f1d": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlight_1_a6292328-7ce4-4534-9583-f8342e636e87.png",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Waterproof and wind-resistant",
+              "text": "<p>Keep you dry on a wet day<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -2115,9 +2116,10 @@
           "e7d4e2b1-56ad-46c4-8c58-ac106d22e460": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlight_2_9c08d78d-1737-4903-b426-f94a8e2c1f6f.png",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Covered zip hand pockets",
+              "text": "<p>Anti-thief design and proven water damage <\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -2126,9 +2128,10 @@
           "74589b02-6f30-45ec-94ca-ee489e10ea6c": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Higlight_3.png",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Warmth and breathable",
+              "text": "<p>Keep you warm and cozy any time<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
