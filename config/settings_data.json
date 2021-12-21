@@ -2156,8 +2156,9 @@
           "ea006ac8-ca73-4c9c-ad98-5d926254df4c": {
             "type": "row",
             "settings": {
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "image": "shopify:\/\/shop_images\/2_2fa64382-a1f2-4716-9bd2-98e4aeb40e10.png",
+              "title": "",
+              "text": "<p>This jacket is a perfect choice for hiking, camping and adventuring in wet weather. <\/p><p>It protects you with waterproof and wind-resistant fabric in variable weather conditions, the breathable fabric makes you warm and cozy outdoor.<\/p><p>The covered pocket adds more safety to your values. It is a general-purpose jacket for year-round use.<\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
               "text_alignment": "",
@@ -2170,8 +2171,9 @@
           "2d76f291-3063-4fd8-b78a-45a9b07115eb": {
             "type": "row",
             "settings": {
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "image": "shopify:\/\/shop_images\/Size_Chart_-_Screenshot.png",
+              "title": "",
+              "text": "<p>Material: Polyester \/ Feature: waterproof & windproof \/ Weight: 750g \/ 26.45 oz<\/p>",
               "section_style": "section-blank",
               "image_alignement": "right",
               "text_alignment": "",
