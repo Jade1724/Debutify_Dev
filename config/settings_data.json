@@ -1825,7 +1825,7 @@
             "type": "row",
             "settings": {
               "title": "Specifications",
-              "text": "<p><strong>Materials<\/strong><br\/>Pole: Carbon Fiber<br\/>Handle: High-Density Moisture Absorption EVA<br\/>Stick Tip: Diamond Grain Tungsten Steel<\/p><p><strong>Wrist Strap<br\/><\/strong>Adjustable Wicking Wristband<\/p><p><strong>Color<\/strong><br\/>Blue<\/p><p><strong>Locking System<\/strong><br\/>External Lock<\/p><p><strong>Length<\/strong><br\/>Shrinkage: 65cm \/ 25.59\"<br\/>Elongation: 135cm \/ 53.15\"<br\/>Suitable for a person not more than 195cm tall<\/p><p><strong>Weight<\/strong><br\/>234g<\/p>",
+              "text": "<p><strong>Materials<\/strong><br\/>Pole: Carbon Fiber<br\/>Handle: High-Density Moisture Absorption EVA<br\/>Stick Tip: Diamond Grain Tungsten Steel<\/p><p><strong>Color<\/strong><br\/>Blue<\/p><p><strong>Length<\/strong><br\/>Shrinkage: 65cm \/ 25.59\"<br\/>Elongation: 135cm \/ 53.15\"<br\/>Suitable for a person not more than 195cm tall<\/p><p><strong>Weight<\/strong><br\/>234g<\/p>",
               "section_style": "section-blank",
               "image_alignement": "right",
               "text_alignment": "",
@@ -1863,26 +1863,31 @@
           "8ed2f3d3-5a3d-4007-add9-f0755d8a524c": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_1.png"
             }
           },
           "57ac35cb-8d92-4af9-854e-2076262d135b": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_2.png"
             }
           },
           "6becc518-6e27-4a18-ad17-c9aaa3c5338b": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_3.png"
             }
           },
           "79ffca8c-9a3b-425c-8f04-ce24973ecf91": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_4.png"
             }
           },
           "ddc3b079-4b87-4788-a9eb-9f4cc3ef209f": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_5.png"
             }
           }
         },
