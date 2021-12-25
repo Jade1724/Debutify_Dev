@@ -216,7 +216,7 @@
           "f6bd2ec9-cc12-49da-96dd-325b6960c893": {
             "type": "swatch",
             "settings": {
-              "title": "Male Army Green",
+              "title": "Army Green (Male)",
               "dbtfy_swatches_color_value": "#688647"
             }
           },
@@ -251,7 +251,7 @@
           "188eefe3-5c31-437a-a34e-8ef32ee9d7a9": {
             "type": "swatch",
             "settings": {
-              "title": "Male Navy Blue",
+              "title": "Navy Blue (Male",
               "dbtfy_swatches_color_value": "#2b4865"
             }
           },
@@ -265,7 +265,7 @@
           "797d1129-d5cb-42c0-aad7-e63733f04cd7": {
             "type": "swatch",
             "settings": {
-              "title": "Female Purple",
+              "title": "Purple (Female)",
               "dbtfy_swatches_color_value": "#90428c"
             }
           },
@@ -279,14 +279,14 @@
           "45f410b5-b04f-4b53-a081-1a3141fabd95": {
             "type": "swatch",
             "settings": {
-              "title": "Grey",
+              "title": "Grey (Female)",
               "dbtfy_swatches_color_value": "#504f54"
             }
           },
           "ac97d112-f15c-4668-aa86-7694ead6c0c1": {
             "type": "swatch",
             "settings": {
-              "title": "Women Black",
+              "title": "Black (Female)",
               "dbtfy_swatches_color_value": "#27242a"
             }
           },
@@ -303,6 +303,13 @@
               "title": "Grey & Blue",
               "dbtfy_swatches_color_value": "",
               "dbtfy_swatches_image": "shopify:\/\/shop_images\/tent-color-swatch.png"
+            }
+          },
+          "8bd91995-0ba2-4b38-ae41-68510dcfe91a": {
+            "type": "swatch",
+            "settings": {
+              "title": "Black (Male)",
+              "dbtfy_swatches_color_value": "#27242a"
             }
           }
         },
@@ -327,7 +334,8 @@
           "45f410b5-b04f-4b53-a081-1a3141fabd95",
           "ac97d112-f15c-4668-aa86-7694ead6c0c1",
           "2885a7f2-8cb0-464f-9b79-d7a530dbec2d",
-          "b5945b8e-6ba9-4c16-8a4c-43fdae2a2ae8"
+          "b5945b8e-6ba9-4c16-8a4c-43fdae2a2ae8",
+          "8bd91995-0ba2-4b38-ae41-68510dcfe91a"
         ],
         "settings": {
         }
