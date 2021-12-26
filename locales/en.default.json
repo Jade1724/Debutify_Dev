@@ -10,8 +10,8 @@
       "page": "Page {{ page }}"
     },
     "404": {
-      "title": "404 Page Not Found",
-      "subtext_html": "The page you were looking for does not exist."
+      "title": "Sorry",
+      "subtext_html": "We couldn't find the page - 404 error"
     },
     "pagination": {
       "previous": "Previous",
@@ -122,7 +122,7 @@
       "reduce_quantity": "Reduce item quantity by one",
       "increase_quantity": "Increase item quantity by one",
       "cookies_required": "Enable cookies to use the shopping cart",
-      "custom_currency_html": "All orders are processed in {{ shopCurrency }}. While the content of your cart is currently displayed in <span class='selected-currency'></span>, you will checkout using {{ shopCurrency }} at the most current exchange rate."
+      "custom_currency_html": "All orders are processed in {{ shopCurrency }}. While the content of your cart is currently displayed in <span class='selected-currency'><\/span>, you will checkout using {{ shopCurrency }} at the most current exchange rate."
     },
     "label": {
       "quantity": "Quantity",
@@ -336,6 +336,6 @@
     }
   },
   "date_formats": {
-      "month_day_year": "%a %b %d"
-    }
+    "month_day_year": "%a %b %d"
+  }
 }
