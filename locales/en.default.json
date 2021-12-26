@@ -341,7 +341,7 @@
   "shopify": {
     "checkout": {
       "alternative_payment_method_banner": {
-        "express_checkout": "PayPal"
+        "express_checkout": "Express Checkout"
       }
     }
   }
