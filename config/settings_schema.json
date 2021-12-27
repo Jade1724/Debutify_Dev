@@ -1248,7 +1248,7 @@
         "type": "range",
         "id": "header_font_size_big",
         "label": "Page title size",
-        "min": 50,
+        "min": 20,
         "max": 90,
         "step": 2,
         "unit": "px",
