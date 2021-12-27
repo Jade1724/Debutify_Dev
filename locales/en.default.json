@@ -245,10 +245,10 @@
     },
     "register": {
       "title": "Create an Account",
-      "first_name": "",
-      "last_name": "",
-      "email": "",
-      "password": "",
+      "first_name": "First Name (Optional)",
+      "last_name": "Last Name",
+      "email": "Email",
+      "password": "Password (minimum 5 characters)",
       "submit": "Create",
       "cancel": "Return to Store"
     }
