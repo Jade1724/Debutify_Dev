@@ -244,11 +244,11 @@
       "submit": "Reset Password"
     },
     "register": {
-      "title": "Create Account",
-      "first_name": "First Name",
-      "last_name": "Last Name",
-      "email": "Email",
-      "password": "Password",
+      "title": "Create an Account",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "password": "",
       "submit": "Create",
       "cancel": "Return to Store"
     }
