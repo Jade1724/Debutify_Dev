@@ -2,12 +2,13 @@
   "current": {
     "icon": "material-icons",
     "grid_product_truncate": false,
+    "newsletter_optin": false,
     "show_top_button": false,
     "show_breadcrumbs": false,
     "show_back_to_collection": false,
     "enable_payment_button": true,
     "section_padding_size": "medium",
-    "browsing_link": "",
+    "browsing_link": "shopify:\/\/collections\/all",
     "cart_notes_enable": false,
     "icon_cart": "shopping_cart",
     "cart_bubble": true,
@@ -17,8 +18,8 @@
     "checkout_icon": "",
     "color_announcement_bg": "#a7ad80",
     "color_announcement_text": "#ffffff",
-    "color_nav_bg": "#2d4a39",
-    "color_nav_border": "#2d4a39",
+    "color_nav_bg": "#304d19",
+    "color_nav_border": "#304d19",
     "color_nav_text": "#ffffff",
     "color_body_bg": "#FFFFFF",
     "color_default": "#ffffff",
@@ -28,8 +29,9 @@
     "color_primary": "#cb5a20",
     "color_button_text": "#ffffff",
     "color_secondary": "#cb5a20",
-    "color_sales_price": "#000000",
-    "color_drawer_bg": "#2d4a39",
+    "color_input": "#a7ad80",
+    "color_sales_price": "#e22120",
+    "color_drawer_bg": "#304d19",
     "color_drawer_default": "#a7ad80",
     "color_drawer_border": "#e5e5e5",
     "color_drawer_text": "#ffffff",
@@ -39,7 +41,7 @@
     "color_drawer_input": "#a7ad80",
     "color_drawer_error_text": "#dccea0",
     "color_drawer_sales_price": "#cb5a20",
-    "color_footer_bg": "#2d4a39",
+    "color_footer_bg": "#304d19",
     "color_footer_default": "#dccea0",
     "color_footer_border": "#e5e5e5",
     "color_footer_primary": "#cb5a20",
@@ -47,7 +49,7 @@
     "color_footer_secondary": "#cb5a20",
     "color_footer_input": "#a7ad80",
     "color_footer_sales_price": "#cb5a20",
-    "color_overlay": "#2d4a39",
+    "color_overlay": "#304d19",
     "color_transparent_nav_text": "#FFFFFF",
     "custom_style": "",
     "review_app": "product_reviews",
@@ -55,8 +57,11 @@
     "share_pinterest": true,
     "share_whatsapp": false,
     "share_linkedin": true,
-    "header_family": "poppins_n4",
+    "social_facebook_link": "https:\/\/www.facebook.com\/Bivvy-Fun-106724365164668",
+    "header_family": "helvetica_n4",
     "header_font_size": 36,
+    "accent_family": "helvetica_n4",
+    "base_family": "helvetica_n4",
     "base_font_size": 18,
     "dbtfy_addtocart_animation": true,
     "dbtfy_back_in_stock": false,
@@ -107,17 +112,24 @@
     "dbtfy_color_swatches_color": "Color",
     "dbtfy_color_swatches_grid": "Color",
     "dbtfy_color_swatches_count": 5,
-    "dbtfy_floating_bar_text": "Get 20% off!",
+    "dbtfy_floating_bar_text": "Get 10% off!",
+    "dbtfy_floating_bar_icons": "",
+    "dbtfy_newsletter_popup_close": "",
     "dbtfy_newsletter_popup_time_trigger": true,
     "dbtfy_newsletter_popup_timeout": 30,
-    "dbtfy_newsletter_popup_scroll_depth": true,
+    "dbtfy_newsletter_popup_scroll_depth": false,
     "dbtfy_newsletter_popup_scroll_percentage": 60,
-    "checkout_logo_image": "shopify:\/\/shop_images\/bf-logo2-text.png",
+    "dbtfy_newsletter_popup_title_success": "Thank you for your interest!",
+    "dbtfy_newsletter_popup_text_success": "<p>Check your email to get discount code or<\/p>",
+    "dbtfy_newsletter_popup_reward_button": "Apply the discount now",
+    "dbtfy_newsletter_popup_discount_name": "THANKYOU10OFF",
+    "dbtfy_newsletter_popup_discount_amount": "10",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
     "checkout_body_background_color": "#ffffff",
-    "checkout_sidebar_background_color": "#dccea0",
-    "checkout_heading_font": "Roboto",
+    "checkout_sidebar_background_color": "#a7ad80",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
     "checkout_accent_color": "#cb5a20",
     "checkout_button_color": "#cb5a20",
     "sections": {
@@ -211,7 +223,7 @@
           "f6bd2ec9-cc12-49da-96dd-325b6960c893": {
             "type": "swatch",
             "settings": {
-              "title": "Male Army Green",
+              "title": "Army Green (Male)",
               "dbtfy_swatches_color_value": "#688647"
             }
           },
@@ -246,7 +258,7 @@
           "188eefe3-5c31-437a-a34e-8ef32ee9d7a9": {
             "type": "swatch",
             "settings": {
-              "title": "Male Navy Blue",
+              "title": "Navy Blue (Male",
               "dbtfy_swatches_color_value": "#2b4865"
             }
           },
@@ -260,7 +272,7 @@
           "797d1129-d5cb-42c0-aad7-e63733f04cd7": {
             "type": "swatch",
             "settings": {
-              "title": "Female Purple",
+              "title": "Purple (Female)",
               "dbtfy_swatches_color_value": "#90428c"
             }
           },
@@ -274,14 +286,14 @@
           "45f410b5-b04f-4b53-a081-1a3141fabd95": {
             "type": "swatch",
             "settings": {
-              "title": "Grey",
+              "title": "Grey (Female)",
               "dbtfy_swatches_color_value": "#504f54"
             }
           },
           "ac97d112-f15c-4668-aa86-7694ead6c0c1": {
             "type": "swatch",
             "settings": {
-              "title": "Women Black",
+              "title": "Black (Female)",
               "dbtfy_swatches_color_value": "#27242a"
             }
           },
@@ -298,6 +310,13 @@
               "title": "Grey & Blue",
               "dbtfy_swatches_color_value": "",
               "dbtfy_swatches_image": "shopify:\/\/shop_images\/tent-color-swatch.png"
+            }
+          },
+          "8bd91995-0ba2-4b38-ae41-68510dcfe91a": {
+            "type": "swatch",
+            "settings": {
+              "title": "Black (Male)",
+              "dbtfy_swatches_color_value": "#27242a"
             }
           }
         },
@@ -322,7 +341,8 @@
           "45f410b5-b04f-4b53-a081-1a3141fabd95",
           "ac97d112-f15c-4668-aa86-7694ead6c0c1",
           "2885a7f2-8cb0-464f-9b79-d7a530dbec2d",
-          "b5945b8e-6ba9-4c16-8a4c-43fdae2a2ae8"
+          "b5945b8e-6ba9-4c16-8a4c-43fdae2a2ae8",
+          "8bd91995-0ba2-4b38-ae41-68510dcfe91a"
         ],
         "settings": {
         }
@@ -359,6 +379,17 @@
       },
       "announcement": {
         "type": "announcement",
+        "blocks": {
+          "ad4a87ed-35dd-4c41-a895-48e440e3bf17": {
+            "type": "message",
+            "settings": {
+              "announcement_text": "<p>FREE shipping | 20% OFF storewide<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "ad4a87ed-35dd-4c41-a895-48e440e3bf17"
+        ],
         "settings": {
           "show_announcement": true,
           "show_social": false,
@@ -376,8 +407,6 @@
           "navigation_type": "center",
           "header_font_size": 16,
           "logo_link": true,
-          "default_logo": "shopify:\/\/shop_images\/bf-logo2.png",
-          "mobile_logo": "shopify:\/\/shop_images\/bf-logo2.png",
           "default_logo_svg": "",
           "inverted_logo_svg": "",
           "mobile_logo_svg": "",
@@ -451,45 +480,45 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-2": {
-            "type": "newsletter",
-            "settings": {
-              "column_width": 2,
-              "title": "Subscribe to our newsletter",
-              "subtitle": "Keep in touch with us to get great deals!"
-            }
-          },
           "aecee39b-1c42-49f6-bf8c-d58305bd8362": {
             "type": "link_list",
             "settings": {
-              "column_width": 1,
-              "title": "Store",
+              "column_width": 2,
+              "title": "Clothing",
               "subtitle": "",
-              "footer_link_list": "footer"
+              "footer_link_list": "clothing"
             }
           },
-          "dfe24af2-50ee-4637-ad93-8346774cf7ef": {
+          "f8e4c9d1-dac4-498e-8fc6-63a78272186f": {
             "type": "link_list",
             "settings": {
-              "column_width": 1,
-              "title": "Policies",
+              "column_width": 2,
+              "title": "Gear",
               "subtitle": "",
-              "footer_link_list": "policies"
+              "footer_link_list": "gear"
+            }
+          },
+          "footer-2": {
+            "type": "newsletter",
+            "settings": {
+              "column_width": 3,
+              "title": "Subscribe to our newsletter",
+              "subtitle": "Keep in touch with us to get great deals!"
             }
           }
         },
         "block_order": [
-          "footer-2",
           "aecee39b-1c42-49f6-bf8c-d58305bd8362",
-          "dfe24af2-50ee-4637-ad93-8346774cf7ef"
+          "f8e4c9d1-dac4-498e-8fc6-63a78272186f",
+          "footer-2"
         ],
         "settings": {
           "show_social_media": true,
-          "social_title": "Follow-us on social media!",
+          "social_title": "",
           "show_payment_icons": true,
           "show_shopify_footer": false,
           "show_debutify_footer": false,
-          "custom_credential": ""
+          "custom_credential": "<p><a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms of Service<\/a>, <a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Privacy<\/a>, <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Refund<\/a><\/p>"
         }
       },
       "1630064890ea175e56": {
@@ -1635,6 +1664,7 @@
           "c3b6dedc-35ef-453e-8454-8c4137553eef": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlight_1_5130ddf6-20bd-4377-80a0-c2ff3b309989.png",
               "icon": "",
               "title": "Palm-size and Lightweight",
               "text": "<p>Handy to pack, easy to use.<\/p>",
@@ -1646,6 +1676,7 @@
           "e59cfd39-e05e-42a7-8ede-f7305305974c": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlights_2.png",
               "icon": "",
               "title": "All in One Fernace",
               "text": "<p>One-click ignition and adjustable valve.<\/p>",
@@ -1657,6 +1688,7 @@
           "e085858b-2ade-47de-836a-d3b39f73c236": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlights_3.png",
               "icon": "",
               "title": "Solid Construction",
               "text": "<p>Holds cookwares firmly up to 3kg.<\/p>",
@@ -1684,6 +1716,7 @@
           "de7ceb88-193f-4ffa-9dba-a65d67ce7d81": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Description_8e7e8b77-5760-4779-83fa-c04df512af76.png",
               "title": "",
               "text": "<p>This mini stove is a lightweight, compact stove ideal for backpacking and other outdoor adventures. <\/p><p>It boils a liter in 3 minutes, has pot supports that provide a stable surface for a variety of cookware, and comes in a carry case for easy packing.<\/p>",
               "section_style": "section-blank",
@@ -1698,6 +1731,7 @@
           "ed61ebf3-0792-4c07-9543-56783b83679e": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Specification_1262a633-88ee-49bb-9486-d261feaff37d.png",
               "title": "Specifications",
               "text": "<p><strong>Dimensions<br\/><\/strong>Expand:  8 x 7.5cm<br\/>Collapse: 8 x 6cm<br\/>Storage box: 8.2 X 5.5 X 4cm<\/p><p><strong>Burning Power<br\/><\/strong>3000W<\/p><p><strong>Materials<br\/><\/strong>Stove: Stainless steel, Copper, Aluminium alloy<br\/>Storage Box: Plastic<\/p><p><strong>Weight<\/strong><br\/>120g\/4.2oz<\/p>",
               "section_style": "section-blank",
@@ -1733,6 +1767,45 @@
       },
       "custom-gallery_camping-stove": {
         "type": "custom-gallery_camping-stove",
+        "blocks": {
+          "b735e616-9b1b-4c7e-870e-a850a01f77a0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_1_a1e57772-5efc-4a92-9ff5-9add9717f4ff.png"
+            }
+          },
+          "8849bd4c-f190-4fb7-bae0-f3960f87a24e": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_2_01e12339-6c36-4d4b-a0f9-3c079229f001.png"
+            }
+          },
+          "0d149324-7a53-4828-8360-4173f3038261": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_3_ed58006f-c633-4239-ba2b-90c90ed22af8.png"
+            }
+          },
+          "41af8acc-fa22-4931-b082-fd2ee0a205f7": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_4_8db3b790-aeab-4490-8791-87503f341930.png"
+            }
+          },
+          "408a7623-a52c-480d-9a02-57cae907f536": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_5_4dcaeb1d-aa20-4132-a947-cad743f9e5e7.png"
+            }
+          }
+        },
+        "block_order": [
+          "b735e616-9b1b-4c7e-870e-a850a01f77a0",
+          "8849bd4c-f190-4fb7-bae0-f3960f87a24e",
+          "0d149324-7a53-4828-8360-4173f3038261",
+          "41af8acc-fa22-4931-b082-fd2ee0a205f7",
+          "408a7623-a52c-480d-9a02-57cae907f536"
+        ],
         "settings": {
           "header": ""
         }
@@ -1811,7 +1884,7 @@
             "type": "row",
             "settings": {
               "title": "Specifications",
-              "text": "<p><strong>Materials<\/strong><br\/>Pole: Carbon Fiber<br\/>Handle: High-Density Moisture Absorption EVA<br\/>Stick Tip: Diamond Grain Tungsten Steel<\/p><p><strong>Wrist Strap<br\/><\/strong>Adjustable Wicking Wristband<\/p><p><strong>Color<\/strong><br\/>Blue<\/p><p><strong>Locking System<\/strong><br\/>External Lock<\/p><p><strong>Length<\/strong><br\/>Shrinkage: 65cm \/ 25.59\"<br\/>Elongation: 135cm \/ 53.15\"<br\/>Suitable for a person not more than 195cm tall<\/p><p><strong>Weight<\/strong><br\/>234g<\/p>",
+              "text": "<p><strong>Materials<\/strong><br\/>Pole: Carbon Fiber<br\/>Handle: High-Density Moisture Absorption EVA<br\/>Stick Tip: Diamond Grain Tungsten Steel<\/p><p><strong>Color<\/strong><br\/>Blue<\/p><p><strong>Length<\/strong><br\/>Shrinkage: 65cm \/ 25.59\"<br\/>Elongation: 135cm \/ 53.15\"<br\/>Suitable for a person not more than 195cm tall<\/p><p><strong>Weight<\/strong><br\/>234g<\/p>",
               "section_style": "section-blank",
               "image_alignement": "right",
               "text_alignment": "",
@@ -1849,26 +1922,31 @@
           "8ed2f3d3-5a3d-4007-add9-f0755d8a524c": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_1.png"
             }
           },
           "57ac35cb-8d92-4af9-854e-2076262d135b": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_2.png"
             }
           },
           "6becc518-6e27-4a18-ad17-c9aaa3c5338b": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_3.png"
             }
           },
           "79ffca8c-9a3b-425c-8f04-ce24973ecf91": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_4.png"
             }
           },
           "ddc3b079-4b87-4788-a9eb-9f4cc3ef209f": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_5.png"
             }
           }
         },
@@ -1889,9 +1967,10 @@
           "6f78b94b-120a-4986-b501-1296177646fa": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highight_1.jpg",
               "icon": "",
-              "title": "Windproof and Water Resistance",
-              "text": "<p>Water repellent windproof outdoor pants with fleece lining, keep you warm and dry in the cold and windy weather.<\/p>",
+              "title": "Windproof and Water-Resistance",
+              "text": "<p>Waterproof, windproof and breathable fabric that will keep you comfy and dry.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1900,9 +1979,10 @@
           "e629ce62-bdc8-4108-9495-d754a650629d": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlight2.jpg",
               "icon": "",
               "title": "Durability",
-              "text": "<p>Kneepatches for enhanced durability and Articulated knees for step high movement, perfect for mountain use<\/p>",
+              "text": "<p>Knee patches for enhanced durability and Articulated knees for step high movement, perfect for mountain use.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1911,9 +1991,10 @@
           "26bbe513-4143-4e22-b493-8d14828bdd3d": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlight_3.jpg",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Fleece Layer",
+              "text": "<p>The fleece layer makes them ideal pants to keep you toasty warm when it's cold outside.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -1938,8 +2019,9 @@
           "3537fc1c-90ba-4d71-8c8e-96799a963694": {
             "type": "row",
             "settings": {
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "image": "shopify:\/\/shop_images\/Description.jpg",
+              "title": "",
+              "text": "<p>Water-resistance windproof outdoor pants, perfect for outdoor activities like hiking, mountaineering, camping, skiing, snowboarding and other outdoor activities.<\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
               "text_alignment": "",
@@ -1952,8 +2034,9 @@
           "c4a85add-5c10-47c5-b523-349a2b527efa": {
             "type": "row",
             "settings": {
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "image": "shopify:\/\/shop_images\/Untitled_design_b4a895e4-4813-4ad3-991e-351ba8e97e58.png",
+              "title": "Specifications",
+              "text": "<p><strong>Materials<br\/><\/strong>Water-resistance coefficient: 1500MM<br\/>Fabric: Polyester<br\/>Lining: Fleece<\/p><p><strong>Functionalities<br\/><\/strong>Waterproof, quick-drying, warm, breathable, UV-resistant, wear-resistant, anti-static, windproof<\/p><p><strong>Options<br\/><\/strong>Color: Black, army green, black, grey,  purple, and navy blue<br\/>Size : L, XL, 2XL, 3XL, 4XL, 5X, 6XL<\/p>",
               "section_style": "section-blank",
               "image_alignement": "right",
               "text_alignment": "",
@@ -1991,26 +2074,31 @@
           "23dcd8a8-0e3d-4834-bca8-ea5d3ed9b6cb": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallary_1_FINAL.png"
             }
           },
           "83e69dd6-77b0-43a9-8d2d-4d56c4bc8032": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallary_2.png"
             }
           },
           "16661979-7280-4253-ada9-b7d6b991da76": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallary_3_FINAL.png"
             }
           },
           "7062ab2c-1ead-4cf9-97b6-2dd9fa875770": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallary_4_0ac2c5d9-0820-4d2e-b6be-f5aa22ecdb38.png"
             }
           },
           "e16f1cf2-d710-4926-9b73-76f2695a3d8d": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallary_5.jpg"
             }
           }
         },
@@ -2031,9 +2119,10 @@
           "d45f80df-12f1-4808-8a6a-0dd946e57f1d": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlight_1_a6292328-7ce4-4534-9583-f8342e636e87.png",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Waterproof and wind-resistant",
+              "text": "<p>Keep you dry on a wet day<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -2042,9 +2131,10 @@
           "e7d4e2b1-56ad-46c4-8c58-ac106d22e460": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlight_2_9c08d78d-1737-4903-b426-f94a8e2c1f6f.png",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Covered zip hand pockets",
+              "text": "<p>Anti-thief design and proven water damage <\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -2053,9 +2143,10 @@
           "74589b02-6f30-45ec-94ca-ee489e10ea6c": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Higlight_3.png",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Warmth and breathable",
+              "text": "<p>Keep you warm and cozy any time<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -2080,8 +2171,9 @@
           "ea006ac8-ca73-4c9c-ad98-5d926254df4c": {
             "type": "row",
             "settings": {
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "image": "shopify:\/\/shop_images\/2_2fa64382-a1f2-4716-9bd2-98e4aeb40e10.png",
+              "title": "",
+              "text": "<p>This jacket is a perfect choice for hiking, camping and adventuring in wet weather. <\/p><p>It protects you with waterproof and wind-resistant fabric in variable weather conditions, the breathable fabric makes you warm and cozy outdoor.<\/p><p>The covered pocket adds more safety to your values. It is a general-purpose jacket for year-round use.<\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
               "text_alignment": "",
@@ -2094,11 +2186,27 @@
           "2d76f291-3063-4fd8-b78a-45a9b07115eb": {
             "type": "row",
             "settings": {
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "image": "shopify:\/\/shop_images\/Size_Chart_-_Screenshot.png",
+              "title": "",
+              "text": "<p>Material: Polyester<\/p><p>Feature: waterproof & windproof<\/p><p>Weight: 750g \/ 26.45 oz<\/p>",
               "section_style": "section-blank",
               "image_alignement": "right",
               "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "e9536f25-b33e-4ba8-aaec-74fec5d8c1df": {
+            "type": "row",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Specification_example.png",
+              "title": "",
+              "text": "",
+              "section_style": "section-blank",
+              "image_alignement": "left",
+              "text_alignment": "text-center",
               "type_row": "",
               "tag_row": "",
               "product_row": "",
@@ -2108,7 +2216,8 @@
         },
         "block_order": [
           "ea006ac8-ca73-4c9c-ad98-5d926254df4c",
-          "2d76f291-3063-4fd8-b78a-45a9b07115eb"
+          "2d76f291-3063-4fd8-b78a-45a9b07115eb",
+          "e9536f25-b33e-4ba8-aaec-74fec5d8c1df"
         ],
         "settings": {
           "show_product_row": true
@@ -2117,7 +2226,7 @@
       "featured-content_sports-hooded-mountaineering": {
         "type": "featured-content_sports-hooded-mountaineering",
         "settings": {
-          "title": "Featured content",
+          "title": "",
           "text": "",
           "section_style": "section-blank",
           "text_size": "large",
@@ -2133,26 +2242,31 @@
           "865eb81d-6415-40cb-81e4-42d6a387950c": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_1.jpg"
             }
           },
           "de8cdc05-01cd-4ac6-9343-2ce39fdb4086": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_2.jpg"
             }
           },
           "88771e68-0e33-40a5-ae1c-4dab9adbe1ba": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_3.jpg"
             }
           },
           "6247ae3d-c753-4680-92ca-1cc0c80a1ef7": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery4.png"
             }
           },
           "542c109e-360d-415d-94c5-323e89562f97": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery5.png"
             }
           }
         },
@@ -2238,9 +2352,10 @@
           "d7de8717-6262-4fef-b159-6e8e5fd7bb7a": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlight_1_81c4af78-ff35-4455-9dac-0f57813c8e72.png",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Food Grade",
+              "text": "<p>Made with environment-friendly premium plastics. <\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -2249,20 +2364,10 @@
           "9697c3ff-cac0-4da9-9ad6-00e18c8f30ae": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Highlight_2_9220c21c-2d7a-45d0-8e3c-dfe9dcb27c40.png",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
-              "button_style": "btn--primary",
-              "button_label": "",
-              "image_link": ""
-            }
-          },
-          "87c9d970-d8ab-4df5-a3fa-370b28a8f25f": {
-            "type": "text_block",
-            "settings": {
-              "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Easy to carry",
+              "text": "<p>Our water containers are lightweight and durable. They can be put into pockets or any small places without using too much of space. <\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
@@ -2271,8 +2376,7 @@
         },
         "block_order": [
           "d7de8717-6262-4fef-b159-6e8e5fd7bb7a",
-          "9697c3ff-cac0-4da9-9ad6-00e18c8f30ae",
-          "87c9d970-d8ab-4df5-a3fa-370b28a8f25f"
+          "9697c3ff-cac0-4da9-9ad6-00e18c8f30ae"
         ],
         "settings": {
           "title": "Highlights",
@@ -2287,11 +2391,12 @@
           "7e220e8e-567c-425c-9818-06e99deb8feb": {
             "type": "row",
             "settings": {
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "image": "shopify:\/\/shop_images\/Description_658a8c7d-b003-4858-9f34-3a218124b9d9.png",
+              "title": "",
+              "text": "<p>Portable, lightweight and compact water carrier. Easily folds or stores flat taking up little space. <\/p><p>You can stash several in your backpack when travelling or outdoors. <\/p><p>The water containers can be used indoor and outdoor for travel, picnics, large gatherings and emergency situations. <\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
-              "text_alignment": "text-center",
+              "text_alignment": "",
               "type_row": "",
               "tag_row": "",
               "product_row": "",
@@ -2301,11 +2406,11 @@
           "70bf7837-1ba6-47a8-b9f0-f774c07b33c3": {
             "type": "row",
             "settings": {
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "title": "Specifications",
+              "text": "<p><strong>Material<br\/><\/strong>Premium PET PA PE plastics (free Of PBA, PVC)<\/p><p><strong>Color<br\/><\/strong>Blue, White<\/p><p><strong>Quantity<br\/><\/strong>1pc<\/p><p><strong>Capacity<br\/><\/strong>700ml, 5L, and 10L<\/p><p>Folding size:10.5x30.5cm \/4.1*12.0”, 14x38cm\/5.5*14.9”<strong>Size: <\/strong>5L Bag - 12.9 x 12.0″ ( 32.7cm x 30.5cm) 10L Bag - 16.1*14.7″ ( 41cm x 37.5cm)<\/p>",
               "section_style": "section-blank",
               "image_alignement": "right",
-              "text_alignment": "text-center",
+              "text_alignment": "",
               "type_row": "",
               "tag_row": "",
               "product_row": "",
@@ -2340,26 +2445,31 @@
           "ca79d744-248e-459f-ab23-661f756b564c": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallary_1_d99746ca-8453-441a-815a-8e6d4bd0c771.png"
             }
           },
           "f834ffca-99ce-4c7b-8f37-3b73f64e3e10": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallary_2_d6d42275-6472-47dc-a040-eb9fe78da5f8.png"
             }
           },
           "7d82de1d-6d0e-482d-b07c-226ce4bac1d2": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallary_3.png"
             }
           },
           "0e4f6dd5-920a-473b-b4ae-dd46363a1508": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallary_4_f7ba6dc7-ff70-4530-babe-195ebe37c98e.png"
             }
           },
           "ff24fd8f-7627-4e9a-86f3-830f8d743e11": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_5_47330641-1c9a-4107-b310-a5305241e879.png"
             }
           }
         },
