@@ -3,23 +3,6 @@
   <div class="wrapper">
 
     <div class="grid">
-
-      <div class="grid__item">
-        {%- if section.settings.default_logo != blank -%}
-          {%- assign logo_default = section.settings.default_logo -%}
-          {%- assign logo_default_type = 'retina' -%}
-        {%- endif -%}
-
-        {%- if logo_default != blank -%}
-          <img class="default-logo imgset lazyload radius-none"
-          {% render 'lazysizes', img: logo_default, img_type: logo_default_type, img_width: 200px %}
-          alt="{{ shop.name }}"
-          itemprop="logo">
-        {%- else -%}
-          <span class="default-logo">{{ shop.name }}</span>
-        {%- endif -%}
-      </div>
-
       <div class="grid__item large--four-twelfths push--large--four-twelfths">
 
         <div class="section-header">
@@ -105,23 +88,3 @@
 
   </div>
 </div>
-
-
-
-{% schema %}
-  {
-    "name": "Header",
-	  "class": "header-section",
-    "settings": [
-      {
-        "type": "header",
-        "content": "Logo"
-      },
-      {
-        "type": "image_picker",
-        "id": "default_logo",
-        "label": "Default"
-      }
-    ]
-  }
-{% endschema %}
