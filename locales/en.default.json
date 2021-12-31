@@ -244,13 +244,13 @@
       "submit": "Reset Password"
     },
     "register": {
-      "title": "Create Account",
-      "first_name": "First Name",
+      "title": "Create an Account",
+      "first_name": "First Name (optional)",
       "last_name": "Last Name",
       "email": "Email",
-      "password": "Password",
+      "password": "Password (minimum 5 characters)",
       "submit": "Create",
-      "cancel": "Return to Store"
+      "cancel": "Cancel and Return to Store"
     }
   },
   "home_page": {
