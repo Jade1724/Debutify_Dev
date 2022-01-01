@@ -3,13 +3,14 @@
   <div class="wrapper">
 
     <div class="grid">
-      <div class="grid__item large--four-twelfths push--large--four-twelfths">
-
+      <div class="grid__item">
         <div class="section-header">
           <div class="page-title-wrapper">
             <h1 class="page-title">{{ 'customer.register.title' | t }}</h1>
           </div>
         </div>
+      </div>
+      <div class="grid__item large--four-twelfths push--large--four-twelfths">
 
         {%- form 'create_customer', class:'form-vertical' -%}
           {%- if form.errors -%}
