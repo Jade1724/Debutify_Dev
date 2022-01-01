@@ -244,13 +244,13 @@
       "submit": "Reset Password"
     },
     "register": {
-      "title": "Create an Account",
+      "title": "Become a Bivvy Fun Member",
       "first_name": "First Name (optional)",
       "last_name": "Last Name",
       "email": "Email",
       "password": "Password (minimum 5 characters)",
-      "submit": "Create",
-      "cancel": "Cancel and Return to Store"
+      "submit": "Join Us",
+      "cancel": "Return to Store"
     }
   },
   "home_page": {
