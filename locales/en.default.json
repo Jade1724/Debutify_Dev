@@ -244,13 +244,13 @@
       "submit": "Reset Password"
     },
     "register": {
-      "title": "Create an Account",
+      "title": "Become a Bivvy Fun Member",
       "first_name": "First Name (optional)",
       "last_name": "Last Name",
       "email": "Email",
       "password": "Password (minimum 5 characters)",
-      "submit": "Create",
-      "cancel": "Cancel and Return to Store"
+      "submit": "Join Us",
+      "cancel": "Return to Store"
     }
   },
   "home_page": {
@@ -344,7 +344,7 @@
         "express_checkout": "Express Checkout"
       },
       "marketing": {
-        "accept_marketing_checkbox_label": "Subscribe to emails for the latest news and offers from Bivvy Fun!"
+        "accept_marketing_checkbox_label": "Subscribe to emails for the latest updates, special offers and seasonal surprises from Bivvy Fun!"
       }
     }
   }
