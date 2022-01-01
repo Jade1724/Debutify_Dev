@@ -71,8 +71,10 @@
               <!-- CUSTOM -->
               <span>Not a Member?</span>
               <!-- ENDCUSTOM -->
-              <a href="{{ routes.account_register_url }}">
+              <a href="{{ routes.account_register_url }}" style="text-decoration: underline;">
+                {%- comment -%} CUSTOM: Disabled account creation icon.
                 <span class="{{settings.icon}}" aria-hidden="true">person_add</span>
+                {%- endcomment -%}
                 {{ 'layout.customer.create_account' | t }}
               </a>
             </div>
