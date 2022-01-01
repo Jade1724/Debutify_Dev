@@ -244,7 +244,7 @@
       "submit": "Reset Password"
     },
     "register": {
-      "title": "Become a Bivvy Fun Member",
+      "title": "Become a <span style=\"white-space: nowrap;\">Bivvy Fun<\/span> Member",
       "first_name": "First Name (optional)",
       "last_name": "Last Name",
       "email": "Email",
