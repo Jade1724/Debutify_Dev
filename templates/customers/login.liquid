@@ -3,7 +3,7 @@
   <div class="wrapper">
 
     <div class="grid">
-      <div class="grid__item large--four-twelfths push--large--four-twelfths">
+      <div class="grid__item large--six-twelfths push--large--three-twelfths">
 
         <div class="section-header">
           <div class="page-title-wrapper">
@@ -45,6 +45,13 @@
                 class="{%- if form.errors contains 'password' -%} error{%- endif -%}" 
                 placeholder="{{ 'customer.login.password' | t }}">
           {%- endif -%}
+
+          <!-- CUSTOM: Pcivacy policy and terms of use agreement notes-->
+          <div>
+            <p class="text-small">By signing in, you agree to Bivvy Fun's <a href="https://bivvyfun.com/policies/privacy-policy" style="text-decoration: underline;">Privacy Policy</a> and <a href="https://bivvyfun.com/policies/terms-of-service" style="text-decoration: underline;">Terms of Service</a>.</p>
+          </div>
+          <!-- ENDCUSTOM -->
+
           <button type="submit" class="btn btn--primary full">
             <span class="btn__text">
               {{ 'customer.login.sign_in' | t }}
@@ -61,6 +68,9 @@
           
           <div class="text-center spacer-auto">
             <div>
+              <!-- CUSTOM -->
+              <span>Not a Member?</span>
+              <!-- ENDCUSTOM -->
               <a href="{{ routes.account_register_url }}">
                 <span class="{{settings.icon}}" aria-hidden="true">person_add</span>
                 {{ 'layout.customer.create_account' | t }}
