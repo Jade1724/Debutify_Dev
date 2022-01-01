@@ -523,7 +523,7 @@
           "show_payment_icons": true,
           "show_shopify_footer": false,
           "show_debutify_footer": false,
-          "custom_credential": "<p><a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms of Service<\/a>, <a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Privacy<\/a>, <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Refund, <\/a><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping<\/a><\/p>"
+          "custom_credential": "<p><a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms of Service<\/a>, <a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Privacy<\/a>, <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Refund<\/a>, <a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping<\/a><\/p>"
         }
       },
       "1630064890ea175e56": {
