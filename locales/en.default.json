@@ -167,7 +167,7 @@
       "cancel": "Decline Invitation"
     },
     "addresses": {
-      "title": "Your Addresses",
+      "title": "Manage Your Addresses",
       "default": "Default",
       "add_new": "Add a New Address",
       "edit_address": "Edit address",
