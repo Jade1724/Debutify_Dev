@@ -4,9 +4,18 @@
 
     {%- paginate customer.addresses by 5 -%}
     <div class="section-header">
+      {%- comment -%} CUSTOM
       <div class="page-title-wrapper">
         <h1 class="page-title">{{ 'customer.account.title' | t }}</h1>
       </div>
+      {%- endcomment -%}
+
+      <!-- CUSTOM: Hardcoded addresses page title -->
+      <div class="page-title-wrapper">
+        <h1 class="page-title">Manage Your Account Details</h1>
+      </div>
+      <!-- ENDCUSTOM -->
+
       <p>
         <a href="{{ routes.account_url }}">
           <span class="{{settings.icon}}" aria-hidden="true">arrow_back</span> {{ 'customer.account.return' | t }}
