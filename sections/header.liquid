@@ -230,8 +230,12 @@
                 <button type="button"
                   id="HeaderAccountToggle"
                   class="dropdown-toggle localization-toggle site-nav__link site-nav__link--icon account-link"
+                  {%- comment -%} CUSTOM: Replaced with the following two lines
                   title="{%- if customer -%}{{ 'customer.account.title' | t }}{%- else -%}{{ 'layout.customer.log_in' | t }}{%- endif -%}"
                   aria-label="{%- if customer -%}{{ 'customer.account.title' | t }}{%- else -%}{{ 'layout.customer.log_in' | t }}{%- endif -%}"
+                  {%- endcomment -%}
+                  title="{%- if customer -%}{{ customer.name }}{%- else -%}{{ 'layout.customer.log_in' | t }}{%- endif -%}"
+                  aria-label="{%- if customer -%}{{ customer.name }}{%- else -%}{{ 'layout.customer.log_in' | t }}{%- endif -%}"
                   aria-controls="HeaderAccountMenu"
                   aria-haspopup="true"
                   aria-expanded="false">
@@ -247,7 +251,10 @@
                       class="dropdown-link{% if request.path == routes.account_url %} dropdown-link-active{% endif %}"
                       {% if request.path == routes.account_url %}aria-current="page"{% endif %}>
                       <span class="{{settings.icon}} icon-width">account_circle</span>
+                      {%- comment -%}
                       {{ 'customer.account.title' | t }}
+                      {%- endcomment -%}
+                      {{ customer.name }}
                     </a>
                   </li>
                   <li class="dropdown-item">
