@@ -153,7 +153,7 @@
   },
   "customer": {
     "account": {
-      "title": "{{ customer.name }}",
+      "title": "My Account",
       "details": "Account Details",
       "view_addresses": "View Addresses",
       "return": "Return to Your Profile"
@@ -229,7 +229,7 @@
       "track_shipment": "Track shipment"
     },
     "recover_password": {
-      "title": "Reset your password",
+      "title": "Reset Your Password",
       "email": "Email",
       "submit": "Submit",
       "cancel": "Cancel",
@@ -237,7 +237,7 @@
       "success": "We've sent you an email with a link to update your password."
     },
     "reset_password": {
-      "title": "Reset account password",
+      "title": "Reset Account Password",
       "subtext": "Enter a new password for {{ email }}",
       "password": "Password",
       "password_confirm": "Confirm Password",
