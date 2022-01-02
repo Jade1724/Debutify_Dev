@@ -11,12 +11,12 @@
         {%- endcomment -%}
         <!-- CUSTOM: Customer name as account page title -->
         <div class="page-title-wrapper">
-          <h1 class="page-title">{{ customer.name }}</h1>
+          <h1 class="page-title" style="margin-bottom: 0;">{{ customer.name }}</h1>
         </div>
 
-        <div class="text-muted" style="text-align: center;">
+        <p class="text-secondary" tyle="text-align: center;">
           {{ customer.email }}
-        </div>
+        </p>
         <!-- ENDCUSTOM -->
         <a href="{{ routes.account_logout_url }}">
           <span class="{{settings.icon}}">exit_to_app</span>
