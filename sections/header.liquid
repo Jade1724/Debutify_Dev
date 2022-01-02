@@ -254,7 +254,9 @@
                       {%- comment -%}
                       {{ 'customer.account.title' | t }}
                       {%- endcomment -%}
-                      {{  customer.name }}
+                      <!-- CUSTOM: Customer name -->
+                      &#32;{{ customer.name }}
+                      <!-- ENDCUSTOM -->
                     </a>
                   </li>
                   <li class="dropdown-item">
