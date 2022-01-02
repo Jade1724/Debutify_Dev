@@ -116,7 +116,7 @@
     "dbtfy_floating_bar_text": "Get 10% off!",
     "dbtfy_floating_bar_icons": "",
     "dbtfy_newsletter_popup_close": "",
-    "dbtfy_newsletter_popup_time_trigger": true,
+    "dbtfy_newsletter_popup_time_trigger": false,
     "dbtfy_newsletter_popup_timeout": 30,
     "dbtfy_newsletter_popup_scroll_depth": false,
     "dbtfy_newsletter_popup_scroll_percentage": 60,
