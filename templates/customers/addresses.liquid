@@ -53,7 +53,7 @@
         <!-- new address -->
         <div id="AddAddress" class="address-form fadeInUp" {% unless customer.addresses_count == 0 %}style="display: none;"{% endunless %}>
           {%- form 'customer_address', customer.new_address, class:'form-vertical' -%}
-            <h2 class="h3">{{ 'customer.addresses.add_new' | t }}</h2>
+            <h2>{{ 'customer.addresses.add_new' | t }}</h2>
 
             <div class="grid grid-small">
               <div class="grid__item large--six-twelfths medium--six-twelfths">
@@ -156,16 +156,16 @@
               <label for="address_default_address_new">{{ 'customer.addresses.set_default' | t }}</label>
             </p>
 
-            <p style="display: inline;">
+            <!-- CUSTOM: Cancel button with accent color border with a bottom spacer -->
+            <div class="spacer-bottom">
               <button type="submit" class="btn btn--primary">
                 <span class="btn__text">
                   {{ 'customer.addresses.add' | t }}
                 </span>
               </button>
-            </p>
-
-            <!-- CUSTOM: Cancel button with accent color border -->
-            <button type="button" class="btn btn-outline-primary" onclick="Shopify.CustomerAddress.toggleNewForm();">{{ 'customer.addresses.cancel' | t }}</button>
+  
+              <button type="button" class="btn btn-outline-primary" onclick="Shopify.CustomerAddress.toggleNewForm();">{{ 'customer.addresses.cancel' | t }}</button>
+            </div>
             <!-- ENDCUSTOM -->
             
             {%- comment -%} CUSTOM: Replaced plain cancel button with above
@@ -180,9 +180,9 @@
         <!-- current addresses -->
         {%- unless customer.addresses_count == 0 -%}
           {%- for address in customer.addresses -%}
-          <div id="EditAddress_{{ address.id }}" class="address-form fadeInUp" {% unless address == customer.default_address %}style="display:none;"{% endunless %}>
+          <div id="EditAddress_{{ address.id }}" class="address-form fadeInUp section-border" {% unless address == customer.default_address %}style="display:none;"{% endunless %}>
             {%- form 'customer_address', address, class: 'form-vertical' -%}
-              <h2 class="h3">{{ 'customer.addresses.edit_address' | t }}</h2>
+              <h2>{{ 'customer.addresses.edit_address' | t }}</h2>
 
               {%- if form.errors -%}
               {{ form.errors | default_errors }}
@@ -288,6 +288,19 @@
                 <label for="address_default_address_{{ form.id }}">{{ 'customer.addresses.set_default' | t }}</label>
               </p>
 
+              <!-- CUSTOM: Cancel button with accent color border with a bottom spacer -->
+              <div class="spacer-bottom">
+                <button type="submit" class="btn btn--primary">
+                  <span class="btn__text">
+                    {{ 'customer.addresses.update' | t }}
+                  </span>
+                </button>
+    
+                <button type="button" class="btn btn-outline-primary" onclick="Shopify.CustomerAddress.toggleForm({{ form.id }});">{{ 'customer.addresses.cancel' | t }}</button>
+              </div>
+              <!-- ENDCUSTOM -->
+
+              {%- comment -%}
               <p>
                 <button type="submit" class="btn btn--primary small--full">
                   <span class="btn__text">
@@ -300,6 +313,7 @@
                 <span class="{{settings.icon}}">close</span>
                 {{ 'customer.addresses.cancel' | t }}
               </a>
+              {%- endcomment -%}
             {%- endform -%}
           </div>
           {%- endfor -%}
