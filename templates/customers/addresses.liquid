@@ -180,7 +180,7 @@
         <!-- current addresses -->
         {%- unless customer.addresses_count == 0 -%}
           {%- for address in customer.addresses -%}
-          <div id="EditAddress_{{ address.id }}" class="address-form fadeInUp section-border" {% unless address == customer.default_address %}style="display:none;"{% endunless %}>
+          <div id="EditAddress_{{ address.id }}" class="address-form fadeInUp section-border hr--sm" {% unless address == customer.default_address %}style="display:none;"{% endunless %}>
             {%- form 'customer_address', address, class: 'form-vertical' -%}
               <h2>{{ 'customer.addresses.edit_address' | t }}</h2>
 
