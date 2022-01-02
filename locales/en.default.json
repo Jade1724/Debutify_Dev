@@ -189,7 +189,7 @@
       "delete": "Delete"
     },
     "login": {
-      "title": "Welcome Back",
+      "title": "Login",
       "email": "Email",
       "password": "Password",
       "forgot_password": "Forgot your password?",
