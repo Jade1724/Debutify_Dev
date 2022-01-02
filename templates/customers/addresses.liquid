@@ -164,10 +164,16 @@
               </button>
             </p>
 
+            <!-- CUSTOM: Cancel button with accent color border -->
+            <button type="button" class="btn btn-outline-primary btn--small full spacer-bottom" onclick="Shopify.CustomerAddress.toggleNewForm();">{{ 'customer.addresses.cancel' | t }}</button>
+            <!-- ENDCUSTOM -->
+            
+            {%- comment -%} CUSTOM: Replaced plain cancel button with above
             <a href="#" onclick="Shopify.CustomerAddress.toggleNewForm();">
               <span class="{{settings.icon}}">close</span>
               {{ 'customer.addresses.cancel' | t }}
             </a>
+            {%- endcomment -%}
           {%- endform -%}
         </div>
 
