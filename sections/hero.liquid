@@ -4,6 +4,8 @@
   {%- assign hero_slick = false -%}
 {%- endif -%}
 
+{%- render "dbtfy-newsletter-popup" -%}
+
 <div id="section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="hero-section">
   {%- if section.blocks.size > 0 -%}
     {%- render 'hero-header' -%}
