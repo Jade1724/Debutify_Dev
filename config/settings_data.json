@@ -410,7 +410,7 @@
           "header_font_size": 16,
           "logo_link": true,
           "default_logo": "shopify:\/\/shop_images\/bf-logo-with-text_compressed.png",
-          "inverted_logo": "shopify:\/\/shop_images\/bf-logo-with-text_compressed.png",
+          "inverted_logo": "shopify:\/\/shop_images\/bf-logo-no-text_compressed.png",
           "mobile_logo": "shopify:\/\/shop_images\/bf-logo-no-text_compressed.png",
           "default_logo_svg": "",
           "inverted_logo_svg": "",
