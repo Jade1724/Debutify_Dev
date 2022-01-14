@@ -232,28 +232,28 @@
           "cffe6b51-a4d3-45aa-90bf-35da5275a92f": {
             "type": "swatch",
             "settings": {
-              "title": "Male Royal Blue",
+              "title": "Royal Blue (Male)",
               "dbtfy_swatches_color_value": "#2887e0"
             }
           },
           "29d7d969-0e77-4960-9fc1-8402e05e0b64": {
             "type": "swatch",
             "settings": {
-              "title": "Female Red",
+              "title": "Red (Female)",
               "dbtfy_swatches_color_value": "#e93f3a"
             }
           },
           "bbdd0d6e-651a-466f-8ca4-6d3fc66ee787": {
             "type": "swatch",
             "settings": {
-              "title": "Male Red",
+              "title": "Red (Male)",
               "dbtfy_swatches_color_value": "#e93f3a"
             }
           },
           "7103be20-0f43-4137-aeb0-9aae7e0f0eb6": {
             "type": "swatch",
             "settings": {
-              "title": "Female Rose Red",
+              "title": "Rose Red (Female)",
               "dbtfy_swatches_color_value": "#e84c94"
             }
           },
@@ -267,7 +267,7 @@
           "49b6615f-9f99-4f91-8baf-4d82e3812f50": {
             "type": "swatch",
             "settings": {
-              "title": "Female Green",
+              "title": "Green (Female)",
               "dbtfy_swatches_color_value": "#abdb50"
             }
           },
@@ -409,9 +409,9 @@
           "navigation_type": "center",
           "header_font_size": 16,
           "logo_link": true,
-          "default_logo": "shopify:\/\/shop_images\/bf-logo2.png",
-          "inverted_logo": "shopify:\/\/shop_images\/bf-logo2.png",
-          "mobile_logo": "shopify:\/\/shop_images\/bf-logo2.png",
+          "default_logo": "shopify:\/\/shop_images\/bf-logo-store-header_a8d4533b-37f8-40dc-ae63-7d2af1b8e21e.png",
+          "inverted_logo": "shopify:\/\/shop_images\/bf-logo-store-header_a8d4533b-37f8-40dc-ae63-7d2af1b8e21e.png",
+          "mobile_logo": "shopify:\/\/shop_images\/bf-logo-store-header-mobile.png",
           "default_logo_svg": "",
           "inverted_logo_svg": "",
           "mobile_logo_svg": "",
@@ -488,7 +488,7 @@
           "aecee39b-1c42-49f6-bf8c-d58305bd8362": {
             "type": "link_list",
             "settings": {
-              "column_width": 2,
+              "column_width": 1,
               "title": "Clothing",
               "subtitle": "",
               "footer_link_list": "clothing"
@@ -497,16 +497,25 @@
           "f8e4c9d1-dac4-498e-8fc6-63a78272186f": {
             "type": "link_list",
             "settings": {
-              "column_width": 2,
+              "column_width": 1,
               "title": "Gear",
               "subtitle": "",
               "footer_link_list": "gear"
             }
           },
+          "2e7dd4be-511f-4546-9291-23c16e82dc85": {
+            "type": "link_list",
+            "settings": {
+              "column_width": 1,
+              "title": "Support",
+              "subtitle": "",
+              "footer_link_list": "support"
+            }
+          },
           "footer-2": {
             "type": "newsletter",
             "settings": {
-              "column_width": 3,
+              "column_width": 2,
               "title": "Subscribe to our newsletter",
               "subtitle": "Keep in touch with us to get great deals!"
             }
@@ -515,6 +524,7 @@
         "block_order": [
           "aecee39b-1c42-49f6-bf8c-d58305bd8362",
           "f8e4c9d1-dac4-498e-8fc6-63a78272186f",
+          "2e7dd4be-511f-4546-9291-23c16e82dc85",
           "footer-2"
         ],
         "settings": {
@@ -1288,7 +1298,7 @@
           "af23906c-a69a-446e-981a-bd515caa8cb2": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Highlight_3.png",
+              "image": "shopify:\/\/shop_images\/Hightlight2.jpg",
               "icon": "",
               "title": "Lightweight & Foldable",
               "text": "<p>You can store all parts into the nylon bag<\/p>",
@@ -1300,7 +1310,7 @@
           "6354558b-1bfc-419b-9738-13196ad521fa": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Highlight_2.png",
+              "image": "shopify:\/\/shop_images\/Highilght_3.png",
               "icon": "",
               "title": "Suitable for 1-2 People",
               "text": "<p>It comes with complete accessories, essential for outdoor cooking experience<\/p>",
@@ -1328,9 +1338,9 @@
           "cb57c790-6065-439b-94f6-be377c5cb992": {
             "type": "row",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Description.png",
+              "image": "shopify:\/\/shop_images\/Description_5654e640-f8c2-4418-8837-5f75fa27f1e1.png",
               "title": "",
-              "text": "<p>This camping cook set includes every set that you need to make hot and delicious food when you enjoy camping, hiking or any other outdoor adventures.<\/p><p> Weighing in 19.64oz total, all pieces can be packed in an all-in-one small package, does not take up space and is easy to carry.<\/p>",
+              "text": "<p>This camping cook set includes every piece that you need to make hot and delicious food when you enjoy camping, hiking or any other outdoor adventures. <\/p><p>Weighing in 18.34oz total, all pieces can be packed in an all-in-one small package, does not take up space and is easy to carry.<\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
               "text_alignment": "",
@@ -1343,9 +1353,9 @@
           "e34163f6-feb8-4811-a450-493b9c328e27": {
             "type": "row",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Specification.png",
+              "image": "shopify:\/\/shop_images\/Specification_b8a2c058-54e7-4c2a-90d6-4ded189d0b38.png",
               "title": "Specifications",
-              "text": "<p><strong>Color<br\/><\/strong>Orange, Green, and Black<\/p><p><strong>Material<br\/><\/strong>Aluminum<\/p><p><strong>Package Dimension<\/strong><br\/>15.5 x 9cm  \/ 6.10 x 3.5 inches<\/p><p><strong>Weight<\/strong><br\/>557g \/ 19.64 oz<\/p>",
+              "text": "<p><strong>Color<br\/><\/strong>Orange, Green, and Black<\/p><p><strong>Material<br\/><\/strong>Aluminum<\/p><p><strong>Dimensions<br\/><\/strong>Packed size: 16 x 9.2 x 16 cm \/ 6.3 x 3.6 x 6.3 in<br\/>Pot: 14.5 x 9 cm \/ 5.7 x 3.5 in<br\/>Pan: 15 x 3.5 cm \/ 5.9 x 1.3 in<br\/>Bowl: 11 x 4 cm \/ 4.3 x 1.5 in<\/p><p><strong>Weight<\/strong><br\/>520 g \/ 18.34 oz<\/p>",
               "section_style": "section-blank",
               "image_alignement": "right",
               "text_alignment": "",
@@ -1358,9 +1368,9 @@
           "18165e39-6ed4-4ab1-8d4b-f25e6d6a6ba6": {
             "type": "row",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Content.png",
+              "image": "shopify:\/\/shop_images\/Content_6cb9a282-dba5-4d25-8596-a839b47b96b9.png",
               "title": "Package includes:",
-              "text": "<p>1 x Non-stick Pot<br\/>1 x Non-stick Pan<br\/>1 x Pan Cover<br\/>1 x Serving Ladle<br\/>1 x Soup Spoon<br\/>1 x Bamboo Spoon<br\/>1 x Cleaning Tool<br\/>1 x Nylon Carrying Bag<br\/>2 x Plastic Bowl<\/p>",
+              "text": "<p>1 x Non-stick Pot <br\/>1 x Non-stick Pan <br\/>1 x Serving ladle<br\/>1 x Bamboo spatula<br\/>1 x Fork Spoon<br\/>1 x Cleaning Tool <br\/>2 x Plastic Bowl<\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
               "text_alignment": "",
