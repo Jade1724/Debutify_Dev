@@ -542,7 +542,9 @@
           "8eb06b74-34f5-46db-96aa-a7dc04ebea87": {
             "type": "slide",
             "settings": {
-              "overlay": false,
+              "overlay": true,
+              "image": "shopify:\/\/shop_images\/bf-hero-background_9cbd7a76-edf5-4c0b-b720-3de8fc900512.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/bf-hero-background-mobile.jpg",
               "image_position": "center center",
               "image_position_mobile": "center center",
               "slide_link": "",
