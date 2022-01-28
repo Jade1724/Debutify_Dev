@@ -4,9 +4,20 @@
 
     {%- paginate customer.orders by 20 -%}
       <div class="section-header">
+        {%- comment -%} CUSTOM: Replaced account page title with a customer name.
         <div class="page-title-wrapper">
           <h1 class="page-title">{{ 'customer.account.title' | t }}</h1>
         </div>
+        {%- endcomment -%}
+        <!-- CUSTOM: Customer name as account page title -->
+        <div class="page-title-wrapper">
+          <h1 class="page-title" style="margin-bottom: 0;">{{ customer.name }}</h1>
+        </div>
+
+        <p class="text-center">
+          {{ customer.email }}
+        </p>
+        <!-- ENDCUSTOM -->
         <a href="{{ routes.account_logout_url }}">
           <span class="{{settings.icon}}">exit_to_app</span>
           {{ 'layout.customer.log_out'| t }}

@@ -1,6 +1,16 @@
 <!doctype html>
 <html lang="{{ shop.locale }}">
   <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TV6769T');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Facebook meta-tag -->
+    <meta name="facebook-domain-verification" content="9engbtz1yrx5zcj7y0m2wb28nuyx5y" />
+    <!-- End Facebook meta-tag -->
     <!-- Basic page needs -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -128,6 +138,9 @@
         font-display: block;
         src: url({{ settings.icon | append: ".woff2" | asset_url }}) format("woff2");
       }
+      html {
+        scroll-behavior: smooth;
+      }
     </style>
 
     <!-- Theme strings and settings -->
@@ -253,7 +266,10 @@
                  {% if settings.hero_header %}transparent-header{% endif %}
                  {% if customer %}customer-logged-in{% endif %}
                  template-{{ request.page_type | handle }}">
-
+	<!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TV6769T"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     {%- render "dbtfy-page-transition" -%}
 
     {%- render "dbtfy-cookie-box" -%}

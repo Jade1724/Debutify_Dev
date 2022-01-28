@@ -1,0 +1,114 @@
+<div id="section-{{ section.id }}" class="wrapper">
+  <div class="grid">
+    <div class="grid__item medium--four-twelfths large--four-twelfths custom-gallery-column first-column">
+      <div class="grid">
+        <div class="grid__item  one-whole small--six-twelfths">
+          <div class="gallery-image-one media-wrapper">
+            <img class="media lazyload"
+            {%- render 'lazysizes', img: section.blocks[0].settings.image, img_type: 'responsive' -%}>
+          </div>
+        </div>
+        <div class="grid__item one-whole small--six-twelfths">
+          <div class="gallery-image-two media-wrapper">
+            <img class="media lazyload"
+            {%- render 'lazysizes', img: section.blocks[1].settings.image, img_type: 'responsive' -%}>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid__item medium--eight-twelfths large--eight-twelfths custom-gallery-column second-column">
+      <div class="gallery-image-three media-wrapper">
+        <img class="media lazyload"
+        {%- render 'lazysizes', img: section.blocks[2].settings.image, img_type: 'responsive' -%}>
+      </div>
+      <div class="grid">
+        <div class="grid__item small--six-twelfths">
+          <div class="gallery-image-four media-wrapper">
+            <img class="media lazyload"
+            {%- render 'lazysizes', img: section.blocks[3].settings.image, img_type: 'responsive' -%}>
+          </div>
+        </div>
+        <div class="grid__item small--six-twelfths">
+          <div class="gallery-image-five media-wrapper">
+            <img class="media lazyload"
+            {%- render 'lazysizes', img: section.blocks[4].settings.image, img_type: 'responsive' -%}>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% style %}
+#shopify-section-custom-gallery_cookware .media-wrapper {
+  margin-bottom: 30px;
+}
+#shopify-section-custom-gallery_cookware .gallery-image-one {
+  padding-top: 225%;
+}
+#shopify-section-custom-gallery_cookware .gallery-image-two {
+  padding-top: 75%;
+}
+#shopify-section-custom-gallery_cookware .gallery-image-three {
+  padding-top: 64%;
+}
+#shopify-section-custom-gallery_cookware .gallery-image-four {
+  padding-top: 166%;
+}
+#shopify-section-custom-gallery_cookware .gallery-image-five {
+  padding-top: 166%;
+}
+#shopify-section-custom-gallery_cookware img {
+  height: 100%; 
+  width: auto; 
+  max-width: unset;
+}
+
+@media only screen and (max-width: 769px) {
+  #shopify-section-custom-gallery_cookware .media-wrapper {
+    margin-bottom: 16px;
+  }
+  #shopify-section-custom-gallery_cookware .gallery-image-one {
+    padding-top: 150%;
+  }
+  #shopify-section-custom-gallery_cookware .gallery-image-two {
+    padding-top: 150%;
+  }
+  #shopify-section-custom-gallery_cookware .gallery-image-four {
+    padding-top: 150%;
+  }
+  #shopify-section-custom-gallery_cookware .gallery-image-five {
+    padding-top: 150%;
+  }
+}
+
+{% endstyle %}
+
+{% schema %}
+{
+  "name": "Custom Gallery",
+  "tag": "section",
+  "class": "custom-gallery",
+  "max_blocks": 5,
+  "settings": [
+    {
+      "type": "text",
+      "id": "header",
+      "label": "Header"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Image",
+      "type": "image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

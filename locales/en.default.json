@@ -10,8 +10,8 @@
       "page": "Page {{ page }}"
     },
     "404": {
-      "title": "404 Page Not Found",
-      "subtext_html": "The page you were looking for does not exist."
+      "title": "Sorry",
+      "subtext_html": "We couldn't find the page - 404 error"
     },
     "pagination": {
       "previous": "Previous",
@@ -122,7 +122,7 @@
       "reduce_quantity": "Reduce item quantity by one",
       "increase_quantity": "Increase item quantity by one",
       "cookies_required": "Enable cookies to use the shopping cart",
-      "custom_currency_html": "All orders are processed in {{ shopCurrency }}. While the content of your cart is currently displayed in <span class='selected-currency'></span>, you will checkout using {{ shopCurrency }} at the most current exchange rate."
+      "custom_currency_html": "All orders are processed in {{ shopCurrency }}. While the content of your cart is currently displayed in <span class='selected-currency'><\/span>, you will checkout using {{ shopCurrency }} at the most current exchange rate."
     },
     "label": {
       "quantity": "Quantity",
@@ -156,7 +156,7 @@
       "title": "My Account",
       "details": "Account Details",
       "view_addresses": "View Addresses",
-      "return": "Return to Account Details"
+      "return": "Return to Your Profile"
     },
     "activate_account": {
       "title": "Activate Account",
@@ -229,7 +229,7 @@
       "track_shipment": "Track shipment"
     },
     "recover_password": {
-      "title": "Reset your password",
+      "title": "Reset Your Password",
       "email": "Email",
       "submit": "Submit",
       "cancel": "Cancel",
@@ -237,19 +237,19 @@
       "success": "We've sent you an email with a link to update your password."
     },
     "reset_password": {
-      "title": "Reset account password",
+      "title": "Reset Account Password",
       "subtext": "Enter a new password for {{ email }}",
       "password": "Password",
       "password_confirm": "Confirm Password",
       "submit": "Reset Password"
     },
     "register": {
-      "title": "Create Account",
+      "title": "Become a Bivvy Fun Member",
       "first_name": "First Name",
       "last_name": "Last Name",
       "email": "Email",
-      "password": "Password",
-      "submit": "Create",
+      "password": "Password (minimum 5 characters)",
+      "submit": "Join Us",
       "cancel": "Return to Store"
     }
   },
@@ -336,6 +336,19 @@
     }
   },
   "date_formats": {
-      "month_day_year": "%a %b %d"
+    "month_day_year": "%a %b %d"
+  },
+  "shopify": {
+    "checkout": {
+      "alternative_payment_method_banner": {
+        "express_checkout": "Express Checkout"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Subscribe to emails for the latest updates, special offers and seasonal surprises from Bivvy Fun!"
+      },
+      "contact": {
+        "optional_first_name_label": "First name"
+      }
     }
+  }
 }

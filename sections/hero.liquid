@@ -57,12 +57,12 @@
                 <div class="hero__cta">
                   <div class="inline-list">
                     {%- if block.settings.button_label != blank -%}
-                    <a href="{{ block.settings.button_link }}" class="btn {{ block.settings.button_style }} hero__btn">
+                    <a href="{{ block.settings.button_link }}" class="btn {{ block.settings.button_style }} hero__btn" style="width: 116px;">
                       {{ block.settings.button_label | escape }}
                     </a>
                     {%- endif -%}
                     {%- if block.settings.button_label_2 != blank -%}
-                    <a href="{{ block.settings.button_link_2 }}" class="btn {{ block.settings.button_style_2 }} hero__btn">
+                    <a href="{{ block.settings.button_link_2 }}" class="btn {{ block.settings.button_style_2 }} hero__btn" style="width: 116px;">
                       {{ block.settings.button_label_2 | escape }}
                     </a>
                     {%- endif -%}
@@ -104,6 +104,10 @@
               font-family: {{ slideshow_font_stack }};
               font-weight: {{ slideshow_font_weight }};
               font-style: {{ slideshow_font_style }};
+            }
+
+            .hero__title.h1, .hero__text {
+              color: #FFFFFF;
             }
           </style>
         {%- endif -%}
