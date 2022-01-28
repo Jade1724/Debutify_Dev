@@ -49,8 +49,9 @@
     "color_footer_secondary": "#cb5a20",
     "color_footer_input": "#a7ad80",
     "color_footer_sales_price": "#cb5a20",
-    "color_overlay": "#304d19",
-    "color_transparent_nav_text": "#FFFFFF",
+    "color_overlay": "#444444",
+    "color_transparent_nav_text": "#ffffff",
+    "opacity_overlay": 35,
     "custom_style": "",
     "review_app": "product_reviews",
     "review_badge_product_grid": false,
@@ -125,9 +126,9 @@
     "dbtfy_newsletter_popup_reward_button": "Apply the discount now",
     "dbtfy_newsletter_popup_discount_name": "THANKYOU10OFF",
     "dbtfy_newsletter_popup_discount_amount": "10",
-    "checkout_logo_image": "shopify:\/\/shop_images\/bf-logo2.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/bf-logo-with-text_compressed_37ebfacf-1305-468e-bb66-c76e0cfcf0cf.png",
     "checkout_logo_position": "center",
-    "checkout_logo_size": "large",
+    "checkout_logo_size": "medium",
     "checkout_body_background_color": "#ffffff",
     "checkout_sidebar_background_color": "#a7ad80",
     "checkout_heading_font": "Helvetica Neue",
@@ -542,13 +543,15 @@
           "8eb06b74-34f5-46db-96aa-a7dc04ebea87": {
             "type": "slide",
             "settings": {
-              "overlay": false,
-              "image_position": "center center",
-              "image_position_mobile": "center center",
+              "overlay": true,
+              "image": "shopify:\/\/shop_images\/bf-hero-background_9cbd7a76-edf5-4c0b-b720-3de8fc900512.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/bf-hero-background-mobile.jpg",
+              "image_position": "center right",
+              "image_position_mobile": "center right",
               "slide_link": "",
               "video": "hero_background.mp4",
-              "title": "Christmas Sale: XX% OFF",
-              "text": "<p>Get XX% off for ... TODO<\/p>",
+              "title": "YOUR NEXT ADVENTURE STARTS HERE",
+              "text": "<p>Get 10% OFF by subscribing to our newsletter<\/p>",
               "text_position": "align-center",
               "text_position_mobile": "align-center",
               "text_alignment": "text-center",
@@ -1353,7 +1356,7 @@
           "e34163f6-feb8-4811-a450-493b9c328e27": {
             "type": "row",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Specification_b8a2c058-54e7-4c2a-90d6-4ded189d0b38.png",
+              "image": "shopify:\/\/shop_images\/Specification_646df720-99c8-479f-8b24-286181c8d979.png",
               "title": "Specifications",
               "text": "<p><strong>Color<br\/><\/strong>Orange, Green, and Black<\/p><p><strong>Material<br\/><\/strong>Aluminum<\/p><p><strong>Dimensions<br\/><\/strong>Packed size: 16 x 9.2 x 16 cm \/ 6.3 x 3.6 x 6.3 in<br\/>Pot: 14.5 x 9 cm \/ 5.7 x 3.5 in<br\/>Pan: 15 x 3.5 cm \/ 5.9 x 1.3 in<br\/>Bowl: 11 x 4 cm \/ 4.3 x 1.5 in<\/p><p><strong>Weight<\/strong><br\/>520 g \/ 18.34 oz<\/p>",
               "section_style": "section-blank",
@@ -1409,31 +1412,31 @@
           "1714d059-a4e6-415b-a110-7a4e8ab5c368": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Gallary_1.png"
+              "image": "shopify:\/\/shop_images\/Gallary_1_5a8cc938-7854-4765-8eb5-c3a8b677cdae.png"
             }
           },
           "c1c6f46f-4b87-42af-9377-4830518201d2": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Galary_2_Version.png"
+              "image": "shopify:\/\/shop_images\/Gallary_2_344d4551-b45c-4161-ba45-251395ed95d2.png"
             }
           },
           "b88fc264-9028-4e57-b834-54ef9535d99f": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1_ccc41a09-2b13-46ce-9cb1-cb309e7fe280.png"
+              "image": "shopify:\/\/shop_images\/Gallary_3_79e407cd-2b47-4560-813e-a449019a6343.png"
             }
           },
           "b2ef6beb-1736-469c-a6ef-1b952156a703": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/7_ca05da56-0122-4452-8edf-224b68297224.png"
+              "image": "shopify:\/\/shop_images\/Gallary_4_fda49047-97c5-41da-942b-625298ea4b91.png"
             }
           },
           "93c5137d-e3c2-4f6a-ab9b-f08981a865b6": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/9_cb5d918f-42b4-406c-b2f7-f90aac2b004f.png"
+              "image": "shopify:\/\/shop_images\/Gallary_5.png"
             }
           }
         },
@@ -1898,6 +1901,7 @@
           "41787a4b-dc09-4d36-b9c9-6906217eae25": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/trekking-pole-specification.png",
               "title": "Specifications",
               "text": "<p><strong>Materials<\/strong><br\/>Pole: Carbon Fiber<br\/>Handle: High-Density Moisture Absorption EVA<br\/>Stick Tip: Diamond Grain Tungsten Steel<\/p><p><strong>Color<\/strong><br\/>Blue<\/p><p><strong>Length<\/strong><br\/>Shrinkage: 65cm \/ 25.59\"<br\/>Elongation: 135cm \/ 53.15\"<br\/>Suitable for a person not more than 195cm tall<\/p><p><strong>Weight<\/strong><br\/>234g<\/p>",
               "section_style": "section-blank",
@@ -2421,8 +2425,9 @@
           "70bf7837-1ba6-47a8-b9f0-f774c07b33c3": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/water-storage-containter-specification.png",
               "title": "Specifications",
-              "text": "<p><strong>Material<br\/><\/strong>Premium PET PA PE plastics (free Of PBA, PVC)<\/p><p><strong>Color<br\/><\/strong>Blue, White<\/p><p><strong>Quantity<br\/><\/strong>1pc<\/p><p><strong>Capacity<br\/><\/strong>700ml, 5L, and 10L<\/p><p>Folding size:10.5x30.5cm \/4.1*12.0”, 14x38cm\/5.5*14.9”<strong>Size: <\/strong>5L Bag - 12.9 x 12.0″ ( 32.7cm x 30.5cm) 10L Bag - 16.1*14.7″ ( 41cm x 37.5cm)<\/p>",
+              "text": "<p><strong>Material<br\/><\/strong>Premium PET PA PE plastics (free Of PBA, PVC)<\/p><p><strong>Color<br\/><\/strong>Blue, White<\/p><p><strong>Quantity<br\/><\/strong>1pc<\/p><p><strong>Capacity<br\/><\/strong>700ml, 5L, and 10L<\/p><p>Folding size:10.5x30.5cm \/4.1*12.0”, 14x38cm\/5.5*14.9”<\/p><p><strong>Size: <\/strong>5L Bag - 12.9 x 12.0″ ( 32.7cm x 30.5cm) 10L Bag - 16.1*14.7″ ( 41cm x 37.5cm)<\/p>",
               "section_style": "section-blank",
               "image_alignement": "right",
               "text_alignment": "",
