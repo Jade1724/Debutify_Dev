@@ -1,7 +1,7 @@
 {
   "current": {
     "icon": "material-icons",
-    "grid_product_truncate": false,
+    "grid_product_truncate": true,
     "newsletter_optin": false,
     "show_top_button": false,
     "show_breadcrumbs": false,
