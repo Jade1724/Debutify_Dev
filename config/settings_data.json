@@ -2433,7 +2433,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/water-storage-containter-specification.png",
               "title": "Specifications",
-              "text": "<p><strong>Material<br\/><\/strong>Premium PET PA PE plastics (free Of PBA, PVC)<\/p><p><strong>Color<br\/><\/strong>Blue, White<\/p><p><strong>Quantity<br\/><\/strong>1pc<\/p><p><strong>Capacity<br\/><\/strong>700ml, 5L, and 10L<br\/><\/p><p><strong>Size<br\/><\/strong>700ml bag - 5 x 8.9\" (12.8cm x 22.6cm)<br\/>5L Bag - 12.9 x 12.0\" (32.7cm x 30.5cm)<br\/>10L Bag - 16.1 x 14.7\" (41cm x 37.5cm)<\/p>",
+              "text": "<p><strong>Material<br\/><\/strong>Premium PET PA PE plastics (free Of PBA, PVC)<\/p><p><strong>Color<br\/><\/strong>Blue, White<\/p><p><strong>Quantity<br\/><\/strong>1pc<\/p><p><strong>Capacity<br\/><\/strong>700ml, 5L, and 10L<br\/><\/p><p><strong>Size<br\/><\/strong>700mL bag - 5 x 8.9\" (12.8cm x 22.6cm)<br\/>5L Bag - 12.9 x 12.0\" (32.7cm x 30.5cm)<br\/>10L Bag - 16.1 x 14.7\" (41cm x 37.5cm)<\/p>",
               "section_style": "section-blank",
               "image_alignement": "right",
               "text_alignment": "",
