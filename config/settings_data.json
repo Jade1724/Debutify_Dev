@@ -2320,11 +2320,18 @@
             "settings": {
               "collection": "gear"
             }
+          },
+          "23678888-1252-430e-8f29-952ab25542ed": {
+            "type": "collection",
+            "settings": {
+              "collection": "spring-sale-winter-clearance"
+            }
           }
         },
         "block_order": [
           "16377232317d6cbc6b-0",
-          "16377232317d6cbc6b-1"
+          "16377232317d6cbc6b-1",
+          "23678888-1252-430e-8f29-952ab25542ed"
         ],
         "settings": {
           "full_width": false,
