@@ -557,18 +557,18 @@
               "slide_link": "",
               "video": "hero_background.mp4",
               "title": "YOUR NEXT ADVENTURE STARTS HERE",
-              "text": "<p>Get 10% OFF by subscribing to our newsletter<\/p>",
+              "text": "<p>[$20 OFF] Spring Sale and Winter Clearance is ON!<\/p>",
               "text_position": "align-center",
               "text_position_mobile": "align-center",
               "text_alignment": "text-center",
               "text_alignment_mobile": "text-center",
               "enable_custom_fonts": true,
               "slideshow_family": "poppins_n6",
-              "button_label": "Clothing",
-              "button_link": "shopify:\/\/collections\/clothing",
+              "button_label": "Learn More",
+              "button_link": "shopify:\/\/collections\/spring-sale-winter-clearance",
               "button_style": "btn--primary",
-              "button_label_2": "Gear",
-              "button_link_2": "shopify:\/\/collections\/gear",
+              "button_label_2": "",
+              "button_link_2": "",
               "button_style_2": "btn--primary"
             }
           }
