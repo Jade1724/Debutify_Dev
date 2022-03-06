@@ -54,6 +54,7 @@
     "color_transparent_nav_text": "#ffffff",
     "opacity_overlay": 62,
     "custom_style": "",
+    "favicon": "shopify:\/\/shop_images\/bf-logo-store-header-inverted.png",
     "review_app": "product_reviews",
     "review_badge_product_grid": false,
     "share_facebook": false,
