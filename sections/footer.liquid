@@ -237,7 +237,7 @@
       <div class="grid align-center small--text-center">
         <div class="grid__item {% if section.settings.show_payment_icons %}large--six-twelfths medium--six-twelfths{% else %}text-center{% endif %}">
           <p class="credentials text-small">
-            <span>Copyright &copy; {{ 'now' | date: '%Y' }} {{ shop.name | link_to: routes.root_url }}</span>
+            <span>&copy; {{ 'now' | date: '%Y' }} {{ shop.name | link_to: routes.root_url }}</span>
 
             {%- if section.settings.custom_credential != blank -%}
             <span class="rte"> | {{ section.settings.custom_credential |remove: '<p>' | remove: '</p>' }}</span>
@@ -257,7 +257,7 @@
           {%- render 'payment-icons' -%}
         </div>
         {%- endif -%}
-      </div>
+      </div>F
     </div>
   </div>
 
