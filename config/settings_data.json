@@ -566,7 +566,7 @@
               "enable_custom_fonts": true,
               "slideshow_family": "poppins_n6",
               "button_label": "Shop Now",
-              "button_link": "shopify:\/\/collections\/spring-sale-winter-clearance",
+              "button_link": "shopify:\/\/collections\/spring-sale",
               "button_style": "btn--primary",
               "button_label_2": "",
               "button_link_2": "",
@@ -2325,7 +2325,7 @@
           "23678888-1252-430e-8f29-952ab25542ed": {
             "type": "collection",
             "settings": {
-              "collection": "spring-sale-winter-clearance"
+              "collection": "spring-sale"
             }
           }
         },
@@ -2355,7 +2355,7 @@
           "title": "Big Blooming Deals",
           "subtitle": "Bivvy Fun's Special Spring Sale",
           "section_style": "section-blank",
-          "home_featured_products": "spring-sale-winter-clearance",
+          "home_featured_products": "spring-sale",
           "rows": "2",
           "desktop_grid": "3",
           "mobile_grid": "2",
