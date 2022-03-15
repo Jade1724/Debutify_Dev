@@ -2640,11 +2640,12 @@
           "6c4cce91-5ae6-415d-af9b-b273f1ec755f": {
             "type": "row",
             "settings": {
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-              "section_style": "section-border",
+              "image": "shopify:\/\/shop_images\/desert-fox-tent-color-and-contents.png",
+              "title": "",
+              "text": "<p><strong>Weight<br\/><\/strong>Glass fiber pole tent: 2.22 kg\/4.9lb<strong><br\/><\/strong>Aluminum pole tent: 1.82kg\/4.0lb<\/p><p><strong>Color<br\/><\/strong>Grass green, Orange, and Blue<\/p><p><strong>Package Content<br\/><\/strong>- 1 tent<br\/>- 8 ground nails<br\/>- 4 wind ropes<br\/>- 1 storage handbag<\/p>",
+              "section_style": "section-blank",
               "image_alignement": "left",
-              "text_alignment": "text-center",
+              "text_alignment": "",
               "type_row": "",
               "tag_row": "",
               "product_row": "",
