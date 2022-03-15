@@ -2551,6 +2551,134 @@
         "settings": {
           "header": ""
         }
+      },
+      "featured-columns_desert-fox-tent": {
+        "type": "featured-columns_desert-fox-tent",
+        "blocks": {
+          "428e538a-b613-4104-a294-a74b18bee9c0": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/desert-fox-tent-highlight1.png",
+              "icon": "",
+              "title": "Dedicated Waterproof Materials",
+              "text": "<p>Exceptional waterproof rating of 3000MM and rubber stitching to prevent water leaks from the seam.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "d0d73e5a-1f26-4f42-85b1-cb06eaaa1716": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/desert-fox-tent-highlight2.jpg",
+              "icon": "",
+              "title": "Compact and Lightweight",
+              "text": "<p>Travel light with our tent weighing only 2kg\/4.4lb and comes with a durable and slim storage bag.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "bf56b7e7-dae2-4189-bd02-b61b2501c08b": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/desert-fox-tent-highlight3.png",
+              "icon": "",
+              "title": "Spacial Commodious Design",
+              "text": "<p>Extra space for luggage storage between the external and internal layers gives more space for you.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "428e538a-b613-4104-a294-a74b18bee9c0",
+          "d0d73e5a-1f26-4f42-85b1-cb06eaaa1716",
+          "bf56b7e7-dae2-4189-bd02-b61b2501c08b"
+        ],
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_desert-fox-tent": {
+        "type": "product-row_desert-fox-tent",
+        "blocks": {
+          "f2054928-ddb9-4c96-adce-4164654956d7": {
+            "type": "row",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/desert-fox-tent-descriptions.jpg",
+              "title": "",
+              "text": "<p>Comfort camping starts from a secure shelter. <\/p><p>Our tent serves great waterproof functionality with a water-resistance material and anti-leak rubber seam stitching.<\/p><p>Anti-mosquito net and wind rope give you protection from elements and guarantee cozy sleep overnight. <\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "left",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "29a35cc0-c723-4682-bb0f-2b4a1c20cb52": {
+            "type": "row",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/desert-fox-tent-specifications.png",
+              "title": "Specifications",
+              "text": "<p><strong>Structure<br\/><\/strong>Double layer and single door<\/p><p><strong>Dimensions<\/strong><br\/>Height: 105cm\/3.4ft<br\/>Base: 140 x 200cm\/4.6 x 6.6ft sleeps 2<br\/>Packed Size: 16 x 52cm\/6.3 x 20.5in<\/p><p><strong>Materials<\/strong><br\/>Inner layer: 2500mm waterproof polyurethane-coated nylon. 210T high-density anti-mosquito mesh.<br\/>External layer: Greater than 3000mm waterproof polyester cloth<br\/>Base: 2000 - 3000mm waterproof oxford cloth<br\/>Pole and rod: Glass fiber or aluminum<\/p><p><strong>Weight<\/strong><br\/>Glass fiber pole tent: 2.22 kg\/4.9lb<br\/>Aluminum pole tent: 1.82kg\/4.0lb<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "right",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "6c4cce91-5ae6-415d-af9b-b273f1ec755f": {
+            "type": "row",
+            "settings": {
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "section_style": "section-border",
+              "image_alignement": "left",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "f2054928-ddb9-4c96-adce-4164654956d7",
+          "29a35cc0-c723-4682-bb0f-2b4a1c20cb52",
+          "6c4cce91-5ae6-415d-af9b-b273f1ec755f"
+        ],
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_desert-fox-tent": {
+        "type": "featured-content_desert-fox-tent",
+        "settings": {
+          "title": "Featured content",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-gallery_desert-fox-tent": {
+        "type": "custom-gallery_desert-fox-tent",
+        "settings": {
+          "header": ""
+        }
       }
     },
     "content_for_index": [
