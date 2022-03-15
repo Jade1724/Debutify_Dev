@@ -2677,6 +2677,45 @@
       },
       "custom-gallery_desert-fox-tent": {
         "type": "custom-gallery_desert-fox-tent",
+        "blocks": {
+          "25879a7f-e42d-46bf-89db-db5181b0c99b": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/desert-fox-tent-gallery1.png"
+            }
+          },
+          "fdc3a1a8-eeec-40bf-a449-6ad3898bf06f": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/desert-fox-tent-gallery2.png"
+            }
+          },
+          "561b586f-c672-4bec-b0b1-f73068ea9136": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/desert-fox-tent-gallery3.png"
+            }
+          },
+          "7b066fa7-89f8-4cb2-b6e3-1b3e940a2ca6": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/desert-fox-tent-gallery4.png"
+            }
+          },
+          "054d5be2-80ef-4010-9fab-3610f4c60da6": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/desert-fox-tent-gallery5.png"
+            }
+          }
+        },
+        "block_order": [
+          "25879a7f-e42d-46bf-89db-db5181b0c99b",
+          "fdc3a1a8-eeec-40bf-a449-6ad3898bf06f",
+          "561b586f-c672-4bec-b0b1-f73068ea9136",
+          "7b066fa7-89f8-4cb2-b6e3-1b3e940a2ca6",
+          "054d5be2-80ef-4010-9fab-3610f4c60da6"
+        ],
         "settings": {
           "header": ""
         }
