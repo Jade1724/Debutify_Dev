@@ -335,6 +335,13 @@
               "title": "Light Green",
               "dbtfy_swatches_color_value": "#78ae4c"
             }
+          },
+          "97ab1a6e-dea5-46a8-bd4b-6b04ef78cc9b": {
+            "type": "swatch",
+            "settings": {
+              "title": "Sky Blue",
+              "dbtfy_swatches_color_value": "#57a2fb"
+            }
           }
         },
         "block_order": [
@@ -360,7 +367,8 @@
           "2885a7f2-8cb0-464f-9b79-d7a530dbec2d",
           "b5945b8e-6ba9-4c16-8a4c-43fdae2a2ae8",
           "8bd91995-0ba2-4b38-ae41-68510dcfe91a",
-          "247d7f57-3312-46df-a205-d9d7aae5202a"
+          "247d7f57-3312-46df-a205-d9d7aae5202a",
+          "97ab1a6e-dea5-46a8-bd4b-6b04ef78cc9b"
         ],
         "settings": {
         }
