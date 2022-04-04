@@ -328,6 +328,20 @@
               "title": "Black (Male)",
               "dbtfy_swatches_color_value": "#27242a"
             }
+          },
+          "247d7f57-3312-46df-a205-d9d7aae5202a": {
+            "type": "swatch",
+            "settings": {
+              "title": "Light Green",
+              "dbtfy_swatches_color_value": "#78ae4c"
+            }
+          },
+          "97ab1a6e-dea5-46a8-bd4b-6b04ef78cc9b": {
+            "type": "swatch",
+            "settings": {
+              "title": "Sky Blue",
+              "dbtfy_swatches_color_value": "#57a2fb"
+            }
           }
         },
         "block_order": [
@@ -352,7 +366,9 @@
           "ac97d112-f15c-4668-aa86-7694ead6c0c1",
           "2885a7f2-8cb0-464f-9b79-d7a530dbec2d",
           "b5945b8e-6ba9-4c16-8a4c-43fdae2a2ae8",
-          "8bd91995-0ba2-4b38-ae41-68510dcfe91a"
+          "8bd91995-0ba2-4b38-ae41-68510dcfe91a",
+          "247d7f57-3312-46df-a205-d9d7aae5202a",
+          "97ab1a6e-dea5-46a8-bd4b-6b04ef78cc9b"
         ],
         "settings": {
         }
@@ -2610,7 +2626,7 @@
           "f2054928-ddb9-4c96-adce-4164654956d7": {
             "type": "row",
             "settings": {
-              "image": "shopify:\/\/shop_images\/desert-fox-tent-descriptions.jpg",
+              "image": "shopify:\/\/shop_images\/description_5f71bd9c-af23-4ce6-a262-b56a30d23c16.png",
               "title": "",
               "text": "<p>Comfort camping starts from a secure shelter. <\/p><p>Our tent serves great waterproof functionality with a water-resistance material and anti-leak rubber seam stitching.<\/p><p>Anti-mosquito net and wind rope give you protection from elements and guarantee cozy sleep overnight. <\/p>",
               "section_style": "section-blank",
@@ -2640,9 +2656,9 @@
           "6c4cce91-5ae6-415d-af9b-b273f1ec755f": {
             "type": "row",
             "settings": {
-              "image": "shopify:\/\/shop_images\/desert-fox-tent-color-and-contents.png",
+              "image": "shopify:\/\/shop_images\/Highlights_and_descriptions_-_700_x_700px_1.png",
               "title": "",
-              "text": "<p><strong>Weight<br\/><\/strong>Glass fiber pole tent: 2.22 kg\/4.9lb<strong><br\/><\/strong>Aluminum pole tent: 1.82kg\/4.0lb<\/p><p><strong>Color<br\/><\/strong>Grass green, Orange, and Blue<\/p><p><strong>Package Content<br\/><\/strong>- 1 tent<br\/>- 8 ground nails<br\/>- 4 wind ropes<br\/>- 1 storage handbag<\/p>",
+              "text": "<p><strong>Weight<br\/><\/strong>Glass fiber pole tent: 2.22 kg\/4.9lb<strong><br\/><\/strong>Aluminum pole tent: 1.82kg\/4.0lb<\/p><p><strong>Color<br\/><\/strong>Light Green, Orange, and Sky Blue<\/p><p><strong>Package Content<br\/><\/strong>- 1 tent<br\/>- 8 ground nails<br\/>- 4 wind ropes<br\/>- 1 storage handbag<\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
               "text_alignment": "",
