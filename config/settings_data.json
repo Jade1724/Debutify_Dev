@@ -2735,6 +2735,119 @@
         "settings": {
           "header": ""
         }
+      },
+      "featured-columns_cycling-shirt": {
+        "type": "featured-columns_cycling-shirt",
+        "blocks": {
+          "c13ad172-bbb7-4bfc-a198-1ba379226dc1": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cycling-shirt-highlights1.png",
+              "icon": "",
+              "title": "Half zip pullover",
+              "text": "<p>Half zipper closure for temperature regulation when you get sweaty during cycling<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "1e74eb1a-5d33-4df8-b937-9af2d8599774": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cycling-shirt-highlights2.png",
+              "icon": "",
+              "title": "Elastic hem",
+              "text": "<p>Keeps the jersey in the right place when you are cycling<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "3933135f-46e7-4b4d-9ce7-91c233072ec5": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cycling-shirt-highlights3.png",
+              "icon": "",
+              "title": "3 rear pockets",
+              "text": "<p>On-the-go pockets can store your phone, keys, snacks and other biking essentials<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "c13ad172-bbb7-4bfc-a198-1ba379226dc1",
+          "1e74eb1a-5d33-4df8-b937-9af2d8599774",
+          "3933135f-46e7-4b4d-9ce7-91c233072ec5"
+        ],
+        "settings": {
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_cycling-shirt": {
+        "type": "product-row_cycling-shirt",
+        "blocks": {
+          "c200c956-ad7f-4931-8bf4-56fa23a35e74": {
+            "type": "row",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cycling-shirt-description.png",
+              "title": "",
+              "text": "<p>The ultra-lightweight half zip jersey with features of breathability,quick-dry and moisture-wick. Brings flexibility in unstable weather conditions.<\/p><p>Simple design that will never go out of style, suitable for hiking, biking, running, and most kinds of outdoor sports.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "left",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "c0b15417-bd88-46eb-9351-6dd539e35ebc": {
+            "type": "row",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cycling-shirt-specifications.png",
+              "title": "Specifications",
+              "text": "<p>Material: Polyester<br\/>Item Type: Jersey<br\/>Feature: Quick dry and breathable<br\/>Gender: Unisex<br\/>Color: Green\/Red\/Blue\/Black<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "right",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "c200c956-ad7f-4931-8bf4-56fa23a35e74",
+          "c0b15417-bd88-46eb-9351-6dd539e35ebc"
+        ],
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_cycling-shirt": {
+        "type": "featured-content_cycling-shirt",
+        "settings": {
+          "title": "",
+          "text": "",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-gallery_cycling-shirt": {
+        "type": "custom-gallery_cycling-shirt",
+        "settings": {
+          "header": ""
+        }
       }
     },
     "content_for_index": [
