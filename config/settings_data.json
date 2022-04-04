@@ -2809,11 +2809,12 @@
           "c0b15417-bd88-46eb-9351-6dd539e35ebc": {
             "type": "row",
             "settings": {
+              "image": "shopify:\/\/shop_images\/cycling-shirt-specifications.png",
               "title": "Specifications",
               "text": "<p>Material: Polyester<br\/>Item Type: Jersey<br\/>Feature: Quick dry and breathable<br\/>Gender: Unisex<br\/>Color: Green\/Red\/Blue\/Black<\/p>",
-              "section_style": "section-border",
-              "image_alignement": "left",
-              "text_alignment": "text-center",
+              "section_style": "section-blank",
+              "image_alignement": "right",
+              "text_alignment": "",
               "type_row": "",
               "tag_row": "",
               "product_row": "",
