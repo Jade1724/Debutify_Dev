@@ -2809,8 +2809,8 @@
           "c0b15417-bd88-46eb-9351-6dd539e35ebc": {
             "type": "row",
             "settings": {
-              "title": "Image with text",
-              "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+              "title": "Specifications",
+              "text": "<p>Material: Polyester<br\/>Item Type: Jersey<br\/>Feature: Quick dry and breathable<br\/>Gender: Unisex<br\/>Color: Green\/Red\/Blue\/Black<\/p>",
               "section_style": "section-border",
               "image_alignement": "left",
               "text_alignment": "text-center",
