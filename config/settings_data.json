@@ -2754,9 +2754,10 @@
           "1e74eb1a-5d33-4df8-b937-9af2d8599774": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/cycling-shirt-highlights2.png",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "Elastic hem",
+              "text": "<p>Keeps the jersey in the right place when you are cycling<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
