@@ -2766,9 +2766,10 @@
           "3933135f-46e7-4b4d-9ce7-91c233072ec5": {
             "type": "text_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/cycling-shirt-highlights3.png",
               "icon": "",
-              "title": "Add a title or tagline",
-              "text": "<p>Use this text to describe what makes your store stand out from others and why customers should buy from you.<\/p>",
+              "title": "3 rear pockets",
+              "text": "<p>On-the-go pockets can store your phone, keys, snacks and other biking essentials<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "image_link": ""
