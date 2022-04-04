@@ -2833,8 +2833,8 @@
       "featured-content_cycling-shirt": {
         "type": "featured-content_cycling-shirt",
         "settings": {
-          "title": "Featured content",
-          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "title": "",
+          "text": "",
           "section_style": "section-blank",
           "text_size": "large",
           "text_alignment": "text-center",
