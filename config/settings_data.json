@@ -2795,7 +2795,7 @@
             "type": "row",
             "settings": {
               "image": "shopify:\/\/shop_images\/cycling-shirt-description.png",
-              "title": "Descriptions",
+              "title": "",
               "text": "<p>The ultra-lightweight half zip jersey with features of breathability,quick-dry and moisture-wick. Brings flexibility in unstable weather conditions.<\/p><p>Simple design that will never go out of style, suitable for hiking, biking, running, and most kinds of outdoor sports.<\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
