@@ -2843,10 +2843,111 @@
           "button_link": ""
         }
       },
-      "custom-gallery_cycling-shirt": {
-        "type": "custom-gallery_cycling-shirt",
+      "featured-columns_wading-shoes": {
+        "type": "featured-columns_wading-shoes",
+        "blocks": {
+          "4020c453-0057-444a-aeec-f9f90d8e5569": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/wading-shoes_highlights1.jpg",
+              "icon": "",
+              "title": "Quick Dry",
+              "text": "<p>Breathable ultra-lightweight fabric for fast draining and cross ventilation to provide comfort.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "085de209-1730-41b9-ba57-b0f01da7ef15": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/wading-shoes_highlights2.png",
+              "icon": "",
+              "title": "Elastic No Tie Laces",
+              "text": "<p>Adjust the elastic lances quickly based on the width of your foot. The locking device holds the laces in place so that they stay secure and keep the same constant tension on the foot.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "5d4f4fd1-1bde-42b3-a20c-d606df2bd962": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/wading-shoes_highlights3.png",
+              "icon": "",
+              "title": "Slip Resistant Outsole Design",
+              "text": "<p>Professional anti-slip design, increase the friction and track adhesion to prevent slipping in slippery conditions.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "4020c453-0057-444a-aeec-f9f90d8e5569",
+          "085de209-1730-41b9-ba57-b0f01da7ef15",
+          "5d4f4fd1-1bde-42b3-a20c-d606df2bd962"
+        ],
         "settings": {
-          "header": ""
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_wading-shoes": {
+        "type": "product-row_wading-shoes",
+        "blocks": {
+          "2ee9b4c9-7154-44a5-b35b-d3f32277da63": {
+            "type": "row",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/wading-shoes_description.png",
+              "title": "Image with text",
+              "text": "<p>Breathable quick dry hiking shoes provide extra comfort for your outdoor experience.<\/p><p>It is suitable for summer surfing, canyoning, kayaking, hiking, river, trekking, paddle rafting, snorkelling, jogging, etc.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "left",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "695ce55c-2706-4c49-8fb4-abc58b4e9069": {
+            "type": "row",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/wading-shoes_specifications.png",
+              "title": "Specifications",
+              "text": "<p><strong>Materials<br\/><\/strong>Shoe surface: Net cloth<br\/>Sole: Rubber<\/p><p><strong>Shoe Closure Type<\/strong><br\/>Elastic No Tie Laces<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "right",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "2ee9b4c9-7154-44a5-b35b-d3f32277da63",
+          "695ce55c-2706-4c49-8fb4-abc58b4e9069"
+        ],
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_wading-shoes": {
+        "type": "featured-content_wading-shoes",
+        "settings": {
+          "title": "Featured content",
+          "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
         }
       }
     },
