@@ -342,6 +342,13 @@
               "title": "Sky Blue",
               "dbtfy_swatches_color_value": "#57a2fb"
             }
+          },
+          "7ecd2543-9f00-4d17-ada5-b6463cd7dfb7": {
+            "type": "swatch",
+            "settings": {
+              "title": "Brown",
+              "dbtfy_swatches_color_value": "#eab881"
+            }
           }
         },
         "block_order": [
@@ -368,7 +375,8 @@
           "b5945b8e-6ba9-4c16-8a4c-43fdae2a2ae8",
           "8bd91995-0ba2-4b38-ae41-68510dcfe91a",
           "247d7f57-3312-46df-a205-d9d7aae5202a",
-          "97ab1a6e-dea5-46a8-bd4b-6b04ef78cc9b"
+          "97ab1a6e-dea5-46a8-bd4b-6b04ef78cc9b",
+          "7ecd2543-9f00-4d17-ada5-b6463cd7dfb7"
         ],
         "settings": {
         }
@@ -2902,7 +2910,7 @@
             "type": "row",
             "settings": {
               "image": "shopify:\/\/shop_images\/wading-shoes_description.png",
-              "title": "Image with text",
+              "title": "",
               "text": "<p>Breathable quick dry hiking shoes provide extra comfort for your outdoor experience.<\/p><p>It is suitable for summer surfing, canyoning, kayaking, hiking, river, trekking, paddle rafting, snorkelling, jogging, etc.<\/p>",
               "section_style": "section-blank",
               "image_alignement": "left",
