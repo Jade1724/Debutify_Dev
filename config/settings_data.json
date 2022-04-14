@@ -582,7 +582,7 @@
               "slide_link": "",
               "video": "hero_background.mp4",
               "title": "Your Next Adventure Starts Here",
-              "text": "<p>Up to $20 OFF Spring Sale is ON!<\/p><p>Don't miss out!<\/p>",
+              "text": "<p>Up to 40% OFF Easter Sale is ON!<\/p><p>Don't miss out!<\/p>",
               "text_position": "align-center",
               "text_position_mobile": "align-center",
               "text_alignment": "text-center",
@@ -2376,10 +2376,10 @@
       "163772359491a8179c": {
         "type": "featured-products",
         "settings": {
-          "title": "Bivvy Fun's Special Spring Sale",
+          "title": "Camping & Hiking Clothing",
           "subtitle": "",
           "section_style": "section-blank",
-          "home_featured_products": "spring-sales",
+          "home_featured_products": "clothing",
           "rows": "2",
           "desktop_grid": "3",
           "mobile_grid": "2",
