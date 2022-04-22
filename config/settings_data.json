@@ -26,18 +26,18 @@
     "color_border": "#E5E5E5",
     "color_headings": "#444444",
     "color_body_text": "#444444",
-    "color_primary": "#cb5a20",
+    "color_primary": "#fd94fe",
     "color_button_text": "#ffffff",
-    "color_secondary": "#cb5a20",
+    "color_secondary": "#fd94fe",
     "color_input": "#a7ad80",
     "color_sales_price": "#e22120",
     "color_drawer_bg": "#304d19",
     "color_drawer_default": "#a7ad80",
     "color_drawer_border": "#e5e5e5",
     "color_drawer_text": "#ffffff",
-    "color_drawer_primary": "#cb5a20",
+    "color_drawer_primary": "#fd94fe",
     "color_drawer_button_text": "#ffffff",
-    "color_drawer_secondary": "#cb5a20",
+    "color_drawer_secondary": "#fd94fe",
     "color_drawer_input": "#a7ad80",
     "color_drawer_error_text": "#dccea0",
     "color_drawer_sales_price": "#cb5a20",
@@ -342,6 +342,13 @@
               "title": "Sky Blue",
               "dbtfy_swatches_color_value": "#57a2fb"
             }
+          },
+          "7ecd2543-9f00-4d17-ada5-b6463cd7dfb7": {
+            "type": "swatch",
+            "settings": {
+              "title": "Brown",
+              "dbtfy_swatches_color_value": "#a47752"
+            }
           }
         },
         "block_order": [
@@ -368,7 +375,8 @@
           "b5945b8e-6ba9-4c16-8a4c-43fdae2a2ae8",
           "8bd91995-0ba2-4b38-ae41-68510dcfe91a",
           "247d7f57-3312-46df-a205-d9d7aae5202a",
-          "97ab1a6e-dea5-46a8-bd4b-6b04ef78cc9b"
+          "97ab1a6e-dea5-46a8-bd4b-6b04ef78cc9b",
+          "7ecd2543-9f00-4d17-ada5-b6463cd7dfb7"
         ],
         "settings": {
         }
@@ -574,7 +582,7 @@
               "slide_link": "",
               "video": "hero_background.mp4",
               "title": "Your Next Adventure Starts Here",
-              "text": "<p>Up to $20 OFF Spring Sale is ON!<\/p><p>Don't miss out!<\/p>",
+              "text": "<p>Easter Sale begins now!<\/p>",
               "text_position": "align-center",
               "text_position_mobile": "align-center",
               "text_alignment": "text-center",
@@ -2368,10 +2376,10 @@
       "163772359491a8179c": {
         "type": "featured-products",
         "settings": {
-          "title": "Bivvy Fun's Special Spring Sale",
+          "title": "Camping & Hiking Clothing",
           "subtitle": "",
           "section_style": "section-blank",
-          "home_featured_products": "spring-sales",
+          "home_featured_products": "clothing",
           "rows": "2",
           "desktop_grid": "3",
           "mobile_grid": "2",
@@ -2843,10 +2851,111 @@
           "button_link": ""
         }
       },
-      "custom-gallery_cycling-shirt": {
-        "type": "custom-gallery_cycling-shirt",
+      "featured-columns_wading-shoes": {
+        "type": "featured-columns_wading-shoes",
+        "blocks": {
+          "4020c453-0057-444a-aeec-f9f90d8e5569": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/wading-shoes_highlights1.jpg",
+              "icon": "",
+              "title": "Quick Dry",
+              "text": "<p>Breathable ultra-lightweight fabric for fast draining and cross ventilation to provide comfort.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "085de209-1730-41b9-ba57-b0f01da7ef15": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/wading-shoes_highlights2.png",
+              "icon": "",
+              "title": "Elastic No Tie Laces",
+              "text": "<p>Adjust the elastic lances quickly based on the width of your foot. The locking device holds the laces in place so that they stay secure and keep the same constant tension on the foot.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          },
+          "5d4f4fd1-1bde-42b3-a20c-d606df2bd962": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/wading-shoes_highlights3.png",
+              "icon": "",
+              "title": "Slip Resistant Outsole Design",
+              "text": "<p>Professional anti-slip design, increase the friction and track adhesion to prevent slipping in slippery conditions.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "image_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "4020c453-0057-444a-aeec-f9f90d8e5569",
+          "085de209-1730-41b9-ba57-b0f01da7ef15",
+          "5d4f4fd1-1bde-42b3-a20c-d606df2bd962"
+        ],
         "settings": {
-          "header": ""
+          "title": "Highlights",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "product-row_wading-shoes": {
+        "type": "product-row_wading-shoes",
+        "blocks": {
+          "2ee9b4c9-7154-44a5-b35b-d3f32277da63": {
+            "type": "row",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/wading-shoes_description.png",
+              "title": "",
+              "text": "<p>Breathable quick dry hiking shoes provide extra comfort for your outdoor experience.<\/p><p>It is suitable for summer surfing, canyoning, kayaking, hiking, river, trekking, paddle rafting, snorkelling, jogging, etc.<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "left",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "695ce55c-2706-4c49-8fb4-abc58b4e9069": {
+            "type": "row",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/wading-shoes_specifications.png",
+              "title": "Specifications",
+              "text": "<p><strong>Materials<br\/><\/strong>Shoe surface: Net cloth<br\/>Sole: Rubber<\/p><p><strong>Shoe Closure Type<\/strong><br\/>Elastic no tie laces<\/p>",
+              "section_style": "section-blank",
+              "image_alignement": "right",
+              "text_alignment": "",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "2ee9b4c9-7154-44a5-b35b-d3f32277da63",
+          "695ce55c-2706-4c49-8fb4-abc58b4e9069"
+        ],
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "featured-content_wading-shoes": {
+        "type": "featured-content_wading-shoes",
+        "settings": {
+          "title": "",
+          "text": "",
+          "section_style": "section-blank",
+          "text_size": "large",
+          "text_alignment": "text-center",
+          "button_style": "btn--primary",
+          "button_label": "",
+          "button_link": ""
         }
       }
     },
